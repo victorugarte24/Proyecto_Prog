@@ -73,7 +73,7 @@ public class Ventana_Inicio extends JFrame {
 		getContentPane().add(textField);
 		textField.setColumns(10);
 		
-		//
+		//Comentario
 
 	}
 	
