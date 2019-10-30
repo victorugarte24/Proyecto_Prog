@@ -5,6 +5,8 @@ import java.awt.Color;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -115,6 +117,13 @@ public class Ventana_Registro extends JFrame {
 		
 		JLabel lblAcepteLosTrminos = new JLabel("Acepte los términos y condiciones");
 		lblAcepteLosTrminos.setBounds(459, 410, 202, 13);
+		lblAcepteLosTrminos.addMouseListener(new MouseAdapter() {
+			 @Override
+             public void mouseClicked(MouseEvent e) {
+				 Ventana_Terminos v = new Ventana_Terminos();
+					v.setVisible(true);
+             }
+		});
 		getContentPane().add(lblAcepteLosTrminos);
 
 	}

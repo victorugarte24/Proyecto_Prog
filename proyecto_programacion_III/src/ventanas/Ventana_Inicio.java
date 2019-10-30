@@ -57,7 +57,7 @@ public class Ventana_Inicio extends JFrame {
 		lblNewLabel.setBounds(112, 124, 105, 34);
 		getContentPane().add(lblNewLabel);
 		
-		JLabel lblNewLabel_1 = new JLabel("Contrase\u00F1a:");
+		JLabel lblNewLabel_1 = new JLabel("Contraseña:");
 		lblNewLabel_1.setFont(new Font("Tahoma", Font.BOLD, 14));
 		lblNewLabel_1.setBounds(112, 202, 96, 31);
 		getContentPane().add(lblNewLabel_1);
@@ -72,8 +72,6 @@ public class Ventana_Inicio extends JFrame {
 		textField.setBounds(362, 132, 160, 19);
 		getContentPane().add(textField);
 		textField.setColumns(10);
-		
-		//Comentario
 
 	}
 	

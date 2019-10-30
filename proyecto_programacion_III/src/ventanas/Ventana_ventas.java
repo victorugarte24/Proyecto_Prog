@@ -12,7 +12,6 @@ import javax.swing.JTabbedPane;
 
 public class Ventana_ventas extends JFrame {
 
-
 	Ventana_ventas() {
 		getContentPane().setFont(new Font("Tahoma", Font.BOLD, 14));
 		setIconImage(Toolkit.getDefaultToolkit().getImage(""));
