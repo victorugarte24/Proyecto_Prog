@@ -72,6 +72,8 @@ public class Ventana_Inicio extends JFrame {
 		textField.setBounds(362, 132, 160, 19);
 		getContentPane().add(textField);
 		textField.setColumns(10);
+		
+		//
 
 	}
 	
