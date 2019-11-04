@@ -1,13 +1,13 @@
 package articulo;
 
-public class articulo {
+public class Articulo {
 	
 	private String nombre;
 	private String codArt;
 	private String descripcion;
 	private double importe;
 
-	public articulo(String nombre, String codArt, String descripcion, double importe) {
+	public Articulo(String nombre, String codArt, String descripcion, double importe) {
 		super();
 		this.nombre = nombre;
 		this.codArt = codArt;
@@ -15,7 +15,7 @@ public class articulo {
 		this.importe = importe;
 	}
 
-	public articulo() {
+	public Articulo() {
 		super();
 	}
 	

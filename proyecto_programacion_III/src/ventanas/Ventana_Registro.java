@@ -76,6 +76,7 @@ public class Ventana_Registro extends JFrame {
 				}else {
 					if(chckbxNewCheckBox.isSelected() == true) {
 						JOptionPane.showMessageDialog(null, "Usuario registrado");
+						dispose();
 					}
 					else {
 						JOptionPane.showMessageDialog(null, "Acepte los términos y condiciones");
