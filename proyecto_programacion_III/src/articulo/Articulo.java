@@ -6,13 +6,15 @@ public class Articulo {
 	private String codArt;
 	private String descripcion;
 	private double importe;
+	private String marca;
 
-	public Articulo(String nombre, String codArt, String descripcion, double importe) {
+	public Articulo(String nombre, String codArt, String descripcion, double importe, String marca) {
 		super();
 		this.nombre = nombre;
 		this.codArt = codArt;
 		this.descripcion = descripcion;
 		this.importe = importe;
+		this.marca = marca;
 	}
 
 	public Articulo() {
@@ -50,5 +52,15 @@ public class Articulo {
 	public void setImporte(double importe) {
 		this.importe = importe;
 	}
+
+	public String getMarca() {
+		return marca;
+	}
+
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+	
+	
 	
 }
