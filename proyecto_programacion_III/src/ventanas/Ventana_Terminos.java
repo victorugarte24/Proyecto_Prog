@@ -28,7 +28,7 @@ public class Ventana_Terminos extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		setIconImage(Toolkit.getDefaultToolkit().getImage(""));
-		setTitle("");
+		setTitle("eShop");
 		this.setLocationRelativeTo(null);
 		setResizable(false);
 		

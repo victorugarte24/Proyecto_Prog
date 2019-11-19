@@ -21,7 +21,7 @@ public class Ventana_Inicio extends JFrame {
 		getContentPane().setFont(new Font("Tahoma", Font.BOLD, 14));
 		setIconImage(Toolkit.getDefaultToolkit().getImage(""));
 		setDefaultCloseOperation( Ventana_Inicio.DISPOSE_ON_CLOSE );
-		setTitle("");
+		setTitle("eShop");
 		setSize(600, 400);
 		this.setLocationRelativeTo(null);
 		setResizable(false);

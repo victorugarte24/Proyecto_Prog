@@ -28,7 +28,7 @@ public class Ventana_Registro extends JFrame {
 	Ventana_Registro(){
 		setIconImage(Toolkit.getDefaultToolkit().getImage(""));
 		setDefaultCloseOperation( Ventana_Inicio.DISPOSE_ON_CLOSE );
-		setTitle("");
+		setTitle("eShop");
 		setSize(700, 500);
 		this.setLocationRelativeTo(null);
 		setResizable(false);
