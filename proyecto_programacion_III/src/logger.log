@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-11-19T18:37:00.849214200Z</date>
+  <millis>1574188620849</millis>
+  <nanos>214200</nanos>
+  <sequence>0</sequence>
+  <logger>ventanas.Ventana_ventas</logger>
+  <level>INFO</level>
+  <class>ventanas.Ventana_ventas$1</class>
+  <method>stateChanged</method>
+  <thread>17</thread>
+  <message>Tab: 1</message>
+</record>
+<record>
+  <date>2019-11-19T18:37:01.124664200Z</date>
+  <millis>1574188621124</millis>
+  <nanos>664200</nanos>
+  <sequence>1</sequence>
+  <logger>ventanas.Ventana_ventas</logger>
+  <level>INFO</level>
+  <class>ventanas.Ventana_ventas$1</class>
+  <method>stateChanged</method>
+  <thread>17</thread>
+  <message>Tab: 2</message>
+</record>
+<record>
+  <date>2019-11-19T18:37:01.671506700Z</date>
+  <millis>1574188621671</millis>
+  <nanos>506700</nanos>
+  <sequence>2</sequence>
+  <logger>ventanas.Ventana_ventas</logger>
+  <level>INFO</level>
+  <class>ventanas.Ventana_ventas$1</class>
+  <method>stateChanged</method>
+  <thread>17</thread>
+  <message>Tab: 0</message>
+</record>
+<record>
+  <date>2019-11-19T18:37:02.186884400Z</date>
+  <millis>1574188622186</millis>
+  <nanos>884400</nanos>
+  <sequence>3</sequence>
+  <logger>ventanas.Ventana_ventas</logger>
+  <level>INFO</level>
+  <class>ventanas.Ventana_ventas$1</class>
+  <method>stateChanged</method>
+  <thread>17</thread>
+  <message>Tab: 2</message>
+</record>
+</log>

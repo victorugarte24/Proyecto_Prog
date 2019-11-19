@@ -11,6 +11,7 @@ import java.awt.Insets;
 import java.awt.Toolkit;
 import java.io.IOException;
 import java.util.logging.FileHandler;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import javax.swing.DefaultListModel;
@@ -19,6 +20,8 @@ import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 
 import articulo.Articulo;
 import utils.JLabelGraficoAjustado;
@@ -42,7 +45,7 @@ public class Ventana_ventas extends JFrame {
 		
 		Logger logger = Logger.getLogger( Ventana_ventas.class.getName() ); 
 		try {
-			FileHandler fh = new FileHandler("logger.log");
+			FileHandler fh = new FileHandler("src/logger.log");
 			logger.addHandler(fh);
 		} catch (SecurityException e11) {
 			e11.printStackTrace();
@@ -137,6 +140,21 @@ public class Ventana_ventas extends JFrame {
 		pSouth.setBackground(Color.LIGHT_GRAY);
 		pSouth.add(copyright);
 		
+		pestañas.addChangeListener(new ChangeListener() {
+		    public void stateChanged(ChangeEvent e) {
+		    	String pestaña_actual = "";
+		    	if(pestañas.getSelectedIndex() == 0) {
+		    		pestaña_actual = "Moviles";
+		    	}
+		    	if(pestañas.getSelectedIndex() == 1) {
+		    		pestaña_actual = "Ordenadores";
+		    	}
+		    	if(pestañas.getSelectedIndex() == 2) {
+		    		pestaña_actual = "Electrodomesticos";
+		    	}
+		        logger.log(Level.INFO, "Tab: " + pestaña_actual);
+		    }
+		});
 		/////////////////////////////////////////////////////////////////////
 		
 		//Cesta
