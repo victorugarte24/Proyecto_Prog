@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 import usuario.Usuario;
 import ventanas.Ventana_Inicio;
 
-public class Bd {
+public class BD {
 
 	private static Exception lastError = null;  // Informacion de ultimo error SQL ocurrido
 	
@@ -295,12 +295,12 @@ public class Bd {
 	 * @param logger	Logger ya creado
 	 */
 	public static void setLogger( Logger logger ) {
-		Bd.logger = logger;
+		BD.logger = logger;
 	}
 	// Mï¿½todo local para loggear (si no se asigna un logger externo, se asigna uno local)
 	private static void log( Level level, String msg, Throwable excepcion ) {
 		if (logger==null) {  // Logger por defecto local:
-			logger = Logger.getLogger( Bd.class.getName() );  // Nombre del logger - el de la clase
+			logger = Logger.getLogger( BD.class.getName() );  // Nombre del logger - el de la clase
 			logger.setLevel( Level.ALL );  // Loguea todos los niveles
 			try {
 				// logger.addHandler( new FileHandler( "bd-" + System.currentTimeMillis() + ".log.xml" ) );  // Y saca el log a fichero xml
