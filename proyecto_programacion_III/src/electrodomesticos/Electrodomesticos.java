@@ -8,7 +8,7 @@ public class Electrodomesticos extends Articulo{
 	private int peso;
 	private double tamaño;
 	
-	public Electrodomesticos(String nombre, String codArt, String descripcion, double importe, String marca,
+	public Electrodomesticos(String nombre, int codArt, String descripcion, double importe, String marca,
 			String tipo, int peso, double tamaño) {
 		super(nombre, codArt, descripcion, importe, marca);
 		this.tipo = tipo;
@@ -39,7 +39,5 @@ public class Electrodomesticos extends Articulo{
 	public void setTamaño(double tamaño) {
 		this.tamaño = tamaño;
 	}
-	
-	
 
 }

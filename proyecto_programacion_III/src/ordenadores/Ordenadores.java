@@ -8,7 +8,7 @@ public class Ordenadores extends Articulo{
 	private String grafica;
 	private double panatalla;
 	
-	public Ordenadores(String nombre, String codArt, String descripcion, double importe, String marca,
+	public Ordenadores(String nombre, int codArt, String descripcion, double importe, String marca,
 			String procesador, String grafica, double panatalla) {
 		super(nombre, codArt, descripcion, importe, marca);
 		this.procesador = procesador;

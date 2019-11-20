@@ -8,7 +8,7 @@ public class Moviles extends Articulo{
 	private double resolucion;
 	private String sisOperativo;
 	
-	public Moviles(String nombre, String codArt, String descripcion, double importe, String marca, double pantalla,
+	public Moviles(String nombre, int codArt, String descripcion, double importe, String marca, double pantalla,
 			double resolucion, String sisOperativo) {
 		super(nombre, codArt, descripcion, importe, marca);
 		this.pantalla = pantalla;
@@ -39,11 +39,5 @@ public class Moviles extends Articulo{
 	public void setSisOperativo(String sisOperativo) {
 		this.sisOperativo = sisOperativo;
 	}
-	
-	
-	
-	
-	
-	
 
 }

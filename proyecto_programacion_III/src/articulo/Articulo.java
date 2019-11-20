@@ -3,18 +3,19 @@ package articulo;
 public class Articulo {
 	
 	private String nombre;
-	private String codArt;
+	private int codArt;
 	private String descripcion;
 	private double importe;
 	private String marca;
 
-	public Articulo(String nombre, String codArt, String descripcion, double importe, String marca) {
+	public Articulo(String nombre, int codArt, String descripcion, double importe, String marca) {
 		super();
-		this.nombre = nombre;
 		this.codArt = codArt;
+		this.marca = marca;
+		this.nombre = nombre;
 		this.descripcion = descripcion;
 		this.importe = importe;
-		this.marca = marca;
+	
 	}
 
 	public Articulo() {
@@ -29,11 +30,11 @@ public class Articulo {
 		this.nombre = nombre;
 	}
 
-	public String getCodArt() {
+	public int getCodArt() {
 		return codArt;
 	}
 
-	public void setCodArt(String codArt) {
+	public void setCodArt(int codArt) {
 		this.codArt = codArt;
 	}
 
@@ -61,6 +62,9 @@ public class Articulo {
 		this.marca = marca;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return  codArt + " "   + marca +  " " + nombre +   " " + descripcion + " " +  importe + " $";
+	}
 	
 }
