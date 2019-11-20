@@ -1,4 +1,6 @@
-package articulo;
+package moviles;
+
+import articulo.Articulo;
 
 public class Moviles extends Articulo{
 	

@@ -93,16 +93,16 @@ public class Usuario   {
 	public void setCuentaBancaria(int cuentaBancaria) {
 		this.cuentaBancaria = cuentaBancaria;
 	}
-	public String getcontraseña() {
+	public String getContraseña() {
 		return contraseña;
 	}
-	public void setcontraseña(String contraseña) {
+	public void setContraseña(String contraseña) {
 		this.contraseña = contraseña;
 	}
-	public int gettelefono() {
+	public int getTelefono() {
 		return telefono;
 	}
-	public void settelefono(int telefono) {
+	public void setTelefono(int telefono) {
 		this.telefono = telefono;
 	}
 

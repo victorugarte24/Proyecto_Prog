@@ -1,4 +1,6 @@
-package articulo;
+package ordenadores;
+
+import articulo.Articulo;
 
 public class Ordenadores extends Articulo{
 	
