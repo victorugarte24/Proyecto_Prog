@@ -18,16 +18,16 @@ import javax.swing.JTextField;
 import javax.swing.JPasswordField;
 import javax.swing.JCheckBox;
 
-public class Ventana_Registro extends JFrame {
+public class VentanaRegistro extends JFrame {
 	private JTextField textField;
 	private JTextField textField_1;
 	private JTextField textField_2;
 	private JTextField textField_3;
 	private JPasswordField passwordField;
 
-	Ventana_Registro(){
+	VentanaRegistro(){
 		setIconImage(Toolkit.getDefaultToolkit().getImage(""));
-		setDefaultCloseOperation( Ventana_Inicio.DISPOSE_ON_CLOSE );
+		setDefaultCloseOperation( VentanaInicio.DISPOSE_ON_CLOSE );
 		setTitle("eShop");
 		setSize(700, 500);
 		this.setLocationRelativeTo(null);
@@ -121,7 +121,7 @@ public class Ventana_Registro extends JFrame {
 		lblAcepteLosTrminos.addMouseListener(new MouseAdapter() {
 			 @Override
              public void mouseClicked(MouseEvent e) {
-				 Ventana_Terminos v = new Ventana_Terminos();
+				 VentanaTerminos v = new VentanaTerminos();
 					v.setVisible(true);
              }
 		});
@@ -131,7 +131,7 @@ public class Ventana_Registro extends JFrame {
 
 
 	public static void main(String[] args) {
-		Ventana_Registro v = new Ventana_Registro();
+		VentanaRegistro v = new VentanaRegistro();
 		v.setVisible(true);
 
 	}

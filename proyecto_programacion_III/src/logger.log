@@ -1,4 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
-</log>
+<record>
+  <date>2019-11-20T15:21:56.424983100Z</date>
+  <millis>1574263316424</millis>
+  <nanos>983100</nanos>
+  <sequence>0</sequence>
+  <logger>ventanas.Ventana_ventas</logger>
+  <level>INFO</level>
+  <class>ventanas.Ventana_ventas$1</class>
+  <method>stateChanged</method>
+  <thread>17</thread>
+  <message>Tab: Ordenadores</message>
+</record>
+<record>
+  <date>2019-11-20T15:21:57.364607200Z</date>
+  <millis>1574263317364</millis>
+  <nanos>607200</nanos>
+  <sequence>1</sequence>
+  <logger>ventanas.Ventana_ventas</logger>
+  <level>INFO</level>
+  <class>ventanas.Ventana_ventas$1</class>
+  <method>stateChanged</method>
+  <thread>17</thread>
+  <message>Tab: Electrodomesticos</message>
+</record>
+<record>
+  <date>2019-11-20T15:21:59.711217Z</date>
+  <millis>1574263319711</millis>
+  <nanos>217000</nanos>
+  <sequence>2</sequence>
+  <logger>ventanas.Ventana_ventas</logger>
+  <level>INFO</level>
+  <class>ventanas.Ventana_ventas$1</class>
+  <method>stateChanged</method>
+  <thread>17</thread>
+  <message>Tab: Ordenadores</message>
+</record>

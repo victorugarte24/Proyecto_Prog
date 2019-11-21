@@ -10,7 +10,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import usuario.Usuario;
-import ventanas.Ventana_Inicio;
+import ventanas.VentanaInicio;
 
 public class BD {
 

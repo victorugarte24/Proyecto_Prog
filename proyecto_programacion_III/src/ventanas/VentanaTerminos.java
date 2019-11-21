@@ -13,13 +13,13 @@ import java.awt.Toolkit;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class Ventana_Terminos extends JFrame {
+public class VentanaTerminos extends JFrame {
 
 	private JPanel contentPane;
 
 	
-	public Ventana_Terminos() {
-		setDefaultCloseOperation(Ventana_Terminos.DISPOSE_ON_CLOSE);
+	public VentanaTerminos() {
+		setDefaultCloseOperation(VentanaTerminos.DISPOSE_ON_CLOSE);
 		setBounds(100, 100, 656, 471);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -53,7 +53,7 @@ public class Ventana_Terminos extends JFrame {
 	}
 	
 	public static void main(String[] args) {
-		Ventana_Terminos v = new Ventana_Terminos();
+		VentanaTerminos v = new VentanaTerminos();
 		v.setVisible(true);
 
 	}

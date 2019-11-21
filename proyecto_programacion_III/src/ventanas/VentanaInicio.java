@@ -12,15 +12,15 @@ import java.awt.Font;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class Ventana_Inicio extends JFrame {
+public class VentanaInicio extends JFrame {
 	private JPasswordField passwordField;
 	private JTextField textField;
 
 
-	Ventana_Inicio (){
+	VentanaInicio (){
 		getContentPane().setFont(new Font("Tahoma", Font.BOLD, 14));
 		setIconImage(Toolkit.getDefaultToolkit().getImage(""));
-		setDefaultCloseOperation( Ventana_Inicio.DISPOSE_ON_CLOSE );
+		setDefaultCloseOperation( VentanaInicio.DISPOSE_ON_CLOSE );
 		setTitle("eShop");
 		setSize(600, 400);
 		this.setLocationRelativeTo(null);
@@ -43,7 +43,7 @@ public class Ventana_Inicio extends JFrame {
 		btnNewButton_1.setFont(new Font("Tahoma", Font.BOLD, 14));
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				Ventana_Registro v = new Ventana_Registro();
+				VentanaRegistro v = new VentanaRegistro();
 				v.setVisible(true);
 
 			}
@@ -77,7 +77,7 @@ public class Ventana_Inicio extends JFrame {
 	
 
 	public static void main(String[] args) {
-		Ventana_Inicio v = new Ventana_Inicio();
+		VentanaInicio v = new VentanaInicio();
 		v.setVisible(true);
 
 	}

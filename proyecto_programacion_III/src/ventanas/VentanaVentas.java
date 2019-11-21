@@ -26,12 +26,12 @@ import javax.swing.event.ChangeListener;
 import articulo.Articulo;
 import utils.JLabelGraficoAjustado;
 
-public class Ventana_ventas extends JFrame {
+public class VentanaVentas extends JFrame {
 
-	Ventana_ventas() {
+	VentanaVentas() {
 		getContentPane().setFont(new Font("Tahoma", Font.BOLD, 14));
 		setIconImage(Toolkit.getDefaultToolkit().getImage(""));
-		setDefaultCloseOperation( Ventana_Inicio.DISPOSE_ON_CLOSE );
+		setDefaultCloseOperation( VentanaInicio.DISPOSE_ON_CLOSE );
 		setTitle("eShop");
 		this.setExtendedState(MAXIMIZED_BOTH);
 		this.setSize(1000, 800);
@@ -43,7 +43,7 @@ public class Ventana_ventas extends JFrame {
 		
 		//Log
 		
-		Logger logger = Logger.getLogger( Ventana_ventas.class.getName() ); 
+		Logger logger = Logger.getLogger( VentanaVentas.class.getName() ); 
 		try {
 			FileHandler fh = new FileHandler("src/logger.log");
 			logger.addHandler(fh);
@@ -191,7 +191,7 @@ public class Ventana_ventas extends JFrame {
 	}
 
 	public static void main(String[] args) {
-		Ventana_ventas v = new Ventana_ventas();
+		VentanaVentas v = new VentanaVentas();
 		v.setVisible(true);
 
 	}
