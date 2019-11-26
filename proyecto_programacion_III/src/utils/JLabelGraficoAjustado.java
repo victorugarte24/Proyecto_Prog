@@ -8,22 +8,22 @@ import java.net.URL;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 
-/** Clase mejorada de JLabel para gestionar imágenes ajustadas al JLabel
+/** Clase mejorada de JLabel para gestionar imï¿½genes ajustadas al JLabel
  */
 public class JLabelGraficoAjustado extends JLabel {
-	// la posición X,Y se hereda de JLabel
+	// la posiciï¿½n X,Y se hereda de JLabel
 	protected int anchuraObjeto;   // Anchura definida del objeto en pixels
 	protected int alturaObjeto;    // Altura definida del objeto en pixels
-	protected double radsRotacion; // Rotación del objeto en radianes
+	protected double radsRotacion; // Rotaciï¿½n del objeto en radianes
 	protected float opacidad;      // Opacidad del objeto (0.0f a 0.1f)
 	protected BufferedImage imagenObjeto;  // imagen para el escalado
 	private static final long serialVersionUID = 1L;  // para serializar
 
-	/** Crea un nuevo JLabel gráfico.<br>
-	 * Si no existe el fichero de imagen, se crea un rectángulo blanco con borde rojo
-	 * @param nombreImagenObjeto	Nombre fichero donde está la imagen del objeto. Puede ser también un nombre de recurso desde el paquete de esta clase.
-	 * @param anchura	Anchura del gráfico en píxels (si es <= 0 ocupa todo el ancho)
-	 * @param altura	Altura del gráfico en píxels (si es <= 0 ocupa todo el alto)
+	/** Crea un nuevo JLabel grï¿½fico.<br>
+	 * Si no existe el fichero de imagen, se crea un rectï¿½ngulo blanco con borde rojo
+	 * @param nombreImagenObjeto	Nombre fichero donde estï¿½ la imagen del objeto. Puede ser tambiï¿½n un nombre de recurso desde el paquete de esta clase.
+	 * @param anchura	Anchura del grï¿½fico en pï¿½xels (si es <= 0 ocupa todo el ancho)
+	 * @param altura	Altura del grï¿½fico en pï¿½xels (si es <= 0 ocupa todo el alto)
 	 */
 	public JLabelGraficoAjustado( String nombreImagenObjeto, int anchura, int altura ) {
 		setName( nombreImagenObjeto );
@@ -43,7 +43,7 @@ public class JLabelGraficoAjustado extends JLabel {
 	}
 	
 	/** Cambia la imagen del objeto
-	 * @param nomImagenObjeto	Nombre fichero donde está la imagen del objeto. Puede ser también un nombre de recurso desde el paquete de esta clase.
+	 * @param nomImagenObjeto	Nombre fichero donde estï¿½ la imagen del objeto. Puede ser tambiï¿½n un nombre de recurso desde el paquete de esta clase.
 	 */
 	public void setImagen( String nomImagenObjeto ) {
 		File f = new File(nomImagenObjeto);
@@ -57,7 +57,7 @@ public class JLabelGraficoAjustado extends JLabel {
         if (imgURL == null) {
         	imagenObjeto = null;
         } else {
-        	try {  // guarda la imagen para dibujarla de forma escalada después
+        	try {  // guarda la imagen para dibujarla de forma escalada despuï¿½s
     			imagenObjeto = ImageIO.read(imgURL);
     		} catch (IOException e) {}  // Error al leer la imagen
         }
@@ -71,33 +71,33 @@ public class JLabelGraficoAjustado extends JLabel {
         repaint();
 	}
 	
-	/** Devuelve la anchura del rectángulo gráfico del objeto
+	/** Devuelve la anchura del rectï¿½ngulo grï¿½fico del objeto
 	 * @return	Anchura
 	 */
 	public int getAnchuraObjeto() {
 		return anchuraObjeto;
 	}
 	
-	/** Devuelve la altura del rectángulo gráfico del objeto
+	/** Devuelve la altura del rectï¿½ngulo grï¿½fico del objeto
 	 * @return	Altura
 	 */
 	public int getAlturaObjeto() {
 		return alturaObjeto;
 	}
 	
-	/** Devuelve la rotación del objeto
-	 * @return	Rotación actual del objeto en radianes
+	/** Devuelve la rotaciï¿½n del objeto
+	 * @return	Rotaciï¿½n actual del objeto en radianes
 	 */
 	public double getRotacion() {
 		return radsRotacion;
 	}
 
-	/** Modifica la rotación del objeto
-	 * @param rotacion	Nueva rotación del objeto (en radianes)
+	/** Modifica la rotaciï¿½n del objeto
+	 * @param rotacion	Nueva rotaciï¿½n del objeto (en radianes)
 	 */
 	public void setRotacion( double rotacion ) {
 		radsRotacion = rotacion;
-		repaint(); // Si no repintamos aquí Swing no sabe que ha cambiado el dibujo
+		repaint(); // Si no repintamos aquï¿½ Swing no sabe que ha cambiado el dibujo
 	}
 	
 	/** Devuelve la opacidad del objeto
@@ -111,14 +111,14 @@ public class JLabelGraficoAjustado extends JLabel {
 	 * @param opacidad	Opacidad del objeto (0.0f transparente a 1.0f opaco)
 	 */
 	public void setOpacidad(float opacidad) {
-		if (opacidad<0.0f || opacidad>1.0f) return; // No se cambia si el valor es inválido
+		if (opacidad<0.0f || opacidad>1.0f) return; // No se cambia si el valor es invï¿½lido
 		this.opacidad = opacidad;
-		repaint(); // Si no repintamos aquí Swing no sabe que ha cambiado el dibujo
+		repaint(); // Si no repintamos aquï¿½ Swing no sabe que ha cambiado el dibujo
 	}
 
-	/** Actualiza la posición del objeto
-	 * @param x	Coordenada x (doble) - se redondea al píxel más cercano
-	 * @param y	Coordenada y (doble) - se redondea al píxel más cercano
+	/** Actualiza la posiciï¿½n del objeto
+	 * @param x	Coordenada x (doble) - se redondea al pï¿½xel mï¿½s cercano
+	 * @param y	Coordenada y (doble) - se redondea al pï¿½xel mï¿½s cercano
 	 */
 	public void setLocation( double x, double y ) {
 		setLocation( (int)Math.round(x), (int)Math.round(y) );
@@ -147,32 +147,32 @@ public class JLabelGraficoAjustado extends JLabel {
 			} else {
 				iniY = (getHeight() - alt) / 2;
 			}
-			// Rotación
-			g2.rotate( radsRotacion, getWidth()/2, getHeight()/2 );  // Incorporar al gráfico la rotación definida
+			// Rotaciï¿½n
+			g2.rotate( radsRotacion, getWidth()/2, getHeight()/2 );  // Incorporar al grï¿½fico la rotaciï¿½n definida
 			// Transparencia
 			g2.setComposite(AlphaComposite.getInstance( AlphaComposite.SRC_OVER, opacidad ) ); // Incorporar la transparencia definida
 	        g2.drawImage(imagenObjeto, iniX, iniY, anc, alt, null);
 		}
 	}
 
-	/** Método de prueba de label gráfico
+	/** Mï¿½todo de prueba de label grï¿½fico
 	 */
 	public static void main(String[] args) {
 		JFrame f = new JFrame( "Prueba JLabelGraficoAjustado" );
 		f.setDefaultCloseOperation( JFrame.DISPOSE_ON_CLOSE );
 		JLabelGraficoAjustado label = new JLabelGraficoAjustado( "coche.png", 100, 100 );
-			// TODO probar este 300, 300 con diferentes tamaños. Si x<=0 ajusta el ancho y si es y<=0 ajusta el alto
+			// TODO probar este 300, 300 con diferentes tamaï¿½os. Si x<=0 ajusta el ancho y si es y<=0 ajusta el alto
 		f.setSize( 600, 400 );
 		f.add( label, BorderLayout.CENTER );
 		f.setVisible( true );
 		try { Thread.sleep( 5000 ); } catch (Exception e) {}  // Espera 5 segundos
 		for (int rot=0; rot<=200; rot++ ) {
 			label.setRotacion( rot*Math.PI/100 );
-			try { Thread.sleep( 20 ); } catch (Exception e) {}  // Espera dos décimas entre rotación y rotación
+			try { Thread.sleep( 20 ); } catch (Exception e) {}  // Espera dos dï¿½cimas entre rotaciï¿½n y rotaciï¿½n
 		}
 		for (int op=-100; op<=100; op++ ) {
 			label.setOpacidad( Math.abs(op*0.01f) );
-			try { Thread.sleep( 20 ); } catch (Exception e) {}  // Espera dos décimas entre rotación y rotación
+			try { Thread.sleep( 20 ); } catch (Exception e) {}  // Espera dos dï¿½cimas entre rotaciï¿½n y rotaciï¿½n
 		}
 	}
 	

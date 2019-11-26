@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2019-11-26T18:13:32.683785100Z</date>
-  <millis>1574792012683</millis>
-  <nanos>785100</nanos>
+  <date>2019-11-26T19:14:11.273887700Z</date>
+  <millis>1574795651273</millis>
+  <nanos>887700</nanos>
   <sequence>0</sequence>
   <logger>ventanas.VentanaVentas</logger>
   <level>INFO</level>

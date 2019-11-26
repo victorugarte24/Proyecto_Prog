@@ -9,7 +9,10 @@ import java.awt.GridBagLayout;
 import java.awt.GridLayout;
 import java.awt.Insets;
 import java.awt.Toolkit;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -31,9 +34,9 @@ public class VentanaVentas extends JFrame {
 	
 	private static final long serialVersionUID = 1L;
 	
-	JScrollPane scrollPaneO;
-	JScrollPane scrollPaneE;
-	JScrollPane scrollPaneM;
+	JScrollPane scrollPaneOrdenadores;
+	JScrollPane scrollPaneElectrodomesticos;
+	JScrollPane scrollPaneMoviles;
 	Logger logger;
 	JPanel pNorth;
 	JPanel pCenterNorth;
@@ -45,6 +48,8 @@ public class VentanaVentas extends JFrame {
 	JPanel pOrdenadores;
 	JPanel pElectrodomesticos;
 	JTabbedPane pestañas;
+	JLabelGraficoAjustado jlabel;
+	String nombreJLabel;
 	
 	VentanaVentas() {
 		getContentPane().setFont(new Font("Tahoma", Font.BOLD, 14));
@@ -98,26 +103,45 @@ public class VentanaVentas extends JFrame {
 		pCenter = new JPanel();
 		pCenter.setLayout(new BorderLayout());
 		
+		JLabelGraficoAjustado logo1 = new JLabelGraficoAjustado("src/img/eShop.png", 300, 200);
+		JLabelGraficoAjustado logo2= new JLabelGraficoAjustado("src/img/Copyright.png", 300, 200);
+		JLabelGraficoAjustado logo3 = new JLabelGraficoAjustado("src/img/eShop.png", 300, 200);
+		JLabelGraficoAjustado logo4 = new JLabelGraficoAjustado("src/img/eShop.png", 300, 200);
+		JLabelGraficoAjustado logo5 = new JLabelGraficoAjustado("src/img/Copyright.png", 300, 200);
+		JLabelGraficoAjustado logo6 = new JLabelGraficoAjustado("src/img/eShop.png", 300, 200);
+		JLabelGraficoAjustado logo7= new JLabelGraficoAjustado("src/img/eShop.png", 300, 200);
+		JLabelGraficoAjustado logo8 = new JLabelGraficoAjustado("src/img/eShop.png", 300, 200);
+		JLabelGraficoAjustado logo9 = new JLabelGraficoAjustado("src/img/eShop.png", 300, 200);
+		JLabelGraficoAjustado logo10 = new JLabelGraficoAjustado("src/img/eShop.png", 300, 200);
+		
+		ArrayList<JLabelGraficoAjustado> arrayElectrodomesticos = new ArrayList<JLabelGraficoAjustado>();
+		arrayElectrodomesticos.add(logo1);
+		arrayElectrodomesticos.add(logo2);
+		arrayElectrodomesticos.add(logo3);
+		arrayElectrodomesticos.add(logo4);
+		arrayElectrodomesticos.add(logo5);
+		arrayElectrodomesticos.add(logo6);
+		
 		pMoviles = new JPanel();
 		pMoviles.setLayout(new GridLayout(3,3));
-		scrollPaneM = new JScrollPane(pMoviles, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,  ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+		scrollPaneMoviles = new JScrollPane(pMoviles, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,  ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 		
 		pOrdenadores = new JPanel();
 		pOrdenadores.setLayout(new GridLayout(3,3));
-		scrollPaneO = new JScrollPane(pOrdenadores, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,  ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+		scrollPaneOrdenadores = new JScrollPane(pOrdenadores, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,  ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 		
 		pElectrodomesticos = new JPanel();
 		pElectrodomesticos.setLayout(new GridLayout(3,3));
-		scrollPaneE = new JScrollPane(pElectrodomesticos, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,  ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
-
+		scrollPaneElectrodomesticos = new JScrollPane(pElectrodomesticos, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,  ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+		
 		pestañas = new JTabbedPane();
 		pestañas.setFont(new Font("Tahoma", Font.BOLD, 26));
 
-		pestañas.addTab("Moviles", pMoviles);
+		pestañas.addTab("Moviles", scrollPaneMoviles);
 
-		pestañas.addTab("Ordenadores", pOrdenadores);
+		pestañas.addTab("Ordenadores", scrollPaneOrdenadores);
 
-		pestañas.addTab("Electrodomesticos", pElectrodomesticos);
+		pestañas.addTab("Electrodomesticos", scrollPaneElectrodomesticos);
 
 		int index1 = pestañas.getTabCount() - 3;
 
@@ -204,6 +228,32 @@ public class VentanaVentas extends JFrame {
 		modelo.add(0, articulo);
 		
 		/////////////////////////////////////////////////////////////////////
+		JLabelGraficoAjustado jlabel = new JLabelGraficoAjustado("", 0, 0);
+		
+		
+		for(int a = 0; a < arrayElectrodomesticos.size(); a++){
+			jlabel = new JLabelGraficoAjustado(arrayElectrodomesticos.get(a).getName(), 200, 100);
+			nombreJLabel = jlabel.getName();
+			jlabel.addMouseListener(new MouseListener() {
+				
+				@Override
+				public void mouseClicked(MouseEvent e) {
+					System.out.println(nombreJLabel);
+					
+				}
+				@Override
+				public void mousePressed(MouseEvent e) {}
+				@Override
+				public void mouseReleased(MouseEvent e) {}
+				@Override
+				public void mouseEntered(MouseEvent e) {}
+				@Override
+				public void mouseExited(MouseEvent e) {}
+				
+			});
+			pElectrodomesticos.add(jlabel);
+		
+		}
 		
 	}
 
