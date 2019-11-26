@@ -20,6 +20,7 @@ import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
+import javax.swing.ScrollPaneConstants;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
@@ -27,7 +28,24 @@ import articulo.Articulo;
 import utils.JLabelGraficoAjustado;
 
 public class VentanaVentas extends JFrame {
-
+	
+	private static final long serialVersionUID = 1L;
+	
+	JScrollPane scrollPaneO;
+	JScrollPane scrollPaneE;
+	JScrollPane scrollPaneM;
+	Logger logger;
+	JPanel pNorth;
+	JPanel pCenterNorth;
+	JPanel pWest;
+	JPanel pEast;
+	JPanel pSouth;
+	JPanel pCenter;
+	JPanel pMoviles;
+	JPanel pOrdenadores;
+	JPanel pElectrodomesticos;
+	JTabbedPane pestañas;
+	
 	VentanaVentas() {
 		getContentPane().setFont(new Font("Tahoma", Font.BOLD, 14));
 		setIconImage(Toolkit.getDefaultToolkit().getImage(""));
@@ -43,7 +61,7 @@ public class VentanaVentas extends JFrame {
 		
 		//Log
 		
-		Logger logger = Logger.getLogger( VentanaVentas.class.getName() ); 
+		logger = Logger.getLogger( VentanaVentas.class.getName() ); 
 		try {
 			FileHandler fh = new FileHandler("src/logger.log");
 			logger.addHandler(fh);
@@ -57,16 +75,16 @@ public class VentanaVentas extends JFrame {
 		
 		//Paneles
 		
-		JPanel pNorth = new JPanel();
+		pNorth = new JPanel();
 		pNorth.setLayout(new BorderLayout());
 
-		JPanel pCenterNorth = new JPanel();
+		pCenterNorth = new JPanel();
 		pCenterNorth.setLayout(new BorderLayout());
 
-		JPanel pWest = new JPanel();
+		pWest = new JPanel();
 		pWest.setLayout(new BorderLayout());
 
-		JPanel pEast = new JPanel();
+		pEast = new JPanel();
 		pEast.setLayout(new BorderLayout());
 		GridBagLayout gbl_pEast = new GridBagLayout();
 		gbl_pEast.columnWeights = new double[]{0.5, 0.5};
@@ -74,25 +92,25 @@ public class VentanaVentas extends JFrame {
 		pEast.setLayout(gbl_pEast);
 		pEast.setBackground(Color.LIGHT_GRAY);
 
-		JPanel pSouth = new JPanel();
+		pSouth = new JPanel();
 		pSouth.setLayout(new BorderLayout());
 
-		JPanel pCenter = new JPanel();
+		pCenter = new JPanel();
 		pCenter.setLayout(new BorderLayout());
 		
-		JPanel pMoviles = new JPanel();
-		pMoviles.setLayout(new BorderLayout());
-		pMoviles.setBackground(Color.RED);
+		pMoviles = new JPanel();
+		pMoviles.setLayout(new GridLayout(3,3));
+		scrollPaneM = new JScrollPane(pMoviles, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,  ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+		
+		pOrdenadores = new JPanel();
+		pOrdenadores.setLayout(new GridLayout(3,3));
+		scrollPaneO = new JScrollPane(pOrdenadores, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,  ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+		
+		pElectrodomesticos = new JPanel();
+		pElectrodomesticos.setLayout(new GridLayout(3,3));
+		scrollPaneE = new JScrollPane(pElectrodomesticos, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,  ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 
-		JPanel pOrdenadores = new JPanel();
-		pOrdenadores.setLayout(new BorderLayout());
-		pOrdenadores.setBackground(Color.BLUE);
-
-		JPanel pElectrodomesticos = new JPanel();
-		pElectrodomesticos.setLayout(new BorderLayout());
-		pElectrodomesticos.setBackground(Color.YELLOW);
-
-		JTabbedPane pestañas = new JTabbedPane();
+		pestañas = new JTabbedPane();
 		pestañas.setFont(new Font("Tahoma", Font.BOLD, 26));
 
 		pestañas.addTab("Moviles", pMoviles);
