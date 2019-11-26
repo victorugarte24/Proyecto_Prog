@@ -15,6 +15,9 @@ import javax.swing.JOptionPane;
 import java.awt.Font;
 import javax.swing.JButton;
 import javax.swing.JTextField;
+
+import utils.JLabelGraficoAjustado;
+
 import javax.swing.JPasswordField;
 import javax.swing.JCheckBox;
 
@@ -37,27 +40,27 @@ public class VentanaRegistro extends JFrame {
 
 		JLabel lblNombre = new JLabel("Nombre:");
 		lblNombre.setFont(new Font("Tahoma", Font.BOLD, 14));
-		lblNombre.setBounds(100, 107, 73, 13);
+		lblNombre.setBounds(100, 131, 73, 13);
 		getContentPane().add(lblNombre);
 
 		JLabel lblApellido = new JLabel("Apellido:");
 		lblApellido.setFont(new Font("Tahoma", Font.BOLD, 14));
-		lblApellido.setBounds(100, 161, 73, 22);
+		lblApellido.setBounds(100, 181, 73, 22);
 		getContentPane().add(lblApellido);
 
 		JLabel lblEmail = new JLabel("E-mail:");
 		lblEmail.setFont(new Font("Tahoma", Font.BOLD, 14));
-		lblEmail.setBounds(100, 224, 73, 13);
+		lblEmail.setBounds(100, 240, 73, 13);
 		getContentPane().add(lblEmail);
 
 		JLabel lblTelfono = new JLabel("Teléfono:");
 		lblTelfono.setFont(new Font("Tahoma", Font.BOLD, 14));
-		lblTelfono.setBounds(100, 279, 73, 13);
+		lblTelfono.setBounds(100, 295, 73, 13);
 		getContentPane().add(lblTelfono);
 
 		JLabel lblContrasea = new JLabel("Contraseña:");
 		lblContrasea.setFont(new Font("Tahoma", Font.BOLD, 14));
-		lblContrasea.setBounds(100, 330, 89, 22);
+		lblContrasea.setBounds(100, 343, 89, 22);
 		getContentPane().add(lblContrasea);
 
 		JCheckBox chckbxNewCheckBox = new JCheckBox("");
@@ -84,36 +87,36 @@ public class VentanaRegistro extends JFrame {
 				}
 			}
 		});
-		btnRegistrarse.setBounds(221, 408, 129, 21);
+		btnRegistrarse.setBounds(221, 408, 129, 28);
 		getContentPane().add(btnRegistrarse);
 
 		textField = new JTextField();
 		textField.setFont(new Font("Tahoma", Font.BOLD, 14));
-		textField.setBounds(221, 102, 375, 22);
+		textField.setBounds(221, 126, 375, 22);
 		getContentPane().add(textField);
 		textField.setColumns(10);
 
 		textField_1 = new JTextField();
 		textField_1.setFont(new Font("Tahoma", Font.BOLD, 14));
 		textField_1.setColumns(10);
-		textField_1.setBounds(221, 161, 375, 22);
+		textField_1.setBounds(221, 181, 375, 22);
 		getContentPane().add(textField_1);
 
 		textField_2 = new JTextField();
 		textField_2.setFont(new Font("Tahoma", Font.BOLD, 14));
 		textField_2.setColumns(10);
-		textField_2.setBounds(221, 223, 375, 22);
+		textField_2.setBounds(221, 235, 375, 22);
 		getContentPane().add(textField_2);
 
 		textField_3 = new JTextField();
 		textField_3.setFont(new Font("Tahoma", Font.BOLD, 14));
 		textField_3.setColumns(10);
-		textField_3.setBounds(221, 278, 375, 22);
+		textField_3.setBounds(221, 290, 375, 22);
 		getContentPane().add(textField_3);
 
 		passwordField = new JPasswordField();
 		passwordField.setFont(new Font("Tahoma", Font.BOLD, 14));
-		passwordField.setBounds(221, 330, 375, 22);
+		passwordField.setBounds(221, 343, 375, 22);
 		getContentPane().add(passwordField);
 		
 		JLabel lblAcepteLosTrminos = new JLabel("Acepte los términos y condiciones");
@@ -126,6 +129,10 @@ public class VentanaRegistro extends JFrame {
              }
 		});
 		getContentPane().add(lblAcepteLosTrminos);
+		
+		JLabelGraficoAjustado logo = new JLabelGraficoAjustado("src/img/eShop.png", 120, 100);
+		logo.setLocation(30, 10);
+		getContentPane().add(logo);
 
 	}
 

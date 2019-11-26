@@ -7,6 +7,9 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.border.EmptyBorder;
+
+import utils.JLabelGraficoAjustado;
+
 import javax.swing.JTextArea;
 import javax.swing.JButton;
 import java.awt.Toolkit;
@@ -42,13 +45,17 @@ public class VentanaTerminos extends JFrame {
 		contentPane.add(btnAceptar);
 		
 		JScrollPane scrollPane = new JScrollPane();
-		scrollPane.setBounds(49, 33, 549, 307);
+		scrollPane.setBounds(49, 128, 549, 205);
 		contentPane.add(scrollPane);
 		
-		JTextArea txtrBienvenidoAAmazones = new JTextArea(" Bienvenido a Amazon.es.\r\n\r\n Amazon EU Sarl, Amazon Europe Core SARL y las sociedades de su grupo (\"Amazon\") te ofrecen\r\n funciones de sitio web y otros productos y servicios cuando visitas o compras en Amazon.es (el \"sitio \r\n web\"), utilizas los dispositivos, productos o servicios de Amazon, usas las aplicaciones de Amazon\r\n para dispositivos móviles o empleas software puesto a disposición por Amazon en relación con lo \r\n anterior (los \"Servicios de Amazon\" e individuamente, cada uno de ellos, el \"Servicio de Amazon\"). " + "\r\n" + " Consulta nuestro Aviso de privacidad, nuestro Aviso de Cookies y nuestro Aviso sobre publicidad basada" + " en los intereses del usuario. Amazon te presta los Servicios de Amazon bajo las condiciones establecidas en esta página. Amazon.es es el nombre comercial de Amazon. ");
+		JTextArea txtrBienvenidoAAmazones = new JTextArea(" Bienvenido a eShop.es.\r\n\r\n eShop EU Sarl, eShop Europe Core SARL y las sociedades de su grupo (\"eShop\") te ofrecen\r\n funciones de sitio web y otros productos y servicios cuando visitas o compras en eShop.es (el \"sitio \r\n web\"), utilizas los dispositivos, productos o servicios de Amazon, usas las aplicaciones de eShop\r\n para dispositivos móviles o empleas software puesto a disposición por eShop en relación con lo \r\n anterior (los \"Servicios de eShop\" e individuamente, cada uno de ellos, el \"Servicio de Amazon\"). " + "\r\n" + " Consulta nuestro Aviso de privacidad, nuestro Aviso de Cookies y nuestro Aviso sobre publicidad" + "\r\n" + " basada  en los intereses del usuario. EShop te presta los Servicios de eShop bajo las condiciones " + "\r\n" + " establecidas en esta página. Amazon.es es el nombre comercial de eShop. ");
 		txtrBienvenidoAAmazones.setBounds(83, 33, 490, 266);
 		txtrBienvenidoAAmazones.setEditable(false);
 		scrollPane.setViewportView(txtrBienvenidoAAmazones);
+		
+		JLabelGraficoAjustado logo = new JLabelGraficoAjustado("src/img/eShop.png", 120, 100);
+		logo.setLocation(25, 10);
+		getContentPane().add(logo);
 		
 	}
 	
