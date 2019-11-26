@@ -48,8 +48,10 @@ public class VentanaVentas extends JFrame {
 	JPanel pOrdenadores;
 	JPanel pElectrodomesticos;
 	JTabbedPane pestañas;
-	JLabelGraficoAjustado jlabel;
-	String nombreJLabel;
+	JLabelGraficoAjustado jlabelElectrodomesticos;
+	JLabelGraficoAjustado jlabelOrdenadores;
+	JLabelGraficoAjustado jlabelMoviles;
+	
 	
 	VentanaVentas() {
 		getContentPane().setFont(new Font("Tahoma", Font.BOLD, 14));
@@ -109,10 +111,6 @@ public class VentanaVentas extends JFrame {
 		JLabelGraficoAjustado logo4 = new JLabelGraficoAjustado("src/img/eShop.png", 300, 200);
 		JLabelGraficoAjustado logo5 = new JLabelGraficoAjustado("src/img/Copyright.png", 300, 200);
 		JLabelGraficoAjustado logo6 = new JLabelGraficoAjustado("src/img/eShop.png", 300, 200);
-		JLabelGraficoAjustado logo7= new JLabelGraficoAjustado("src/img/eShop.png", 300, 200);
-		JLabelGraficoAjustado logo8 = new JLabelGraficoAjustado("src/img/eShop.png", 300, 200);
-		JLabelGraficoAjustado logo9 = new JLabelGraficoAjustado("src/img/eShop.png", 300, 200);
-		JLabelGraficoAjustado logo10 = new JLabelGraficoAjustado("src/img/eShop.png", 300, 200);
 		
 		ArrayList<JLabelGraficoAjustado> arrayElectrodomesticos = new ArrayList<JLabelGraficoAjustado>();
 		arrayElectrodomesticos.add(logo1);
@@ -121,6 +119,22 @@ public class VentanaVentas extends JFrame {
 		arrayElectrodomesticos.add(logo4);
 		arrayElectrodomesticos.add(logo5);
 		arrayElectrodomesticos.add(logo6);
+		
+		ArrayList<JLabelGraficoAjustado> arrayOrdenadores = new ArrayList<JLabelGraficoAjustado>();
+		arrayOrdenadores.add(logo1);
+		arrayOrdenadores.add(logo2);
+		arrayOrdenadores.add(logo3);
+		arrayOrdenadores.add(logo4);
+		arrayOrdenadores.add(logo5);
+		arrayOrdenadores.add(logo6);
+		
+		ArrayList<JLabelGraficoAjustado> arrayMoviles = new ArrayList<JLabelGraficoAjustado>();
+		arrayMoviles.add(logo1);
+		arrayMoviles.add(logo2);
+		arrayMoviles.add(logo3);
+		arrayMoviles.add(logo4);
+		arrayMoviles.add(logo5);
+		arrayMoviles.add(logo6);
 		
 		pMoviles = new JPanel();
 		pMoviles.setLayout(new GridLayout(3,3));
@@ -227,19 +241,14 @@ public class VentanaVentas extends JFrame {
 		Articulo articulo = new Articulo("Pavilion 2500", 22012, "Ordenador", 200, "Hp");
 		modelo.add(0, articulo);
 		
-		/////////////////////////////////////////////////////////////////////
-		JLabelGraficoAjustado jlabel = new JLabelGraficoAjustado("", 0, 0);
-		
-		
-		for(int a = 0; a < arrayElectrodomesticos.size(); a++){
-			jlabel = new JLabelGraficoAjustado(arrayElectrodomesticos.get(a).getName(), 200, 100);
-			nombreJLabel = jlabel.getName();
-			jlabel.addMouseListener(new MouseListener() {
-				
+		/////////////////////////////////////////////////////////////////////		
+		for(int a = 0; a < arrayMoviles.size(); a++){
+			jlabelMoviles = new JLabelGraficoAjustado(arrayMoviles.get(a).getName(), 200, 100);
+			String nombreJLabel = jlabelMoviles.getName();
+			jlabelMoviles.addMouseListener(new MouseListener() {
 				@Override
 				public void mouseClicked(MouseEvent e) {
 					System.out.println(nombreJLabel);
-					
 				}
 				@Override
 				public void mousePressed(MouseEvent e) {}
@@ -251,8 +260,47 @@ public class VentanaVentas extends JFrame {
 				public void mouseExited(MouseEvent e) {}
 				
 			});
-			pElectrodomesticos.add(jlabel);
-		
+			pMoviles.add(jlabelMoviles);
+		}
+		for(int a = 0; a < arrayElectrodomesticos.size(); a++){
+			jlabelElectrodomesticos = new JLabelGraficoAjustado(arrayElectrodomesticos.get(a).getName(), 200, 100);
+			String nombreJLabel = jlabelElectrodomesticos.getName();
+			jlabelElectrodomesticos.addMouseListener(new MouseListener() {
+				@Override
+				public void mouseClicked(MouseEvent e) {
+					System.out.println(nombreJLabel);
+				}
+				@Override
+				public void mousePressed(MouseEvent e) {}
+				@Override
+				public void mouseReleased(MouseEvent e) {}
+				@Override
+				public void mouseEntered(MouseEvent e) {}
+				@Override
+				public void mouseExited(MouseEvent e) {}
+				
+			});
+			pElectrodomesticos.add(jlabelElectrodomesticos);		
+		}
+		for(int a = 0; a < arrayOrdenadores.size(); a++){
+			jlabelOrdenadores = new JLabelGraficoAjustado(arrayOrdenadores.get(a).getName(), 200, 100);
+			String nombreJLabel = jlabelOrdenadores.getName();
+			jlabelOrdenadores.addMouseListener(new MouseListener() {
+				@Override
+				public void mouseClicked(MouseEvent e) {
+					System.out.println(nombreJLabel);
+				}
+				@Override
+				public void mousePressed(MouseEvent e) {}
+				@Override
+				public void mouseReleased(MouseEvent e) {}
+				@Override
+				public void mouseEntered(MouseEvent e) {}
+				@Override
+				public void mouseExited(MouseEvent e) {}
+				
+			});
+			pOrdenadores.add(jlabelOrdenadores);
 		}
 		
 	}
