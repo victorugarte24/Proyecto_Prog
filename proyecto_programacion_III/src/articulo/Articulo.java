@@ -7,15 +7,25 @@ public class Articulo {
 	private String descripcion;
 	private double importe;
 	private String marca;
+	private String imagen;
 
-	public Articulo(String nombre, int codArt, String descripcion, double importe, String marca) {
+	public Articulo(String nombre, int codArt, String descripcion, double importe, String marca, String imagen) {
 		super();
 		this.codArt = codArt;
 		this.marca = marca;
 		this.nombre = nombre;
 		this.descripcion = descripcion;
 		this.importe = importe;
+		this.imagen = imagen;
 	
+	}
+
+	public String getImagen() {
+		return imagen;
+	}
+
+	public void setImagen(String imagen) {
+		this.imagen = imagen;
 	}
 
 	public Articulo() {

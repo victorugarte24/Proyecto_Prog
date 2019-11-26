@@ -238,7 +238,7 @@ public class VentanaVentas extends JFrame {
 		gbc_lista.gridy = 1;
 		pEast.add(scrollPaneLista, gbc_lista);
 		
-		Articulo articulo = new Articulo("Pavilion 2500", 22012, "Ordenador", 200, "Hp");
+		Articulo articulo = new Articulo("Pavilion 2500", 22012, "Ordenador", 200, "Hp", "");
 		modelo.add(0, articulo);
 		
 		/////////////////////////////////////////////////////////////////////		
