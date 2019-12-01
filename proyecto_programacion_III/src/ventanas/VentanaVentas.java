@@ -9,6 +9,8 @@ import java.awt.GridBagLayout;
 import java.awt.GridLayout;
 import java.awt.Insets;
 import java.awt.Toolkit;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.io.IOException;
@@ -21,6 +23,7 @@ import javax.swing.DefaultListModel;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JList;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
@@ -53,6 +56,8 @@ public class VentanaVentas extends JFrame {
 	JLabelGraficoAjustado jlabelElectrodomesticos;
 	JLabelGraficoAjustado jlabelOrdenadores;
 	JLabelGraficoAjustado jlabelMoviles;
+	int respuesta;
+	DefaultListModel<Articulo> modelo;
 	
 	
 	VentanaVentas() {
@@ -217,7 +222,7 @@ public class VentanaVentas extends JFrame {
 		
 		//Cesta
 		
-		DefaultListModel<Articulo> modelo = new DefaultListModel<Articulo>();
+		modelo = new DefaultListModel<Articulo>();
 		
 		JList<Articulo> lista = new JList<Articulo>();
 		lista.setFont(new Font("Tahoma", Font.BOLD, 12));
@@ -320,6 +325,22 @@ public class VentanaVentas extends JFrame {
 		pEast.add(btnEliminar, gbc_btnEliminar);
 		btnEliminar.setBackground(Color.RED);
 		btnEliminar.setFocusable(false);
+		btnEliminar.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				modelo = ((DefaultListModel<Articulo>)lista.getModel());
+				if(!modelo.isEmpty()) {
+					respuesta = JOptionPane.showConfirmDialog(null,	"¿Estas seguro de que deseas eliminar este artículo?");
+
+				}
+				if(respuesta == 0) {
+					//Borrar
+					int pos = lista.getSelectedIndex();
+					modelo.removeElementAt(pos);
+				}
+			}
+		});
 		
 		///////////////////////////////////////////////////////////////////////////////////////
 		
@@ -332,6 +353,13 @@ public class VentanaVentas extends JFrame {
 		pEast.add(btnValidar, gbc_btnValidar);
 		btnValidar.setBackground(Color.GREEN);
 		btnValidar.setFocusable(false);
+		btnValidar.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				
+			}
+		});
 		
 
 		
