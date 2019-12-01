@@ -14,12 +14,16 @@ import javax.swing.JTextArea;
 import javax.swing.JButton;
 import java.awt.Toolkit;
 import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.awt.event.ActionEvent;
 
 public class VentanaTerminos extends JFrame {
 
 	private JPanel contentPane;
-
+	private Logger logger;
 	
 	public VentanaTerminos() {
 		setDefaultCloseOperation(VentanaTerminos.DISPOSE_ON_CLOSE);
@@ -35,9 +39,20 @@ public class VentanaTerminos extends JFrame {
 		this.setLocationRelativeTo(null);
 		setResizable(false);
 		
+		logger = Logger.getLogger( VentanaVentas.class.getName() ); 
+		try {
+			FileHandler fh = new FileHandler("src/logger.log");
+			logger.addHandler(fh);
+		} catch (SecurityException e11) {
+			e11.printStackTrace();
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
+		
 		JButton btnAceptar = new JButton("Aceptar");
 		btnAceptar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				logger.log(Level.INFO, "Botón Aceptar ");
 				dispose();
 			}
 		});

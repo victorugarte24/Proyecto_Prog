@@ -7,6 +7,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.IOException;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -27,6 +31,7 @@ public class VentanaRegistro extends JFrame {
 	private JTextField textField_2;
 	private JTextField textField_3;
 	private JPasswordField passwordField;
+	private Logger logger;
 
 	VentanaRegistro(){
 		setIconImage(Toolkit.getDefaultToolkit().getImage(""));
@@ -37,6 +42,16 @@ public class VentanaRegistro extends JFrame {
 		setResizable(false);
 		this.getContentPane().setBackground(Color.orange);
 		getContentPane().setLayout(null);
+		
+		logger = Logger.getLogger( VentanaVentas.class.getName() ); 
+		try {
+			FileHandler fh = new FileHandler("src/logger.log");
+			logger.addHandler(fh);
+		} catch (SecurityException e11) {
+			e11.printStackTrace();
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
 
 		JLabel lblNombre = new JLabel("Nombre:");
 		lblNombre.setFont(new Font("Tahoma", Font.BOLD, 14));
@@ -74,6 +89,7 @@ public class VentanaRegistro extends JFrame {
 		btnRegistrarse.setFocusable(false);
 		btnRegistrarse.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				logger.log(Level.INFO, "Botón Registrarse ");
 				if(textField.getText().equals("")||textField_1.getText().equals("")|| textField_2.getText().equals("")|| textField_3.getText().equals("")|| passwordField.getText().contentEquals("")){
 					JOptionPane.showMessageDialog(null, "Campos incompletos");
 				}else {
@@ -124,6 +140,7 @@ public class VentanaRegistro extends JFrame {
 		lblAcepteLosTrminos.addMouseListener(new MouseAdapter() {
 			 @Override
              public void mouseClicked(MouseEvent e) {
+				 logger.log(Level.INFO, "Label Acepte los términos y condiciones ");
 				 VentanaTerminos v = new VentanaTerminos();
 					v.setVisible(true);
              }

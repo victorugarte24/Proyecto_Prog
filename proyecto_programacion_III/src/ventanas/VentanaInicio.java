@@ -52,6 +52,9 @@ public class VentanaInicio extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				//usar bd
 				 logger.log(Level.INFO, "Botón Iniciar Sesión ");
+				 VentanaVentas vv = new VentanaVentas();
+				 vv.setVisible(true);
+				 dispose();
 			}
 		});
 		btnNewButton.setBounds(112, 301, 152, 26);
