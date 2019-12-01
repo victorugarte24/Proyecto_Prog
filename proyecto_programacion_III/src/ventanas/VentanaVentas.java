@@ -18,6 +18,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import javax.swing.DefaultListModel;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JList;
 import javax.swing.JPanel;
@@ -28,6 +29,7 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
 import articulo.Articulo;
+import electrodomesticos.Electrodomesticos;
 import utils.JLabelGraficoAjustado;
 
 public class VentanaVentas extends JFrame {
@@ -233,13 +235,15 @@ public class VentanaVentas extends JFrame {
 		GridBagConstraints gbc_lista = new GridBagConstraints();
 		gbc_lista.gridwidth = 2;
 		gbc_lista.fill = GridBagConstraints.BOTH;
-		gbc_lista.insets = new Insets(37, 0, 5, 0);
+		gbc_lista.insets = new Insets(37, 5, 5, 5);
 		gbc_lista.gridx = 0;
 		gbc_lista.gridy = 1;
 		pEast.add(scrollPaneLista, gbc_lista);
 		
 		Articulo articulo = new Articulo("Pavilion 2500", 22012, "Ordenador", 200, "Hp", "");
+		Electrodomesticos e = new Electrodomesticos("e", 1, "fdf", 123, "qd", "null", "ff", 12, 123);
 		modelo.add(0, articulo);
+		modelo.add(0, e);
 		
 		/////////////////////////////////////////////////////////////////////		
 		for(int a = 0; a < arrayMoviles.size(); a++){
@@ -249,6 +253,7 @@ public class VentanaVentas extends JFrame {
 				@Override
 				public void mouseClicked(MouseEvent e) {
 					System.out.println(nombreJLabel);
+					//modelo.add(0, e);
 				}
 				@Override
 				public void mousePressed(MouseEvent e) {}
@@ -302,6 +307,33 @@ public class VentanaVentas extends JFrame {
 			});
 			pOrdenadores.add(jlabelOrdenadores);
 		}
+		
+		///////////////////////////////////////////////////////////////////////////////////////
+		
+		JButton btnEliminar = new JButton("Eliminar");
+
+		GridBagConstraints gbc_btnEliminar = new GridBagConstraints();
+		gbc_btnEliminar.fill = GridBagConstraints.BOTH;
+		gbc_btnEliminar.insets = new Insets(0, 5, 0, 5);
+		gbc_btnEliminar.gridx = 1;
+		gbc_btnEliminar.gridy = 2;
+		pEast.add(btnEliminar, gbc_btnEliminar);
+		btnEliminar.setBackground(Color.RED);
+		btnEliminar.setFocusable(false);
+		
+		///////////////////////////////////////////////////////////////////////////////////////
+		
+		JButton btnValidar = new JButton("Comprar");
+		GridBagConstraints gbc_btnValidar = new GridBagConstraints();
+		gbc_btnValidar.fill = GridBagConstraints.BOTH;
+		gbc_btnValidar.insets = new Insets(0, 5, 0, 5);
+		gbc_btnValidar.gridx = 0;
+		gbc_btnValidar.gridy = 2;
+		pEast.add(btnValidar, gbc_btnValidar);
+		btnValidar.setBackground(Color.GREEN);
+		btnValidar.setFocusable(false);
+		
+
 		
 	}
 

@@ -2,21 +2,21 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2019-12-01T17:34:23.480750Z</date>
-  <millis>1575221663480</millis>
-  <nanos>750000</nanos>
+  <date>2019-12-01T17:47:51.583542900Z</date>
+  <millis>1575222471583</millis>
+  <nanos>542900</nanos>
   <sequence>0</sequence>
   <logger>ventanas.VentanaVentas</logger>
   <level>INFO</level>
-  <class>ventanas.VentanaInicio$1</class>
-  <method>actionPerformed</method>
+  <class>ventanas.VentanaVentas$1</class>
+  <method>stateChanged</method>
   <thread>17</thread>
-  <message>Botón Iniciar Sesión </message>
+  <message>Tab: Electrodomesticos</message>
 </record>
 <record>
-  <date>2019-12-01T17:34:32.177372300Z</date>
-  <millis>1575221672177</millis>
-  <nanos>372300</nanos>
+  <date>2019-12-01T17:47:52.263109800Z</date>
+  <millis>1575222472263</millis>
+  <nanos>109800</nanos>
   <sequence>1</sequence>
   <logger>ventanas.VentanaVentas</logger>
   <level>INFO</level>
@@ -26,10 +26,82 @@
   <message>Tab: Ordenadores</message>
 </record>
 <record>
-  <date>2019-12-01T17:34:32.611882400Z</date>
-  <millis>1575221672611</millis>
-  <nanos>882400</nanos>
+  <date>2019-12-01T17:47:52.903745600Z</date>
+  <millis>1575222472903</millis>
+  <nanos>745600</nanos>
   <sequence>2</sequence>
+  <logger>ventanas.VentanaVentas</logger>
+  <level>INFO</level>
+  <class>ventanas.VentanaVentas$1</class>
+  <method>stateChanged</method>
+  <thread>17</thread>
+  <message>Tab: Moviles</message>
+</record>
+<record>
+  <date>2019-12-01T17:47:53.524154400Z</date>
+  <millis>1575222473524</millis>
+  <nanos>154400</nanos>
+  <sequence>3</sequence>
+  <logger>ventanas.VentanaVentas</logger>
+  <level>INFO</level>
+  <class>ventanas.VentanaVentas$1</class>
+  <method>stateChanged</method>
+  <thread>17</thread>
+  <message>Tab: Ordenadores</message>
+</record>
+<record>
+  <date>2019-12-01T17:47:54.121081400Z</date>
+  <millis>1575222474121</millis>
+  <nanos>81400</nanos>
+  <sequence>4</sequence>
+  <logger>ventanas.VentanaVentas</logger>
+  <level>INFO</level>
+  <class>ventanas.VentanaVentas$1</class>
+  <method>stateChanged</method>
+  <thread>17</thread>
+  <message>Tab: Electrodomesticos</message>
+</record>
+<record>
+  <date>2019-12-01T17:48:01.126711700Z</date>
+  <millis>1575222481126</millis>
+  <nanos>711700</nanos>
+  <sequence>5</sequence>
+  <logger>ventanas.VentanaVentas</logger>
+  <level>INFO</level>
+  <class>ventanas.VentanaVentas$1</class>
+  <method>stateChanged</method>
+  <thread>17</thread>
+  <message>Tab: Ordenadores</message>
+</record>
+<record>
+  <date>2019-12-01T17:48:01.824190200Z</date>
+  <millis>1575222481824</millis>
+  <nanos>190200</nanos>
+  <sequence>6</sequence>
+  <logger>ventanas.VentanaVentas</logger>
+  <level>INFO</level>
+  <class>ventanas.VentanaVentas$1</class>
+  <method>stateChanged</method>
+  <thread>17</thread>
+  <message>Tab: Moviles</message>
+</record>
+<record>
+  <date>2019-12-01T17:48:02.574032800Z</date>
+  <millis>1575222482574</millis>
+  <nanos>32800</nanos>
+  <sequence>7</sequence>
+  <logger>ventanas.VentanaVentas</logger>
+  <level>INFO</level>
+  <class>ventanas.VentanaVentas$1</class>
+  <method>stateChanged</method>
+  <thread>17</thread>
+  <message>Tab: Ordenadores</message>
+</record>
+<record>
+  <date>2019-12-01T17:48:03.025752300Z</date>
+  <millis>1575222483025</millis>
+  <nanos>752300</nanos>
+  <sequence>8</sequence>
   <logger>ventanas.VentanaVentas</logger>
   <level>INFO</level>
   <class>ventanas.VentanaVentas$1</class>
