@@ -74,13 +74,14 @@ public class VentanaInicio extends JFrame {
 				String nombre = textField.getText();
 				
 				String contraseña = BD.usuariosSelect2(st, nombre); //contraseña
-				String selectNombre = BD.usuariosSelect(st, valorPass); //usuario	
+				String selectNombre = BD.usuariosSelect(st, valorPass); //usuario		
 				
 				if(valorPass.equals("password") && nombre.equals("admin")) {
 					//Ventana_Administrador v = new Ventana_Administrador();
 					//v.setVisible(true);
 
-				}else {
+				}
+				else {
 					if(contraseña.equals(valorPass) && nombre.equals(selectNombre)) {
 						JOptionPane.showMessageDialog(null, "Usuario correcto");
 						if(chckbxRecuerdame.isSelected()) {

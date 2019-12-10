@@ -96,14 +96,13 @@ public class VentanaRegistro extends JFrame {
 		btnRegistrarse.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Usuario u = new Usuario(textField_2.getText(), new String(passwordField.getPassword()));
-				String contraseña = u.getContraseña();
 				logger.log(Level.INFO, "Botón Registrarse ");
 				if(textField.getText().equals("")||textField_1.getText().equals("")|| textField_2.getText().equals("")|| textField_3.getText().equals("")|| passwordField.getText().contentEquals("")){
 					JOptionPane.showMessageDialog(null, "Campos incompletos");
 				}
 				else {
 					if(chckbxNewCheckBox.isSelected() == true) {
-						con = BD.initBD("Database");
+						con = BD.initBD("data/Database");
 						st = BD.usarCrearTablasBD(con);
 
 						if(BD.usuarioExiste(st, textField_2.getText()) == false) {
