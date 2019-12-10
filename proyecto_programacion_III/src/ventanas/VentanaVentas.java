@@ -335,7 +335,6 @@ public class VentanaVentas extends JFrame {
 
 				}
 				if(respuesta == 0) {
-					//Borrar
 					int pos = lista.getSelectedIndex();
 					modelo.removeElementAt(pos);
 				}
