@@ -13,11 +13,15 @@ public class Usuario   {
 	private String[] MetodoPago;
 	private int cuentaBancaria;
 	private int telefono;
+	private String email;
 	
 	//Constructores de la clase
-	public Usuario() {}
+	public Usuario(String email, String contraseña) {
+		this.email = email;
+		this.contraseña = contraseña;
+	}
 	
-	public Usuario(String nombre, String apellidos, String direccion, String poblacion, int codigoPostal, String codigoUsuario, String[] MetodoPago, int cuentaBancaria, int telefono) {
+	public Usuario(String nombre, String apellidos, String direccion, String poblacion, int codigoPostal, String codigoUsuario, String[] MetodoPago, int cuentaBancaria, int telefono, String email) {
 		this.nombre = nombre;
 		this.apellidos = apellidos;
 		this.direccion = direccion;
@@ -27,9 +31,10 @@ public class Usuario   {
 		this.cuentaBancaria = cuentaBancaria;
 		this.telefono = telefono;
 		this.MetodoPago = MetodoPago;
+		this.email = email;
 	}
 	
-	public Usuario(String nombre, String apellidos, String direccion, String poblacion, int codigoPostal, String contraseña, String codigoUsuario, String[] MetodoPago, int cuentaBancaria, int telefono) {
+	public Usuario(String nombre, String apellidos, String direccion, String poblacion, int codigoPostal, String contraseña, String codigoUsuario, String[] MetodoPago, int cuentaBancaria, int telefono, String email) {
 		this.nombre = nombre;
 		this.apellidos = apellidos;
 		this.direccion = direccion;
@@ -42,9 +47,25 @@ public class Usuario   {
 		this.MetodoPago = MetodoPago;
 	}
 	
+	public Usuario(String nombre, String apellidos, String email, int telefono, String contraseña) {
+		this.nombre = nombre;
+		this.apellidos = apellidos;
+		this.email = email;
+		this.telefono = telefono;
+		this.contraseña = contraseña;		
+	}
+	
 	
 	//Getters and Setters de la clase
 	
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
 	public String getNombre() {
 		return nombre;
 	}
@@ -105,21 +126,26 @@ public class Usuario   {
 	public void setTelefono(int telefono) {
 		this.telefono = telefono;
 	}
-
+	
+	
 	@Override
 	public String toString() {
-		return "Usuario [nombre=" + nombre + ", apellidos=" + apellidos
+		return "Usuario [email " + email + ", contraseña = " + contraseña + " ]";
+	}
+	
+	public String toString2() {
+		return "Usuario [nombre =" + nombre + ", apellidos =" + apellidos
 				+ ", direccion=" + direccion + ", poblacion=" + poblacion
 				+ ", codigoPostal=" + codigoPostal + ", codigoUsuario="
 				+ codigoUsuario + ", contraseña =" + contraseña
 				+ ", MetodoPago=" + MetodoPago + ", cuentaBancaria=" + cuentaBancaria + ", telefono=" + telefono + ",]";
 	}
 	
-	public String toString1() {
+	public String toString3() {
 		return "Usuario [nombre=" + nombre + ", apellidos=" + apellidos
 				+ ", direccion=" + direccion + ", poblacion=" + poblacion
 				+ ", codigoPostal=" + codigoPostal + ", codigoUsuario="
 				+ codigoUsuario + ", MetodoPago=" + MetodoPago + ", cuentaBancaria=" + cuentaBancaria + ", telefono=" + telefono + ",]";
-	}
+	} 
 
 }

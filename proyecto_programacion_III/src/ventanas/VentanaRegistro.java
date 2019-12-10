@@ -8,6 +8,8 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.Statement;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -20,6 +22,8 @@ import java.awt.Font;
 import javax.swing.JButton;
 import javax.swing.JTextField;
 
+import bd.BD;
+import usuario.Usuario;
 import utils.JLabelGraficoAjustado;
 
 import javax.swing.JPasswordField;
@@ -32,6 +36,8 @@ public class VentanaRegistro extends JFrame {
 	private JTextField textField_3;
 	private JPasswordField passwordField;
 	private Logger logger;
+	private Connection con;
+	private Statement st;
 
 	VentanaRegistro(){
 		setIconImage(Toolkit.getDefaultToolkit().getImage(""));
@@ -45,7 +51,7 @@ public class VentanaRegistro extends JFrame {
 		
 		logger = Logger.getLogger( VentanaVentas.class.getName() ); 
 		try {
-			FileHandler fh = new FileHandler("src/logger.log");
+			FileHandler fh = new FileHandler("data/logger.log");
 			logger.addHandler(fh);
 		} catch (SecurityException e11) {
 			e11.printStackTrace();
@@ -89,13 +95,26 @@ public class VentanaRegistro extends JFrame {
 		btnRegistrarse.setFocusable(false);
 		btnRegistrarse.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				Usuario u = new Usuario(textField_2.getText(), new String(passwordField.getPassword()));
+				String contraseña = u.getContraseña();
 				logger.log(Level.INFO, "Botón Registrarse ");
 				if(textField.getText().equals("")||textField_1.getText().equals("")|| textField_2.getText().equals("")|| textField_3.getText().equals("")|| passwordField.getText().contentEquals("")){
 					JOptionPane.showMessageDialog(null, "Campos incompletos");
-				}else {
+				}
+				else {
 					if(chckbxNewCheckBox.isSelected() == true) {
-						JOptionPane.showMessageDialog(null, "Usuario registrado");
-						dispose();
+						con = BD.initBD("Database");
+						st = BD.usarCrearTablasBD(con);
+
+						if(BD.usuarioExiste(st, textField_2.getText()) == false) {
+							BD.usuariosInsert(st, u);
+							JOptionPane.showMessageDialog(null, "Nuevo usuario creado");
+							dispose();
+						}
+						else {
+							JOptionPane.showMessageDialog(null, "Usuario ya existente");
+						}
+						
 					}
 					else {
 						JOptionPane.showMessageDialog(null, "Acepte los términos y condiciones");

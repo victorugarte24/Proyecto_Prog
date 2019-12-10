@@ -41,7 +41,7 @@ public class VentanaTerminos extends JFrame {
 		
 		logger = Logger.getLogger( VentanaVentas.class.getName() ); 
 		try {
-			FileHandler fh = new FileHandler("src/logger.log");
+			FileHandler fh = new FileHandler("data/logger.log");
 			logger.addHandler(fh);
 		} catch (SecurityException e11) {
 			e11.printStackTrace();

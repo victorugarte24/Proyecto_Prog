@@ -67,56 +67,6 @@ public class BD {
 			statement.setQueryTimeout(30);  // poner timeout 30 msg
 			try {
 				statement.executeUpdate("create table "+NOMBRETABLA+COLUMNAS_TABLA);
-				//statement.executeQuery("create table "+);
-			} catch (SQLException e) {} // Tabla ya existe. Nada que hacer
-			log( Level.INFO, "Creada base de datos", null );
-			return statement;
-		} catch (SQLException e) {
-			lastError = e;
-			log( Level.SEVERE, "Error en creacion de base de datos", e );
-			e.printStackTrace();
-			return null;
-		}
-	}
-	public static Statement usarCrearTablas2BD( Connection con ) {
-		try {
-			Statement statement = con.createStatement();
-			statement.setQueryTimeout(30);  // poner timeout 30 msg
-			try {
-				statement.executeUpdate("create table "+NOMBRETABLA+COLUMNAS_TABLA);
-			} catch (SQLException e) {} // Tabla ya existe. Nada que hacer
-			log( Level.INFO, "Creada base de datos", null );
-			return statement;
-		} catch (SQLException e) {
-			lastError = e;
-			log( Level.SEVERE, "Error en creacion de base de datos", e );
-			e.printStackTrace();
-			return null;
-		}
-	}
-	public static Statement usarCrearTablas3BD( Connection con ) {
-		try {
-			Statement statement = con.createStatement();
-			statement.setQueryTimeout(30);  // poner timeout 30 msg
-			try {
-				statement.executeUpdate("create table "+NOMBRETABLA+COLUMNAS_TABLA);
-			} catch (SQLException e) {} // Tabla ya existe. Nada que hacer
-			log( Level.INFO, "Creada base de datos", null );
-			return statement;
-		} catch (SQLException e) {
-			lastError = e;
-			log( Level.SEVERE, "Error en creacion de base de datos", e );
-			e.printStackTrace();
-			return null;
-		}
-	}
-	
-	public static Statement usarCrearTablas4BD( Connection con ) {
-		try {
-			Statement statement = con.createStatement();
-			statement.setQueryTimeout(30);  // poner timeout 30 msg
-			try {
-				statement.executeUpdate("create table "+NOMBRETABLA+COLUMNAS_TABLA);
 			} catch (SQLException e) {} // Tabla ya existe. Nada que hacer
 			log( Level.INFO, "Creada base de datos", null );
 			return statement;
@@ -186,7 +136,7 @@ public class BD {
 	public static boolean usuariosInsert( Statement st, Usuario u ) {
 		String sentSQL = "";
 		try {
-			sentSQL = "insert into Usuario values('" + secu(u.getNombre()) + "', '"+ secu(u.getContraseña()) + "')";
+			sentSQL = "insert into Usuario values('" + secu(u.getEmail()) + "', '"+ secu(u.getContraseña()) + "')";
 			int val = st.executeUpdate( sentSQL );
 			log( Level.INFO, "BD fila añadida " + val + " fila\t" + sentSQL, null );
 			if (val!=1) {  // Se tiene que añadir 1 - error si no
@@ -215,6 +165,25 @@ public class BD {
 			rs.close();
 			log( Level.INFO, "BD\t" + sentSQL, null );
 			return nombre;
+		} catch (Exception e) {
+			log( Level.SEVERE, "Error en BD\t" + sentSQL, e );
+			e.printStackTrace();
+			return null;
+		}
+	}
+	public static String usuariosSelect2( Statement st, String nombre) {
+		String sentSQL = "";
+		String contraseña = "";
+		try {
+			
+			sentSQL = "select contraseña from Usuario where nombre ='" + nombre + "'";
+			ResultSet rs = st.executeQuery( sentSQL );
+			while(rs.next()) {
+				contraseña = rs.getString("contraseña");
+			}
+			rs.close();
+			log( Level.INFO, "BD\t" + sentSQL, null );
+			return contraseña;
 		} catch (Exception e) {
 			log( Level.SEVERE, "Error en BD\t" + sentSQL, e );
 			e.printStackTrace();
@@ -254,7 +223,7 @@ public class BD {
 	public static boolean analiticaDelete( Statement st, String codigo ) {
 		String sentSQL = "";
 		try {
-			sentSQL = "delete from analitica where codigo='" + secu(codigo) + "'";
+			sentSQL = "delete from x where codigo='" + secu(codigo) + "'";
 			int val = st.executeUpdate( sentSQL );
 			log( Level.INFO, "BD borrada " + val + " fila\t" + sentSQL, null );
 			return (val==1);

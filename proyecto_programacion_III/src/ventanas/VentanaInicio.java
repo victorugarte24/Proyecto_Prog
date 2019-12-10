@@ -5,15 +5,24 @@ import java.awt.Toolkit;
 
 import javax.swing.JFrame;
 import javax.swing.JButton;
+import javax.swing.JCheckBox;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
+import bd.BD;
 import utils.JLabelGraficoAjustado;
 
 import java.awt.Font;
 import java.awt.event.ActionListener;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.PrintStream;
+import java.sql.Connection;
+import java.sql.Statement;
+import java.util.Properties;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -23,6 +32,9 @@ public class VentanaInicio extends JFrame {
 	private JPasswordField passwordField;
 	private JTextField textField;
 	private Logger logger;
+	private Connection con;
+	private Statement st;
+	public static Properties properties;
 
 
 	public VentanaInicio (){
@@ -30,7 +42,7 @@ public class VentanaInicio extends JFrame {
 		setIconImage(Toolkit.getDefaultToolkit().getImage(""));
 		setDefaultCloseOperation( VentanaInicio.DISPOSE_ON_CLOSE );
 		setTitle("eShop");
-		setSize(600, 400);
+		setSize(650, 450);
 		this.setLocationRelativeTo(null);
 		setResizable(false);
 		this.getContentPane().setBackground(Color.orange);
@@ -38,7 +50,7 @@ public class VentanaInicio extends JFrame {
 		
 		logger = Logger.getLogger( VentanaVentas.class.getName() ); 
 		try {
-			FileHandler fh = new FileHandler("src/logger.log");
+			FileHandler fh = new FileHandler("data/logger.log");
 			logger.addHandler(fh);
 		} catch (SecurityException e11) {
 			e11.printStackTrace();
@@ -46,15 +58,50 @@ public class VentanaInicio extends JFrame {
 			e1.printStackTrace();
 		}
 		
+		//cargamos el nombre de usuario del fichero xml
+		cargarProperties();
+
+		JCheckBox chckbxRecuerdame = new JCheckBox("Recúerdame");
+		chckbxRecuerdame.setBounds(504, 363, 101, 25);
+		chckbxRecuerdame.setBackground(Color.ORANGE);
+		getContentPane().add(chckbxRecuerdame);
+		
 		JButton btnNewButton = new JButton("Iniciar Sesion");
 		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 14));
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				//usar bd
-				 logger.log(Level.INFO, "Botón Iniciar Sesión ");
-				 VentanaVentas vv = new VentanaVentas();
-				 vv.setVisible(true);
-				 dispose();
+				logger.log(Level.INFO, "Botón Iniciar Sesión ");
+				con = BD.initBD("Database");
+				st = BD.usarCrearTablasBD(con);
+				String valorPass = new String(passwordField.getPassword());
+				String nombre = textField.getText();
+				
+				String contraseña = BD.usuariosSelect2(st, nombre); //contraseña
+				String selectNombre = BD.usuariosSelect(st, valorPass); //usuario	
+				
+				if(valorPass.equals("password") && nombre.equals("admin")) {
+					//Ventana_Administrador v = new Ventana_Administrador();
+					//v.setVisible(true);
+
+				}else {
+					if(contraseña.equals(valorPass) && nombre.equals(selectNombre)) {
+						JOptionPane.showMessageDialog(null, "Usuario correcto");
+						//guardamos los properties cuando damos al boton iniciar sesion
+						if(chckbxRecuerdame.isSelected()) {
+							properties.setProperty("Usuario", textField.getText());
+							guardarProperties();			
+						} 
+						VentanaVentas vv = new VentanaVentas();
+						vv.setVisible(true);
+						dispose();
+
+					}
+
+					else {
+						JOptionPane.showMessageDialog(null, "Usuario incorrecto");
+					}
+
+				}
 			}
 		});
 		btnNewButton.setBounds(112, 301, 152, 26);
@@ -99,6 +146,33 @@ public class VentanaInicio extends JFrame {
 		JLabelGraficoAjustado logo = new JLabelGraficoAjustado("src/img/eShop.png", 120, 100);
 		logo.setLocation(230, 10);
 		getContentPane().add(logo);
+
+	}
+	
+	//guardamos las properties
+	public void guardarProperties() {
+		try {
+			properties.storeToXML(new PrintStream("data/propiedades.xml"), "Properties de inicio de sesion");
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	//cargamos las properties
+	public void cargarProperties() {
+		properties = new Properties();
+		try {
+			properties.loadFromXML(new FileInputStream("data/propiedades.xml"));
+			try {
+				textField.setText(properties.getProperty("Usuario"));
+			}catch (Exception e) {
+
+			}
+		} catch (Exception e) {
+
+		}
 
 	}
 	
