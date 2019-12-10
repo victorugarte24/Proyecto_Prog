@@ -57,9 +57,6 @@ public class VentanaInicio extends JFrame {
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
-		
-		//cargamos el nombre de usuario del fichero xml
-		cargarProperties();
 
 		JCheckBox chckbxRecuerdame = new JCheckBox("Recúerdame");
 		chckbxRecuerdame.setBounds(504, 363, 101, 25);
@@ -71,7 +68,7 @@ public class VentanaInicio extends JFrame {
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				logger.log(Level.INFO, "Botón Iniciar Sesión ");
-				con = BD.initBD("Database");
+				con = BD.initBD("data/Database");
 				st = BD.usarCrearTablasBD(con);
 				String valorPass = new String(passwordField.getPassword());
 				String nombre = textField.getText();
@@ -86,7 +83,6 @@ public class VentanaInicio extends JFrame {
 				}else {
 					if(contraseña.equals(valorPass) && nombre.equals(selectNombre)) {
 						JOptionPane.showMessageDialog(null, "Usuario correcto");
-						//guardamos los properties cuando damos al boton iniciar sesion
 						if(chckbxRecuerdame.isSelected()) {
 							properties.setProperty("Usuario", textField.getText());
 							guardarProperties();			
@@ -146,6 +142,8 @@ public class VentanaInicio extends JFrame {
 		JLabelGraficoAjustado logo = new JLabelGraficoAjustado("src/img/eShop.png", 120, 100);
 		logo.setLocation(230, 10);
 		getContentPane().add(logo);
+
+		cargarProperties();
 
 	}
 	
