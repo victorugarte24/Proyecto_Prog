@@ -360,8 +360,6 @@ public class VentanaVentas extends JFrame {
 			}
 		});
 		
-
-		
 	}
 
 	public static void main(String[] args) {
