@@ -10,11 +10,11 @@ public class arrayElectrodomesticos {
 	
 	public arrayElectrodomesticos(){
 				
-		Electrodomesticos lavadoraLgB5 = new Electrodomesticos("Lavadora LG B5", 000, "", 500, "LG", "", "Lavadora", 100, 200);
-		Electrodomesticos cafeteraEspresso = new Electrodomesticos("Cafetera Espresso", 001, "", 89, "Cecotec", "", "Cafetera", 2, 20);
-		Electrodomesticos frigorificoSiemens = new Electrodomesticos("Frigorífico Siemens", 002, "", 600, "Siemens", "", "Frigorífico", 250, 400);
-		Electrodomesticos batidoraPhilips = new Electrodomesticos("Batidora Philips", 003, "", 80, "Philips", "", "Batidora", 1, 25);
-		Electrodomesticos microPanasonic = new Electrodomesticos("Microondas Panasonic", 004, "", 150, "Panasonic", "", "Microondas", 4, 30);
+		Electrodomesticos lavadoraLgB5 = new Electrodomesticos("Lavadora LG B5", 0, "", 500, "LG", "", "Lavadora", 100, 200);
+		Electrodomesticos cafeteraEspresso = new Electrodomesticos("Cafetera Espresso", 1, "", 89, "Cecotec", "", "Cafetera", 2, 20);
+		Electrodomesticos frigorificoSiemens = new Electrodomesticos("Frigorífico Siemens", 2, "", 600, "Siemens", "", "Frigorífico", 250, 400);
+		Electrodomesticos batidoraPhilips = new Electrodomesticos("Batidora Philips", 3, "", 80, "Philips", "", "Batidora", 1, 25);
+		Electrodomesticos microPanasonic = new Electrodomesticos("Microondas Panasonic", 4, "", 150, "Panasonic", "", "Microondas", 4, 30);
 		
 		
 		
