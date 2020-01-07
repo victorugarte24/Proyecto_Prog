@@ -26,11 +26,12 @@ public class BD {
 	
 	public static Connection initBD( String nombreBD ) {
 		try {
-		    Class.forName("org.sqlite.JDBC");
-		    Connection con = DriverManager.getConnection("jdbc:sqlite:" + nombreBD );
+			Class.forName("org.sqlite.JDBC");
+			Connection con = DriverManager.getConnection("jdbc:sqlite:" + nombreBD );
 			log( Level.INFO, "Conectada base de datos " + nombreBD, null );
-		    return con;
-		} catch (ClassNotFoundException | SQLException e) {
+			return con;
+		}
+		catch (ClassNotFoundException | SQLException e) {
 			lastError = e;
 			log( Level.SEVERE, "Error en conexion de base de datos " + nombreBD, e );
 			e.printStackTrace();

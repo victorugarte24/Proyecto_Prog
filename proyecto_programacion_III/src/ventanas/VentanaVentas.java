@@ -31,8 +31,13 @@ import javax.swing.ScrollPaneConstants;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
+import arrays.ArrayElectrodomesticos;
+import arrays.ArrayMoviles;
+import arrays.ArrayOrdenadores;
 import articulo.Articulo;
 import electrodomesticos.Electrodomesticos;
+import moviles.Moviles;
+import ordenadores.Ordenadores;
 import utils.JLabelGraficoAjustado;
 
 public class VentanaVentas extends JFrame {
@@ -58,6 +63,11 @@ public class VentanaVentas extends JFrame {
 	JLabelGraficoAjustado jlabelMoviles;
 	int respuesta;
 	DefaultListModel<Articulo> modelo;
+	ArrayList<Moviles> arrayMoviles = new ArrayList<Moviles>();
+	ArrayList<Electrodomesticos> arrayElectrodomesticos = new ArrayList<Electrodomesticos>();
+	ArrayList<Ordenadores> arrayOrdenadores = new ArrayList<Ordenadores>();
+	DefaultListModel<Articulo> modeloCompra;
+	double total;
 	
 	
 	VentanaVentas() {
@@ -69,7 +79,6 @@ public class VentanaVentas extends JFrame {
 		this.setSize(1000, 800);
 		this.setLocationRelativeTo(null);
 		setResizable(false);
-		this.getContentPane().setBackground(Color.orange);
 		
 		/////////////////////////////////////////////////////////////////////
 		
@@ -104,7 +113,7 @@ public class VentanaVentas extends JFrame {
 		gbl_pEast.columnWeights = new double[]{0.5, 0.5};
 		gbl_pEast.rowWeights = new double[]{0.0, 0.9, 0.1};
 		pEast.setLayout(gbl_pEast);
-		pEast.setBackground(Color.LIGHT_GRAY);
+		pEast.setBackground(new Color(51-204-255));
 
 		pSouth = new JPanel();
 		pSouth.setLayout(new BorderLayout());
@@ -112,48 +121,29 @@ public class VentanaVentas extends JFrame {
 		pCenter = new JPanel();
 		pCenter.setLayout(new BorderLayout());
 		
-		JLabelGraficoAjustado logo1 = new JLabelGraficoAjustado("src/img/eShop.png", 300, 200);
-		JLabelGraficoAjustado logo2= new JLabelGraficoAjustado("src/img/Copyright.png", 300, 200);
-		JLabelGraficoAjustado logo3 = new JLabelGraficoAjustado("src/img/eShop.png", 300, 200);
-		JLabelGraficoAjustado logo4 = new JLabelGraficoAjustado("src/img/eShop.png", 300, 200);
-		JLabelGraficoAjustado logo5 = new JLabelGraficoAjustado("src/img/Copyright.png", 300, 200);
-		JLabelGraficoAjustado logo6 = new JLabelGraficoAjustado("src/img/eShop.png", 300, 200);
+		ArrayMoviles am = new ArrayMoviles();
+		arrayMoviles = am.devolverArrayMoviles();
 		
-		ArrayList<JLabelGraficoAjustado> arrayElectrodomesticos = new ArrayList<JLabelGraficoAjustado>();
-		arrayElectrodomesticos.add(logo1);
-		arrayElectrodomesticos.add(logo2);
-		arrayElectrodomesticos.add(logo3);
-		arrayElectrodomesticos.add(logo4);
-		arrayElectrodomesticos.add(logo5);
-		arrayElectrodomesticos.add(logo6);
+		ArrayOrdenadores ao = new ArrayOrdenadores();
+		arrayOrdenadores = ao.devolverArrayOrdenadores();
 		
-		ArrayList<JLabelGraficoAjustado> arrayOrdenadores = new ArrayList<JLabelGraficoAjustado>();
-		arrayOrdenadores.add(logo1);
-		arrayOrdenadores.add(logo2);
-		arrayOrdenadores.add(logo3);
-		arrayOrdenadores.add(logo4);
-		arrayOrdenadores.add(logo5);
-		arrayOrdenadores.add(logo6);
-		
-		ArrayList<JLabelGraficoAjustado> arrayMoviles = new ArrayList<JLabelGraficoAjustado>();
-		arrayMoviles.add(logo1);
-		arrayMoviles.add(logo2);
-		arrayMoviles.add(logo3);
-		arrayMoviles.add(logo4);
-		arrayMoviles.add(logo5);
-		arrayMoviles.add(logo6);
+		ArrayElectrodomesticos ae = new ArrayElectrodomesticos();
+		arrayElectrodomesticos = ae.devolverArrayElectrodomesticos();
 		
 		pMoviles = new JPanel();
 		pMoviles.setLayout(new GridLayout(3,3));
 		scrollPaneMoviles = new JScrollPane(pMoviles, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,  ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+		pMoviles.setBackground(Color.WHITE);
 		
 		pOrdenadores = new JPanel();
 		pOrdenadores.setLayout(new GridLayout(3,3));
 		scrollPaneOrdenadores = new JScrollPane(pOrdenadores, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,  ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+		pOrdenadores.setBackground(Color.WHITE);
 		
 		pElectrodomesticos = new JPanel();
 		pElectrodomesticos.setLayout(new GridLayout(3,3));
 		scrollPaneElectrodomesticos = new JScrollPane(pElectrodomesticos, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,  ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+		pElectrodomesticos.setBackground(Color.WHITE);
 		
 		pestañas = new JTabbedPane();
 		pestañas.setFont(new Font("Tahoma", Font.BOLD, 26));
@@ -196,11 +186,11 @@ public class VentanaVentas extends JFrame {
 		pNorth.add(logo, BorderLayout.WEST);
 		//pNorth.add(carrito, BorderLayout.EAST);
 		pCenter.add(pestañas);
-		pNorth.setBackground(Color.LIGHT_GRAY);
-		pCenter.setBackground(Color.LIGHT_GRAY);
+		pNorth.setBackground(new Color(51-204-255));
+		pCenter.setBackground(new Color(51-204-255));
 		pWest.add(sale, BorderLayout.SOUTH);
-		pWest.setBackground(Color.LIGHT_GRAY);
-		pSouth.setBackground(Color.LIGHT_GRAY);
+		pWest.setBackground(new Color(51-204-255));
+		pSouth.setBackground(new Color(51-204-255));
 		pSouth.add(copyright);
 		
 		pestañas.addChangeListener(new ChangeListener() {
@@ -245,20 +235,20 @@ public class VentanaVentas extends JFrame {
 		gbc_lista.gridy = 1;
 		pEast.add(scrollPaneLista, gbc_lista);
 		
-		Articulo articulo = new Articulo("Pavilion 2500", 22012, "Ordenador", 200, "Hp", "");
-		Electrodomesticos e = new Electrodomesticos("e", 1, "fdf", 123, "qd", "null", "ff", 12, 123);
-		modelo.add(0, articulo);
-		modelo.add(0, e);
+		//Articulo articulo = new Articulo("Pavilion 2500", 22012, "Ordenador", 200, "Hp", "");
+		//Electrodomesticos e = new Electrodomesticos("e", 1, "fdf", 123, "qd", "null", "ff", 12, 123);
+		//modelo.add(0, articulo);
+		//modelo.add(0, e);
 		
 		/////////////////////////////////////////////////////////////////////		
 		for(int a = 0; a < arrayMoviles.size(); a++){
-			jlabelMoviles = new JLabelGraficoAjustado(arrayMoviles.get(a).getName(), 200, 100);
-			String nombreJLabel = jlabelMoviles.getName();
+			jlabelMoviles = new JLabelGraficoAjustado(arrayMoviles.get(a).getImagen(), 350, 200);
+			int pos = a;
 			jlabelMoviles.addMouseListener(new MouseListener() {
 				@Override
 				public void mouseClicked(MouseEvent e) {
-					System.out.println(nombreJLabel);
-					//modelo.add(0, e);
+					modelo.add(0, arrayMoviles.get(pos));
+					total += arrayMoviles.get(pos).getImporte();
 				}
 				@Override
 				public void mousePressed(MouseEvent e) {}
@@ -273,12 +263,13 @@ public class VentanaVentas extends JFrame {
 			pMoviles.add(jlabelMoviles);
 		}
 		for(int a = 0; a < arrayElectrodomesticos.size(); a++){
-			jlabelElectrodomesticos = new JLabelGraficoAjustado(arrayElectrodomesticos.get(a).getName(), 200, 100);
-			String nombreJLabel = jlabelElectrodomesticos.getName();
+			jlabelElectrodomesticos = new JLabelGraficoAjustado(arrayElectrodomesticos.get(a).getImagen(), 350, 200);
+			int pos = a;
 			jlabelElectrodomesticos.addMouseListener(new MouseListener() {
 				@Override
 				public void mouseClicked(MouseEvent e) {
-					System.out.println(nombreJLabel);
+					modelo.add(0, arrayElectrodomesticos.get(pos));
+					total += arrayElectrodomesticos.get(pos).getImporte();
 				}
 				@Override
 				public void mousePressed(MouseEvent e) {}
@@ -293,12 +284,13 @@ public class VentanaVentas extends JFrame {
 			pElectrodomesticos.add(jlabelElectrodomesticos);		
 		}
 		for(int a = 0; a < arrayOrdenadores.size(); a++){
-			jlabelOrdenadores = new JLabelGraficoAjustado(arrayOrdenadores.get(a).getName(), 200, 100);
-			String nombreJLabel = jlabelOrdenadores.getName();
+			jlabelOrdenadores = new JLabelGraficoAjustado(arrayOrdenadores.get(a).getImagen(), 350, 200);
+			int pos = a;
 			jlabelOrdenadores.addMouseListener(new MouseListener() {
 				@Override
 				public void mouseClicked(MouseEvent e) {
-					System.out.println(nombreJLabel);
+					modelo.add(0, arrayOrdenadores.get(pos));
+					total += arrayOrdenadores.get(pos).getImporte();
 				}
 				@Override
 				public void mousePressed(MouseEvent e) {}
@@ -336,7 +328,9 @@ public class VentanaVentas extends JFrame {
 				}
 				if(respuesta == 0) {
 					int pos = lista.getSelectedIndex();
+					total -= modelo.get(pos).getImporte();
 					modelo.removeElementAt(pos);
+					
 				}
 			}
 		});
@@ -356,7 +350,21 @@ public class VentanaVentas extends JFrame {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				
+				modelo = ((DefaultListModel<Articulo>)lista.getModel());
+				if(!modelo.isEmpty()) {
+					VentanaCompra v = new VentanaCompra(total);
+					v.setVisible(true);
+
+					modelo = ((DefaultListModel<Articulo>)lista.getModel());
+					modeloCompra = ((DefaultListModel<Articulo>)v.list.getModel());
+
+					for(int i = 0; i < modelo.getSize(); i++) {
+						modeloCompra.addElement(modelo.getElementAt(i));
+					}
+
+				}else {
+					JOptionPane.showMessageDialog(null, "No hay productos en el carro");
+				}
 			}
 		});
 		
