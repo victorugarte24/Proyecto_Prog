@@ -46,15 +46,10 @@ public class VentanaCompra extends JFrame {
 		btnPagarYFinalizar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e){
 
-				con = BD.initBD("Database");
+				//con = BD.initBD("Database");
 				//st = BD.usarCrearTablas3BD(con);
-
-				if(!modelo.isEmpty()) {
-
-					JOptionPane.showMessageDialog(null, "Compra realizada correctamente");
-				}else {
-					JOptionPane.showMessageDialog(null, "Compra incorrecta");
-				}
+				VentanaPago vp = new VentanaPago();
+				vp.setVisible(true);
 
 				dispose();
 			}

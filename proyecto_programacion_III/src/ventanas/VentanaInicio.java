@@ -12,6 +12,7 @@ import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
 import bd.BD;
+import usuario.Usuario;
 import utils.JLabelGraficoAjustado;
 
 import java.awt.Font;
@@ -30,11 +31,12 @@ import java.awt.event.ActionEvent;
 
 public class VentanaInicio extends JFrame {
 	private JPasswordField passwordField;
-	private JTextField textField;
+	public static JTextField textField;
 	private Logger logger;
 	private Connection con;
 	private Statement st;
 	public static Properties properties;
+	public static Usuario u = new Usuario("");
 
 
 	public VentanaInicio (){
@@ -86,7 +88,8 @@ public class VentanaInicio extends JFrame {
 						JOptionPane.showMessageDialog(null, "Usuario correcto");
 						if(chckbxRecuerdame.isSelected()) {
 							properties.setProperty("Usuario", textField.getText());
-							guardarProperties();			
+							guardarProperties();
+							u.setEmail(textField.getText());
 						} 
 						VentanaVentas vv = new VentanaVentas();
 						vv.setVisible(true);
