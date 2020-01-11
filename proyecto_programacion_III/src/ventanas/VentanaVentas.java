@@ -28,6 +28,7 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
 import javax.swing.ScrollPaneConstants;
+import javax.swing.SwingUtilities;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
@@ -41,9 +42,9 @@ import ordenadores.Ordenadores;
 import utils.JLabelGraficoAjustado;
 
 public class VentanaVentas extends JFrame {
-	
+
 	private static final long serialVersionUID = 1L;
-	
+
 	JScrollPane scrollPaneOrdenadores;
 	JScrollPane scrollPaneElectrodomesticos;
 	JScrollPane scrollPaneMoviles;
@@ -68,22 +69,22 @@ public class VentanaVentas extends JFrame {
 	ArrayList<Ordenadores> arrayOrdenadores = new ArrayList<Ordenadores>();
 	DefaultListModel<Articulo> modeloCompra;
 	double total;
-	
-	
+
+
 	VentanaVentas() {
 		getContentPane().setFont(new Font("Tahoma", Font.BOLD, 14));
 		setIconImage(Toolkit.getDefaultToolkit().getImage(""));
-		setDefaultCloseOperation( VentanaInicio.DISPOSE_ON_CLOSE );
+		setDefaultCloseOperation( VentanaVentas.DISPOSE_ON_CLOSE );
 		setTitle("eShop");
 		this.setExtendedState(MAXIMIZED_BOTH);
 		this.setSize(1000, 800);
 		this.setLocationRelativeTo(null);
 		setResizable(false);
-		
+
 		/////////////////////////////////////////////////////////////////////
-		
+
 		//Log
-		
+
 		logger = Logger.getLogger( VentanaVentas.class.getName() ); 
 		try {
 			FileHandler fh = new FileHandler("data/logger.log");
@@ -95,9 +96,9 @@ public class VentanaVentas extends JFrame {
 		}
 
 		/////////////////////////////////////////////////////////////////////////////////
-		
+
 		//Paneles
-		
+
 		pNorth = new JPanel();
 		pNorth.setLayout(new BorderLayout());
 
@@ -120,31 +121,31 @@ public class VentanaVentas extends JFrame {
 
 		pCenter = new JPanel();
 		pCenter.setLayout(new BorderLayout());
-		
+
 		ArrayMoviles am = new ArrayMoviles();
 		arrayMoviles = am.devolverArrayMoviles();
-		
+
 		ArrayOrdenadores ao = new ArrayOrdenadores();
 		arrayOrdenadores = ao.devolverArrayOrdenadores();
-		
+
 		ArrayElectrodomesticos ae = new ArrayElectrodomesticos();
 		arrayElectrodomesticos = ae.devolverArrayElectrodomesticos();
-		
+
 		pMoviles = new JPanel();
 		pMoviles.setLayout(new GridLayout(3,3));
 		scrollPaneMoviles = new JScrollPane(pMoviles, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,  ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 		pMoviles.setBackground(Color.WHITE);
-		
+
 		pOrdenadores = new JPanel();
 		pOrdenadores.setLayout(new GridLayout(3,3));
 		scrollPaneOrdenadores = new JScrollPane(pOrdenadores, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,  ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 		pOrdenadores.setBackground(Color.WHITE);
-		
+
 		pElectrodomesticos = new JPanel();
 		pElectrodomesticos.setLayout(new GridLayout(3,3));
 		scrollPaneElectrodomesticos = new JScrollPane(pElectrodomesticos, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,  ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 		pElectrodomesticos.setBackground(Color.WHITE);
-		
+
 		pestañas = new JTabbedPane();
 		pestañas.setFont(new Font("Tahoma", Font.BOLD, 26));
 
@@ -172,7 +173,7 @@ public class VentanaVentas extends JFrame {
 
 		pestañas.setForegroundAt(index3, Color.BLACK);
 		pestañas.setBackgroundAt(index3, Color.YELLOW);
-		
+
 		getContentPane().add(pCenter, BorderLayout.CENTER);
 
 		getContentPane().add(pNorth, BorderLayout.NORTH);
@@ -182,7 +183,7 @@ public class VentanaVentas extends JFrame {
 		getContentPane().add(pEast, BorderLayout.EAST);
 
 		getContentPane().add(pSouth, BorderLayout.SOUTH);
-		
+
 		pNorth.add(logo, BorderLayout.WEST);
 		//pNorth.add(carrito, BorderLayout.EAST);
 		pCenter.add(pestañas);
@@ -192,28 +193,28 @@ public class VentanaVentas extends JFrame {
 		pWest.setBackground(new Color(51-204-255));
 		pSouth.setBackground(new Color(51-204-255));
 		pSouth.add(copyright);
-		
+
 		pestañas.addChangeListener(new ChangeListener() {
-		    public void stateChanged(ChangeEvent e) {
-		    	String pestaña_actual = "";
-		    	if(pestañas.getSelectedIndex() == 0) {
-		    		pestaña_actual = "Moviles";
-		    	}
-		    	if(pestañas.getSelectedIndex() == 1) {
-		    		pestaña_actual = "Ordenadores";
-		    	}
-		    	if(pestañas.getSelectedIndex() == 2) {
-		    		pestaña_actual = "Electrodomesticos";
-		    	}
-		        logger.log(Level.INFO, "Tab: " + pestaña_actual);
-		    }
+			public void stateChanged(ChangeEvent e) {
+				String pestaña_actual = "";
+				if(pestañas.getSelectedIndex() == 0) {
+					pestaña_actual = "Moviles";
+				}
+				if(pestañas.getSelectedIndex() == 1) {
+					pestaña_actual = "Ordenadores";
+				}
+				if(pestañas.getSelectedIndex() == 2) {
+					pestaña_actual = "Electrodomesticos";
+				}
+				logger.log(Level.INFO, "Tab: " + pestaña_actual);
+			}
 		});
 		/////////////////////////////////////////////////////////////////////
-		
+
 		//Cesta
-		
+
 		modelo = new DefaultListModel<Articulo>();
-		
+
 		JList<Articulo> lista = new JList<Articulo>();
 		lista.setFont(new Font("Tahoma", Font.BOLD, 12));
 		JScrollPane scrollPaneLista = new JScrollPane(lista);
@@ -234,12 +235,12 @@ public class VentanaVentas extends JFrame {
 		gbc_lista.gridx = 0;
 		gbc_lista.gridy = 1;
 		pEast.add(scrollPaneLista, gbc_lista);
-		
+
 		//Articulo articulo = new Articulo("Pavilion 2500", 22012, "Ordenador", 200, "Hp", "");
 		//Electrodomesticos e = new Electrodomesticos("e", 1, "fdf", 123, "qd", "null", "ff", 12, 123);
 		//modelo.add(0, articulo);
 		//modelo.add(0, e);
-		
+
 		/////////////////////////////////////////////////////////////////////		
 		for(int a = 0; a < arrayMoviles.size(); a++){
 			jlabelMoviles = new JLabelGraficoAjustado(arrayMoviles.get(a).getImagen(), 350, 200);
@@ -247,8 +248,15 @@ public class VentanaVentas extends JFrame {
 			jlabelMoviles.addMouseListener(new MouseListener() {
 				@Override
 				public void mouseClicked(MouseEvent e) {
-					modelo.add(0, arrayMoviles.get(pos));
-					total += arrayMoviles.get(pos).getImporte();
+					if (SwingUtilities.isRightMouseButton(e)){
+						JOptionPane.showMessageDialog(null, "Marca: " + arrayMoviles.get(pos).getMarca() + " Resolución: " + arrayMoviles.get(pos).getResolucion() + 
+								" Sistema Operativo: " + arrayMoviles.get(pos).getSisOperativo() + " Pantalla: " + arrayMoviles.get(pos).getPantalla() + " Precio: " + arrayMoviles.get(pos).getImporte()  + " $");
+					}
+					else {
+						modelo.add(0, arrayMoviles.get(pos));
+						total += arrayMoviles.get(pos).getImporte();
+					}
+
 				}
 				@Override
 				public void mousePressed(MouseEvent e) {}
@@ -258,7 +266,7 @@ public class VentanaVentas extends JFrame {
 				public void mouseEntered(MouseEvent e) {}
 				@Override
 				public void mouseExited(MouseEvent e) {}
-				
+
 			});
 			pMoviles.add(jlabelMoviles);
 		}
@@ -268,8 +276,16 @@ public class VentanaVentas extends JFrame {
 			jlabelElectrodomesticos.addMouseListener(new MouseListener() {
 				@Override
 				public void mouseClicked(MouseEvent e) {
-					modelo.add(0, arrayElectrodomesticos.get(pos));
-					total += arrayElectrodomesticos.get(pos).getImporte();
+					if (SwingUtilities.isRightMouseButton(e)){
+						JOptionPane.showMessageDialog(null, "Marca: " + arrayElectrodomesticos.get(pos).getMarca() + " Nombre: " + arrayElectrodomesticos.get(pos).getNombre() + 
+								" Peso: " + arrayElectrodomesticos.get(pos).getPeso() + " kg " + " Tamaño: " + arrayElectrodomesticos.get(pos).getTamaño()+ " Tipo: " + arrayElectrodomesticos.get(pos).getTipo()
+								+ " Precio: " + arrayElectrodomesticos.get(pos).getImporte() + " $");
+					}
+					else {
+						modelo.add(0, arrayElectrodomesticos.get(pos));
+						total += arrayElectrodomesticos.get(pos).getImporte();
+					}
+
 				}
 				@Override
 				public void mousePressed(MouseEvent e) {}
@@ -279,7 +295,7 @@ public class VentanaVentas extends JFrame {
 				public void mouseEntered(MouseEvent e) {}
 				@Override
 				public void mouseExited(MouseEvent e) {}
-				
+
 			});
 			pElectrodomesticos.add(jlabelElectrodomesticos);		
 		}
@@ -289,8 +305,17 @@ public class VentanaVentas extends JFrame {
 			jlabelOrdenadores.addMouseListener(new MouseListener() {
 				@Override
 				public void mouseClicked(MouseEvent e) {
-					modelo.add(0, arrayOrdenadores.get(pos));
-					total += arrayOrdenadores.get(pos).getImporte();
+					if (SwingUtilities.isRightMouseButton(e)){
+						System.out.println("ventana");
+						JOptionPane.showMessageDialog(null, "Marca: " + arrayOrdenadores.get(pos).getMarca() + " Procesador: " + arrayOrdenadores.get(pos).getProcesador() + 
+								" Gráfica: " + arrayOrdenadores.get(pos).getGrafica() + " Pantalla: " + arrayOrdenadores.get(pos).getPantalla()+ " Precio: " + arrayOrdenadores.get(pos).getImporte() + " $");
+					}
+					else {
+						modelo.add(0, arrayOrdenadores.get(pos));
+						total += arrayOrdenadores.get(pos).getImporte();
+					}
+
+
 				}
 				@Override
 				public void mousePressed(MouseEvent e) {}
@@ -300,13 +325,13 @@ public class VentanaVentas extends JFrame {
 				public void mouseEntered(MouseEvent e) {}
 				@Override
 				public void mouseExited(MouseEvent e) {}
-				
+
 			});
 			pOrdenadores.add(jlabelOrdenadores);
 		}
-		
+
 		///////////////////////////////////////////////////////////////////////////////////////
-		
+
 		JButton btnEliminar = new JButton("Eliminar");
 
 		GridBagConstraints gbc_btnEliminar = new GridBagConstraints();
@@ -318,7 +343,7 @@ public class VentanaVentas extends JFrame {
 		btnEliminar.setBackground(Color.RED);
 		btnEliminar.setFocusable(false);
 		btnEliminar.addActionListener(new ActionListener() {
-			
+
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				modelo = ((DefaultListModel<Articulo>)lista.getModel());
@@ -330,13 +355,13 @@ public class VentanaVentas extends JFrame {
 					int pos = lista.getSelectedIndex();
 					total -= modelo.get(pos).getImporte();
 					modelo.removeElementAt(pos);
-					
+
 				}
 			}
 		});
-		
+
 		///////////////////////////////////////////////////////////////////////////////////////
-		
+
 		JButton btnValidar = new JButton("Comprar");
 		GridBagConstraints gbc_btnValidar = new GridBagConstraints();
 		gbc_btnValidar.fill = GridBagConstraints.BOTH;
@@ -347,7 +372,7 @@ public class VentanaVentas extends JFrame {
 		btnValidar.setBackground(Color.GREEN);
 		btnValidar.setFocusable(false);
 		btnValidar.addActionListener(new ActionListener() {
-			
+
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				modelo = ((DefaultListModel<Articulo>)lista.getModel());
@@ -367,7 +392,7 @@ public class VentanaVentas extends JFrame {
 				}
 			}
 		});
-		
+
 	}
 
 	public static void main(String[] args) {

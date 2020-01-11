@@ -6,13 +6,13 @@ public class Ordenadores extends Articulo{
 	
 	private String procesador;
 	private String grafica;
-	private double panatalla;
+	private double pantalla;
 	
-	public Ordenadores(String nombre, int codArt, String descripcion, double importe, String marca,String imagen, String procesador, String grafica, double panatalla) {
+	public Ordenadores(String nombre, int codArt, String descripcion, double importe, String marca,String imagen, String procesador, String grafica, double pantalla) {
 		super(nombre, codArt, descripcion, importe, marca, imagen);
 		this.procesador = procesador;
 		this.grafica = grafica;
-		this.panatalla = panatalla;
+		this.pantalla = pantalla;
 	}
 
 	public String getProcesador() {
@@ -31,12 +31,12 @@ public class Ordenadores extends Articulo{
 		this.grafica = grafica;
 	}
 
-	public double getPanatalla() {
-		return panatalla;
+	public double getPantalla() {
+		return pantalla;
 	}
 
-	public void setPanatalla(double panatalla) {
-		this.panatalla = panatalla;
+	public void setPantalla(double pantalla) {
+		this.pantalla = pantalla;
 	}
 	
 	

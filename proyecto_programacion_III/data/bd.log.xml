@@ -1,0 +1,2035 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-10T16:23:09.026033200Z</date>
+  <millis>1575994989026</millis>
+  <nanos>33200</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:23:09.031018300Z</date>
+  <millis>1575994989031</millis>
+  <nanos>18300</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:23:09.033013200Z</date>
+  <millis>1575994989033</millis>
+  <nanos>13200</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:23:09.034010Z</date>
+  <millis>1575994989034</millis>
+  <nanos>10000</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-10T16:25:54.187275300Z</date>
+  <millis>1575995154187</millis>
+  <nanos>275300</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:25:54.212244400Z</date>
+  <millis>1575995154212</millis>
+  <nanos>244400</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:25:54.213274500Z</date>
+  <millis>1575995154213</millis>
+  <nanos>274500</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select * from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:25:54.233337500Z</date>
+  <millis>1575995154233</millis>
+  <nanos>337500</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Usuario values('a@gmail.com', '1234')</message>
+</record>
+<record>
+  <date>2019-12-10T16:26:06.022697600Z</date>
+  <millis>1575995166022</millis>
+  <nanos>697600</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:26:06.047758100Z</date>
+  <millis>1575995166047</millis>
+  <nanos>758100</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:26:06.048744100Z</date>
+  <millis>1575995166048</millis>
+  <nanos>744100</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:26:06.049768500Z</date>
+  <millis>1575995166049</millis>
+  <nanos>768500</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-10T16:31:20.734372Z</date>
+  <millis>1575995480734</millis>
+  <nanos>372000</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:31:20.738370800Z</date>
+  <millis>1575995480738</millis>
+  <nanos>370800</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:31:20.739333400Z</date>
+  <millis>1575995480739</millis>
+  <nanos>333400</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:31:20.740331100Z</date>
+  <millis>1575995480740</millis>
+  <nanos>331100</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2019-12-10T16:31:25.512778400Z</date>
+  <millis>1575995485512</millis>
+  <nanos>778400</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:31:25.514772800Z</date>
+  <millis>1575995485514</millis>
+  <nanos>772800</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:31:25.514772800Z</date>
+  <millis>1575995485514</millis>
+  <nanos>772800</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:31:25.515770100Z</date>
+  <millis>1575995485515</millis>
+  <nanos>770100</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2019-12-10T16:31:49.160935900Z</date>
+  <millis>1575995509160</millis>
+  <nanos>935900</nanos>
+  <sequence>13</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:31:49.162963600Z</date>
+  <millis>1575995509162</millis>
+  <nanos>963600</nanos>
+  <sequence>14</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:31:49.163976800Z</date>
+  <millis>1575995509163</millis>
+  <nanos>976800</nanos>
+  <sequence>15</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select * from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:31:54.884793200Z</date>
+  <millis>1575995514884</millis>
+  <nanos>793200</nanos>
+  <sequence>17</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:31:54.885790800Z</date>
+  <millis>1575995514885</millis>
+  <nanos>790800</nanos>
+  <sequence>18</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:31:54.886787900Z</date>
+  <millis>1575995514886</millis>
+  <nanos>787900</nanos>
+  <sequence>19</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select * from Usuario where nombre ='ab@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:31:54.909990700Z</date>
+  <millis>1575995514909</millis>
+  <nanos>990700</nanos>
+  <sequence>20</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Usuario values('ab@gmail.com', '1234')</message>
+</record>
+<record>
+  <date>2019-12-10T16:31:59.388698300Z</date>
+  <millis>1575995519388</millis>
+  <nanos>698300</nanos>
+  <sequence>22</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:31:59.389686800Z</date>
+  <millis>1575995519389</millis>
+  <nanos>686800</nanos>
+  <sequence>23</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:31:59.390715500Z</date>
+  <millis>1575995519390</millis>
+  <nanos>715500</nanos>
+  <sequence>24</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='ab@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:31:59.391698200Z</date>
+  <millis>1575995519391</millis>
+  <nanos>698200</nanos>
+  <sequence>25</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2019-12-10T16:32:01.237280400Z</date>
+  <millis>1575995521237</millis>
+  <nanos>280400</nanos>
+  <sequence>27</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:32:01.238277700Z</date>
+  <millis>1575995521238</millis>
+  <nanos>277700</nanos>
+  <sequence>28</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:32:01.239242700Z</date>
+  <millis>1575995521239</millis>
+  <nanos>242700</nanos>
+  <sequence>29</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='ab@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:32:01.239242700Z</date>
+  <millis>1575995521239</millis>
+  <nanos>242700</nanos>
+  <sequence>30</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2019-12-10T16:32:05.708798200Z</date>
+  <millis>1575995525708</millis>
+  <nanos>798200</nanos>
+  <sequence>32</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:32:05.709794800Z</date>
+  <millis>1575995525709</millis>
+  <nanos>794800</nanos>
+  <sequence>33</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:32:05.710792200Z</date>
+  <millis>1575995525710</millis>
+  <nanos>792200</nanos>
+  <sequence>34</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='ab@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:32:05.710792200Z</date>
+  <millis>1575995525710</millis>
+  <nanos>792200</nanos>
+  <sequence>35</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2019-12-10T16:32:09.520781300Z</date>
+  <millis>1575995529520</millis>
+  <nanos>781300</nanos>
+  <sequence>37</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:32:09.521782500Z</date>
+  <millis>1575995529521</millis>
+  <nanos>782500</nanos>
+  <sequence>38</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:32:09.522775500Z</date>
+  <millis>1575995529522</millis>
+  <nanos>775500</nanos>
+  <sequence>39</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='ab@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:32:09.522775500Z</date>
+  <millis>1575995529522</millis>
+  <nanos>775500</nanos>
+  <sequence>40</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-10T16:33:27.064865600Z</date>
+  <millis>1575995607064</millis>
+  <nanos>865600</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:33:27.068853700Z</date>
+  <millis>1575995607068</millis>
+  <nanos>853700</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:33:27.070848400Z</date>
+  <millis>1575995607070</millis>
+  <nanos>848400</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:33:27.071821800Z</date>
+  <millis>1575995607071</millis>
+  <nanos>821800</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-10T16:33:43.956933100Z</date>
+  <millis>1575995623956</millis>
+  <nanos>933100</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:33:43.961886600Z</date>
+  <millis>1575995623961</millis>
+  <nanos>886600</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:33:43.962883400Z</date>
+  <millis>1575995623962</millis>
+  <nanos>883400</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:33:43.963880600Z</date>
+  <millis>1575995623963</millis>
+  <nanos>880600</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña =''</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-10T16:33:58.191943800Z</date>
+  <millis>1575995638191</millis>
+  <nanos>943800</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:33:58.196929900Z</date>
+  <millis>1575995638196</millis>
+  <nanos>929900</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:33:58.197927500Z</date>
+  <millis>1575995638197</millis>
+  <nanos>927500</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:33:58.198941400Z</date>
+  <millis>1575995638198</millis>
+  <nanos>941400</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña =''</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-10T16:34:16.724609900Z</date>
+  <millis>1575995656724</millis>
+  <nanos>609900</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:34:16.728630900Z</date>
+  <millis>1575995656728</millis>
+  <nanos>630900</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:34:16.729621900Z</date>
+  <millis>1575995656729</millis>
+  <nanos>621900</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:34:16.730619500Z</date>
+  <millis>1575995656730</millis>
+  <nanos>619500</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña =''</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-10T16:35:37.376525900Z</date>
+  <millis>1575995737376</millis>
+  <nanos>525900</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:35:37.380512300Z</date>
+  <millis>1575995737380</millis>
+  <nanos>512300</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:35:37.381474200Z</date>
+  <millis>1575995737381</millis>
+  <nanos>474200</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:35:37.382514800Z</date>
+  <millis>1575995737382</millis>
+  <nanos>514800</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-10T16:36:27.415680900Z</date>
+  <millis>1575995787415</millis>
+  <nanos>680900</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:36:27.440407300Z</date>
+  <millis>1575995787440</millis>
+  <nanos>407300</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:36:27.442404700Z</date>
+  <millis>1575995787442</millis>
+  <nanos>404700</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select * from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:36:27.462537500Z</date>
+  <millis>1575995787462</millis>
+  <nanos>537500</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Usuario values('a@gmail.com', '1234')</message>
+</record>
+<record>
+  <date>2019-12-10T16:36:35.194589400Z</date>
+  <millis>1575995795194</millis>
+  <nanos>589400</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:36:35.219462500Z</date>
+  <millis>1575995795219</millis>
+  <nanos>462500</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:36:35.220459900Z</date>
+  <millis>1575995795220</millis>
+  <nanos>459900</nanos>
+  <sequence>11</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:36:35.221489Z</date>
+  <millis>1575995795221</millis>
+  <nanos>489000</nanos>
+  <sequence>12</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2019-12-10T16:36:38.029932900Z</date>
+  <millis>1575995798029</millis>
+  <nanos>932900</nanos>
+  <sequence>14</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:36:38.032924Z</date>
+  <millis>1575995798032</millis>
+  <nanos>924000</nanos>
+  <sequence>15</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:36:38.033920600Z</date>
+  <millis>1575995798033</millis>
+  <nanos>920600</nanos>
+  <sequence>16</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:36:38.034918700Z</date>
+  <millis>1575995798034</millis>
+  <nanos>918700</nanos>
+  <sequence>17</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-10T16:38:20.226567400Z</date>
+  <millis>1575995900226</millis>
+  <nanos>567400</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:38:20.252017500Z</date>
+  <millis>1575995900252</millis>
+  <nanos>17500</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:38:20.253014800Z</date>
+  <millis>1575995900253</millis>
+  <nanos>14800</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select * from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:38:20.271540800Z</date>
+  <millis>1575995900271</millis>
+  <nanos>540800</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Usuario values('a@gmail.com', '1234')</message>
+</record>
+<record>
+  <date>2019-12-10T16:38:25.073882700Z</date>
+  <millis>1575995905073</millis>
+  <nanos>882700</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2019-12-10T16:38:25.077903500Z</date>
+  <millis>1575995905077</millis>
+  <nanos>903500</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-10T16:38:25.078867800Z</date>
+  <millis>1575995905078</millis>
+  <nanos>867800</nanos>
+  <sequence>11</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-10T16:38:25.078867800Z</date>
+  <millis>1575995905078</millis>
+  <nanos>867800</nanos>
+  <sequence>12</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-11T15:15:27.803887400Z</date>
+  <millis>1576077327803</millis>
+  <nanos>887400</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2019-12-11T15:15:27.813154500Z</date>
+  <millis>1576077327813</millis>
+  <nanos>154500</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-11T15:15:27.815182Z</date>
+  <millis>1576077327815</millis>
+  <nanos>182000</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select * from Usuario where nombre ='xxsw'</message>
+</record>
+<record>
+  <date>2019-12-11T15:15:27.840650500Z</date>
+  <millis>1576077327840</millis>
+  <nanos>650500</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Usuario values('xxsw', 'swxsw')</message>
+</record>
+<record>
+  <date>2019-12-11T15:15:40.531409Z</date>
+  <millis>1576077340531</millis>
+  <nanos>409000</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2019-12-11T15:15:40.539175800Z</date>
+  <millis>1576077340539</millis>
+  <nanos>175800</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2019-12-11T15:15:40.540325400Z</date>
+  <millis>1576077340540</millis>
+  <nanos>325400</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2019-12-11T15:15:40.541352700Z</date>
+  <millis>1576077340541</millis>
+  <nanos>352700</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-07T17:53:04.159278800Z</date>
+  <millis>1578419584159</millis>
+  <nanos>278800</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-07T17:53:04.164406300Z</date>
+  <millis>1578419584164</millis>
+  <nanos>406300</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-07T17:53:04.166401200Z</date>
+  <millis>1578419584166</millis>
+  <nanos>401200</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-07T17:53:04.168396400Z</date>
+  <millis>1578419584168</millis>
+  <nanos>396400</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-07T18:50:39.012076800Z</date>
+  <millis>1578423039012</millis>
+  <nanos>76800</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos Database</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-07T19:11:54.191908Z</date>
+  <millis>1578424314191</millis>
+  <nanos>908000</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos Database</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-07T19:34:07.956460700Z</date>
+  <millis>1578425647956</millis>
+  <nanos>460700</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-07T19:34:07.961447500Z</date>
+  <millis>1578425647961</millis>
+  <nanos>447500</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-07T19:34:07.962445100Z</date>
+  <millis>1578425647962</millis>
+  <nanos>445100</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-07T19:34:07.963456700Z</date>
+  <millis>1578425647963</millis>
+  <nanos>456700</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-11T15:48:55.326727400Z</date>
+  <millis>1578757735326</millis>
+  <nanos>727400</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T15:48:55.352659100Z</date>
+  <millis>1578757735352</millis>
+  <nanos>659100</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T15:48:55.354620400Z</date>
+  <millis>1578757735354</millis>
+  <nanos>620400</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-11T15:48:55.355618500Z</date>
+  <millis>1578757735355</millis>
+  <nanos>618500</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-11T15:49:49.206527800Z</date>
+  <millis>1578757789206</millis>
+  <nanos>527800</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T15:49:49.229466800Z</date>
+  <millis>1578757789229</millis>
+  <nanos>466800</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T15:49:49.230464400Z</date>
+  <millis>1578757789230</millis>
+  <nanos>464400</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2020-01-11T15:49:49.232461500Z</date>
+  <millis>1578757789232</millis>
+  <nanos>461500</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select nombre from Usuario where contraseña ='a@gmail.com'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-11T15:50:07.411592500Z</date>
+  <millis>1578757807411</millis>
+  <nanos>592500</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T15:50:07.432501Z</date>
+  <millis>1578757807432</millis>
+  <nanos>501000</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T15:50:07.434531400Z</date>
+  <millis>1578757807434</millis>
+  <nanos>531400</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2020-01-11T15:50:07.435526200Z</date>
+  <millis>1578757807435</millis>
+  <nanos>526200</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select nombre from Usuario where contraseña ='a@gmail.com'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-11T15:50:18.078431400Z</date>
+  <millis>1578757818078</millis>
+  <nanos>431400</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T15:50:18.098345300Z</date>
+  <millis>1578757818098</millis>
+  <nanos>345300</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T15:50:18.100341900Z</date>
+  <millis>1578757818100</millis>
+  <nanos>341900</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-11T15:50:18.101337400Z</date>
+  <millis>1578757818101</millis>
+  <nanos>337400</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2020-01-11T15:50:18.102368Z</date>
+  <millis>1578757818102</millis>
+  <nanos>368000</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select nombre from Usuario where contraseña ='a@gmail.com'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-11T15:50:44.688162400Z</date>
+  <millis>1578757844688</millis>
+  <nanos>162400</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T15:50:44.709079500Z</date>
+  <millis>1578757844709</millis>
+  <nanos>79500</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T15:50:44.712088200Z</date>
+  <millis>1578757844712</millis>
+  <nanos>88200</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-11T15:50:44.713069100Z</date>
+  <millis>1578757844713</millis>
+  <nanos>69100</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2020-01-11T15:50:44.714066500Z</date>
+  <millis>1578757844714</millis>
+  <nanos>66500</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select nombre from Usuario where contraseña ='a@gmail.com'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-11T15:50:55.356821700Z</date>
+  <millis>1578757855356</millis>
+  <nanos>821700</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T15:50:55.376769600Z</date>
+  <millis>1578757855376</millis>
+  <nanos>769600</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T15:50:55.378763700Z</date>
+  <millis>1578757855378</millis>
+  <nanos>763700</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-11T15:50:55.379766300Z</date>
+  <millis>1578757855379</millis>
+  <nanos>766300</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2020-01-11T15:50:55.380759400Z</date>
+  <millis>1578757855380</millis>
+  <nanos>759400</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select nombre from Usuario where contraseña ='a@gmail.com'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-11T15:51:30.251030200Z</date>
+  <millis>1578757890251</millis>
+  <nanos>30200</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T15:51:30.271013700Z</date>
+  <millis>1578757890271</millis>
+  <nanos>13700</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T15:51:30.273006500Z</date>
+  <millis>1578757890273</millis>
+  <nanos>6500</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select nombre from Usuario where contraseña ='a@gmail.com'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-11T15:51:48.224018200Z</date>
+  <millis>1578757908224</millis>
+  <nanos>18200</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T15:51:48.244929700Z</date>
+  <millis>1578757908244</millis>
+  <nanos>929700</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T15:51:48.245927900Z</date>
+  <millis>1578757908245</millis>
+  <nanos>927900</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-11T15:53:41.359944800Z</date>
+  <millis>1578758021359</millis>
+  <nanos>944800</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T15:53:41.391193200Z</date>
+  <millis>1578758021391</millis>
+  <nanos>193200</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T15:53:41.406844600Z</date>
+  <millis>1578758021406</millis>
+  <nanos>844600</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Usuario values('b@gmail.com', '4321')</message>
+</record>
+<record>
+  <date>2020-01-11T15:53:41.406844600Z</date>
+  <millis>1578758021406</millis>
+  <nanos>844600</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select contraseña from Usuario where nombre ='b@gmail.com'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-11T15:55:43.280145600Z</date>
+  <millis>1578758143280</millis>
+  <nanos>145600</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T15:55:43.311366Z</date>
+  <millis>1578758143311</millis>
+  <nanos>366000</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T15:55:43.327019Z</date>
+  <millis>1578758143327</millis>
+  <nanos>19000</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Usuario values('b@gmail.com', '4321')</message>
+</record>
+<record>
+  <date>2020-01-11T15:55:43.327019Z</date>
+  <millis>1578758143327</millis>
+  <nanos>19000</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select contraseña from Usuario where nombre ='b@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-11T15:55:43.327019Z</date>
+  <millis>1578758143327</millis>
+  <nanos>19000</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select * from Usuario where nombre ='b@gmail.com'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-11T15:56:48.473353Z</date>
+  <millis>1578758208473</millis>
+  <nanos>353000</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T15:56:48.490134500Z</date>
+  <millis>1578758208490</millis>
+  <nanos>134500</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T15:56:48.529126500Z</date>
+  <millis>1578758208529</millis>
+  <nanos>126500</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Usuario values('b@gmail.com', '4321')</message>
+</record>
+<record>
+  <date>2020-01-11T15:56:48.531109800Z</date>
+  <millis>1578758208531</millis>
+  <nanos>109800</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select contraseña from Usuario where nombre ='b@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-11T15:56:48.532109800Z</date>
+  <millis>1578758208532</millis>
+  <nanos>109800</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select * from Usuario where nombre ='b@gmail.com'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-11T15:56:59.940755900Z</date>
+  <millis>1578758219940</millis>
+  <nanos>755900</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T15:56:59.940755900Z</date>
+  <millis>1578758219940</millis>
+  <nanos>755900</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T15:56:59.956377600Z</date>
+  <millis>1578758219956</millis>
+  <nanos>377600</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-11T15:56:59.956377600Z</date>
+  <millis>1578758219956</millis>
+  <nanos>377600</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-11T15:59:05.544332400Z</date>
+  <millis>1578758345544</millis>
+  <nanos>332400</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T15:59:05.544332400Z</date>
+  <millis>1578758345544</millis>
+  <nanos>332400</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T15:59:05.559954400Z</date>
+  <millis>1578758345559</millis>
+  <nanos>954400</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-11T15:59:05.559954400Z</date>
+  <millis>1578758345559</millis>
+  <nanos>954400</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-11T16:36:09.575491800Z</date>
+  <millis>1578760569575</millis>
+  <nanos>491800</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>19</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T16:36:09.579515500Z</date>
+  <millis>1578760569579</millis>
+  <nanos>515500</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>19</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T16:36:09.581477Z</date>
+  <millis>1578760569581</millis>
+  <nanos>477000</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>19</thread>
+  <message>BD	select * from Usuario where nombre ='adsa'</message>
+</record>
+<record>
+  <date>2020-01-11T16:36:09.607063800Z</date>
+  <millis>1578760569607</millis>
+  <nanos>63800</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>19</thread>
+  <message>BD fila añadida 1 fila	insert into Usuario values('adsa', 'sadsads')</message>
+</record>
+</log>
