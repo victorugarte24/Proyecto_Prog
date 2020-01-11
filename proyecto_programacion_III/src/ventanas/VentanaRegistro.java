@@ -46,7 +46,7 @@ public class VentanaRegistro extends JFrame {
 		setSize(700, 500);
 		this.setLocationRelativeTo(null);
 		setResizable(false);
-		this.getContentPane().setBackground(Color.orange);
+		this.getContentPane().setBackground(new Color(51-204-255));
 		getContentPane().setLayout(null);
 		
 		logger = Logger.getLogger( VentanaVentas.class.getName() ); 
@@ -85,7 +85,7 @@ public class VentanaRegistro extends JFrame {
 		getContentPane().add(lblContrasea);
 
 		JCheckBox chckbxNewCheckBox = new JCheckBox("");
-		chckbxNewCheckBox.setBackground(Color.ORANGE);
+		chckbxNewCheckBox.setBackground(new Color(51-204-255));
 		chckbxNewCheckBox.setFocusable(false);
 		chckbxNewCheckBox.setBounds(432, 408, 21, 21);
 		getContentPane().add(chckbxNewCheckBox);

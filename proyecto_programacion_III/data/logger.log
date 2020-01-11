@@ -1,28 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
-<record>
-  <date>2020-01-11T16:41:57.131280500Z</date>
-  <millis>1578760917131</millis>
-  <nanos>280500</nanos>
-  <sequence>0</sequence>
-  <logger>ventanas.VentanaVentas</logger>
-  <level>INFO</level>
-  <class>ventanas.VentanaVentas$1</class>
-  <method>stateChanged</method>
-  <thread>17</thread>
-  <message>Tab: Ordenadores</message>
-</record>
-<record>
-  <date>2020-01-11T16:42:00.143540900Z</date>
-  <millis>1578760920143</millis>
-  <nanos>540900</nanos>
-  <sequence>1</sequence>
-  <logger>ventanas.VentanaVentas</logger>
-  <level>INFO</level>
-  <class>ventanas.VentanaVentas$1</class>
-  <method>stateChanged</method>
-  <thread>17</thread>
-  <message>Tab: Electrodomesticos</message>
-</record>
 </log>

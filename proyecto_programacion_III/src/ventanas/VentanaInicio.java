@@ -47,7 +47,7 @@ public class VentanaInicio extends JFrame {
 		setSize(650, 450);
 		this.setLocationRelativeTo(null);
 		setResizable(false);
-		this.getContentPane().setBackground(Color.orange);
+		this.getContentPane().setBackground(new Color(51-204-255));
 		getContentPane().setLayout(null);
 		
 		logger = Logger.getLogger( VentanaVentas.class.getName() ); 
@@ -62,7 +62,7 @@ public class VentanaInicio extends JFrame {
 
 		JCheckBox chckbxRecuerdame = new JCheckBox("Recúerdame");
 		chckbxRecuerdame.setBounds(504, 363, 101, 25);
-		chckbxRecuerdame.setBackground(Color.ORANGE);
+		chckbxRecuerdame.setBackground(new Color(51-204-255));
 		getContentPane().add(chckbxRecuerdame);
 		
 		JButton btnNewButton = new JButton("Iniciar Sesion");
