@@ -79,8 +79,8 @@ public class VentanaInicio extends JFrame {
 				String selectNombre = BD.usuariosSelect(st, valorPass); //usuario		
 				
 				if(valorPass.equals("password") && nombre.equals("admin")) {
-					//Ventana_Administrador v = new Ventana_Administrador();
-					//v.setVisible(true);
+					VentanaAdministrador v = new VentanaAdministrador();
+					v.setVisible(true);
 
 				}
 				else {
