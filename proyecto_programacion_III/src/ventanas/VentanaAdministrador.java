@@ -9,6 +9,8 @@ import java.awt.Insets;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.Connection;
+import java.sql.Statement;
 import java.util.logging.Level;
 
 import javax.swing.JFrame;
@@ -19,6 +21,9 @@ import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 
 import bd.BD;
+import electrodomesticos.Electrodomesticos;
+import moviles.Moviles;
+import ordenadores.Ordenadores;
 import usuario.Usuario;
 
 import javax.swing.DefaultComboBoxModel;
@@ -218,10 +223,10 @@ public class VentanaAdministrador extends JFrame{
 		pOrdenadores.add(textField13);
 		textField13.setColumns(10);
 		
-		JLabel pantallaOrdenador = new JLabel("Pantalla: ");
-		pantallaOrdenador.setFont(new Font("Tahoma", Font.BOLD, 14));
-		pantallaOrdenador.setSize(171, 20);
-		pOrdenadores.add(pantallaOrdenador);
+		JLabel imagenOrdenador = new JLabel("Imagen: ");
+		imagenOrdenador.setFont(new Font("Tahoma", Font.BOLD, 14));
+		imagenOrdenador.setSize(171, 20);
+		pOrdenadores.add(imagenOrdenador);
 		
 		JTextField textField14 = new JTextField();
 		textField14.setFont(new Font("Tahoma", Font.BOLD, 14));
@@ -229,21 +234,21 @@ public class VentanaAdministrador extends JFrame{
 		pOrdenadores.add(textField14);
 		textField14.setColumns(10);
 		
-		JLabel imagenOrdenador = new JLabel("Imagen: ");
-		imagenOrdenador.setFont(new Font("Tahoma", Font.BOLD, 14));
-		imagenOrdenador.setSize(171, 20);
-		pOrdenadores.add(imagenOrdenador);
+		JLabel procesadorOrdenador = new JLabel("Procesador: ");
+		procesadorOrdenador.setFont(new Font("Tahoma", Font.BOLD, 14));
+		procesadorOrdenador.setSize(171, 20);
+		pOrdenadores.add(procesadorOrdenador);
 		
 		JTextField textField15 = new JTextField();
 		textField15.setFont(new Font("Tahoma", Font.BOLD, 14));
 		textField15.setSize(375, 22);
 		pOrdenadores.add(textField15);
 		textField15.setColumns(10);
-		
-		JLabel procesadorOrdenador = new JLabel("Procesador: ");
-		procesadorOrdenador.setFont(new Font("Tahoma", Font.BOLD, 14));
-		procesadorOrdenador.setSize(171, 20);
-		pOrdenadores.add(procesadorOrdenador);
+
+		JLabel graficaOrdenador = new JLabel("Gráfica: ");
+		graficaOrdenador.setFont(new Font("Tahoma", Font.BOLD, 14));
+		graficaOrdenador.setSize(171, 20);
+		pOrdenadores.add(graficaOrdenador);
 		
 		JTextField textField16 = new JTextField();
 		textField16.setFont(new Font("Tahoma", Font.BOLD, 14));
@@ -251,10 +256,10 @@ public class VentanaAdministrador extends JFrame{
 		pOrdenadores.add(textField16);
 		textField16.setColumns(10);
 		
-		JLabel graficaOrdenador = new JLabel("Gráfica: ");
-		graficaOrdenador.setFont(new Font("Tahoma", Font.BOLD, 14));
-		graficaOrdenador.setSize(171, 20);
-		pOrdenadores.add(graficaOrdenador);
+		JLabel pantallaOrdenador = new JLabel("Pantalla: ");
+		pantallaOrdenador.setFont(new Font("Tahoma", Font.BOLD, 14));
+		pantallaOrdenador.setSize(171, 20);
+		pOrdenadores.add(pantallaOrdenador);
 		
 		JTextField textField17 = new JTextField();
 		textField17.setFont(new Font("Tahoma", Font.BOLD, 14));
@@ -323,10 +328,10 @@ public class VentanaAdministrador extends JFrame{
 		pElectrodomesticos.add(textField22);
 		textField22.setColumns(10);
 		
-		JLabel tipoElectrodomestico = new JLabel("Tipo: ");
-		tipoElectrodomestico.setFont(new Font("Tahoma", Font.BOLD, 14));
-		tipoElectrodomestico.setSize(171, 20);
-		pElectrodomesticos.add(tipoElectrodomestico);
+		JLabel imagenElectrodomestico = new JLabel("Imagen: ");
+		imagenElectrodomestico.setFont(new Font("Tahoma", Font.BOLD, 14));
+		imagenElectrodomestico.setSize(171, 20);
+		pElectrodomesticos.add(imagenElectrodomestico);
 		
 		JTextField textField23 = new JTextField();
 		textField23.setFont(new Font("Tahoma", Font.BOLD, 14));
@@ -334,10 +339,10 @@ public class VentanaAdministrador extends JFrame{
 		pElectrodomesticos.add(textField23);
 		textField23.setColumns(10);
 		
-		JLabel imagenElectrodomestico = new JLabel("Imagen: ");
-		imagenElectrodomestico.setFont(new Font("Tahoma", Font.BOLD, 14));
-		imagenElectrodomestico.setSize(171, 20);
-		pElectrodomesticos.add(imagenElectrodomestico);
+		JLabel tipoElectrodomestico = new JLabel("Tipo: ");
+		tipoElectrodomestico.setFont(new Font("Tahoma", Font.BOLD, 14));
+		tipoElectrodomestico.setSize(171, 20);
+		pElectrodomesticos.add(tipoElectrodomestico);
 		
 		JTextField textField24 = new JTextField();
 		textField24.setFont(new Font("Tahoma", Font.BOLD, 14));
@@ -402,6 +407,22 @@ public class VentanaAdministrador extends JFrame{
 		btnGuardar.setFocusable(false);
 		btnGuardar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				Connection con = BD.initBD("data/Database");
+				if(comboBox.getSelectedIndex() == 0) {
+					Statement st = BD.usarCrearTablaMovil(con);
+					Moviles m = new Moviles(textField.getText(), Integer.parseInt(textField1.getText()), textField2.getText(), Double. parseDouble(textField3.getText()), textField4.getText(), Double. parseDouble(textField5.getText()), textField6.getText(), Integer.parseInt(textField7.getText()), textField8.getText());
+					BD.movilInsert(st, m);
+				}
+				if(comboBox.getSelectedIndex() == 1) {
+					Statement st = BD.usarCrearTablaOrdenador(con);
+					Ordenadores o = new Ordenadores(textField9.getText(), Integer.parseInt(textField10.getText()), textField11.getText(), Double. parseDouble(textField12.getText()), textField13.getText(), textField14.getText(), textField15.getText(), textField16.getText(), Double. parseDouble(textField17.getText()));
+					BD.ordenadorInsert(st, o);
+				}
+				if(comboBox.getSelectedIndex() == 2) {
+					Statement st = BD.usarCrearTablaElectrodomestico(con);
+					Electrodomesticos el = new Electrodomesticos(textField18.getText(), Integer.parseInt(textField19.getText()), textField20.getText(), Double. parseDouble(textField21.getText()), textField22.getText(), textField23.getText(), textField24.getText(), Integer.parseInt(textField25.getText()), Double. parseDouble(textField26.getText()));
+					BD.electrodomesticoInsert(st, el);
+				}
 			}
 		});
 		btnGuardar.setSize(129, 28);

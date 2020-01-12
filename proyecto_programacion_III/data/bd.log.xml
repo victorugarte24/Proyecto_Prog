@@ -2033,3 +2033,3534 @@
   <message>BD fila añadida 1 fila	insert into Usuario values('adsa', 'sadsads')</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-11T18:17:47.907885700Z</date>
+  <millis>1578766667907</millis>
+  <nanos>885700</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T18:17:47.920912100Z</date>
+  <millis>1578766667920</millis>
+  <nanos>912100</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T18:17:47.921910400Z</date>
+  <millis>1578766667921</millis>
+  <nanos>910400</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='admin'</message>
+</record>
+<record>
+  <date>2020-01-11T18:17:47.922908100Z</date>
+  <millis>1578766667922</millis>
+  <nanos>908100</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='password'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-11T18:18:43.908934100Z</date>
+  <millis>1578766723908</millis>
+  <nanos>934100</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T18:18:43.908934100Z</date>
+  <millis>1578766723908</millis>
+  <nanos>934100</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T18:18:43.908934100Z</date>
+  <millis>1578766723908</millis>
+  <nanos>934100</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='admin'</message>
+</record>
+<record>
+  <date>2020-01-11T18:18:43.908934100Z</date>
+  <millis>1578766723908</millis>
+  <nanos>934100</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='dff'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-11T18:19:28.933498800Z</date>
+  <millis>1578766768933</millis>
+  <nanos>498800</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T18:19:28.949131800Z</date>
+  <millis>1578766768949</millis>
+  <nanos>131800</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T18:19:28.949131800Z</date>
+  <millis>1578766768949</millis>
+  <nanos>131800</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-11T18:19:28.949131800Z</date>
+  <millis>1578766768949</millis>
+  <nanos>131800</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='12345'</message>
+</record>
+<record>
+  <date>2020-01-11T18:19:32.539363800Z</date>
+  <millis>1578766772539</millis>
+  <nanos>363800</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T18:19:32.541359100Z</date>
+  <millis>1578766772541</millis>
+  <nanos>359100</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T18:19:32.541359100Z</date>
+  <millis>1578766772541</millis>
+  <nanos>359100</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-11T18:19:32.542356200Z</date>
+  <millis>1578766772542</millis>
+  <nanos>356200</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-11T18:22:25.398364300Z</date>
+  <millis>1578766945398</millis>
+  <nanos>364300</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T18:22:25.402463400Z</date>
+  <millis>1578766945402</millis>
+  <nanos>463400</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T18:22:25.402463400Z</date>
+  <millis>1578766945402</millis>
+  <nanos>463400</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-11T18:22:25.402463400Z</date>
+  <millis>1578766945402</millis>
+  <nanos>463400</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='12345'</message>
+</record>
+<record>
+  <date>2020-01-11T18:22:29.695479800Z</date>
+  <millis>1578766949695</millis>
+  <nanos>479800</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T18:22:29.697503Z</date>
+  <millis>1578766949697</millis>
+  <nanos>503000</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T18:22:29.698503700Z</date>
+  <millis>1578766949698</millis>
+  <nanos>503700</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-11T18:22:29.698503700Z</date>
+  <millis>1578766949698</millis>
+  <nanos>503700</nanos>
+  <sequence>11</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-11T18:47:41.984560Z</date>
+  <millis>1578768461984</millis>
+  <nanos>560000</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-11T18:47:41.988549200Z</date>
+  <millis>1578768461988</millis>
+  <nanos>549200</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-11T18:47:41.989546400Z</date>
+  <millis>1578768461989</millis>
+  <nanos>546400</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-11T18:47:41.990544300Z</date>
+  <millis>1578768461990</millis>
+  <nanos>544300</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T11:13:16.019037900Z</date>
+  <millis>1578827596019</millis>
+  <nanos>37900</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T11:13:16.019037900Z</date>
+  <millis>1578827596019</millis>
+  <nanos>37900</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T11:13:16.034583400Z</date>
+  <millis>1578827596034</millis>
+  <nanos>583400</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select * from Usuario where nombre ='ab@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T11:13:16.097171600Z</date>
+  <millis>1578827596097</millis>
+  <nanos>171600</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Usuario values('ab@gmail.com', '1234')</message>
+</record>
+<record>
+  <date>2020-01-12T11:13:25.966832600Z</date>
+  <millis>1578827605966</millis>
+  <nanos>832600</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T11:13:25.966832600Z</date>
+  <millis>1578827605966</millis>
+  <nanos>832600</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T11:13:25.966832600Z</date>
+  <millis>1578827605966</millis>
+  <nanos>832600</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='ab@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T11:13:25.966832600Z</date>
+  <millis>1578827605966</millis>
+  <nanos>832600</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T11:19:05.360040800Z</date>
+  <millis>1578827945360</millis>
+  <nanos>40800</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T11:19:05.391284900Z</date>
+  <millis>1578827945391</millis>
+  <nanos>284900</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T11:19:05.426651200Z</date>
+  <millis>1578827945426</millis>
+  <nanos>651200</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('LavadoraLGB5', '4149', '', '500.0', 'LG','src/img/ElectrodomesticoLavadoraLG.jpg', 'Lavadora', '100', '200.0')</message>
+</record>
+<record>
+  <date>2020-01-12T11:19:05.429643500Z</date>
+  <millis>1578827945429</millis>
+  <nanos>643500</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select importe from Electrodomestico where codigo ='010065'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T11:20:06.632632900Z</date>
+  <millis>1578828006632</millis>
+  <nanos>632900</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T11:20:06.648278200Z</date>
+  <millis>1578828006648</millis>
+  <nanos>278200</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T11:20:06.663912400Z</date>
+  <millis>1578828006663</millis>
+  <nanos>912400</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('LavadoraLGB5', '4149', '', '500.0', 'LG','src/img/ElectrodomesticoLavadoraLG.jpg', 'Lavadora', '100', '200.0')</message>
+</record>
+<record>
+  <date>2020-01-12T11:20:06.663912400Z</date>
+  <millis>1578828006663</millis>
+  <nanos>912400</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select importe from Electrodomestico where codigo ='010065'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T11:21:54.073676Z</date>
+  <millis>1578828114073</millis>
+  <nanos>676000</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T11:21:54.073676Z</date>
+  <millis>1578828114073</millis>
+  <nanos>676000</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T11:21:54.104963900Z</date>
+  <millis>1578828114104</millis>
+  <nanos>963900</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('LavadoraLGB5', '4149', '', '500.0', 'LG','src/img/ElectrodomesticoLavadoraLG.jpg', 'Lavadora', '100', '200.0')</message>
+</record>
+<record>
+  <date>2020-01-12T11:21:54.104963900Z</date>
+  <millis>1578828114104</millis>
+  <nanos>963900</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select importe from Electrodomestico where codigo ='010065'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T11:22:16.774192600Z</date>
+  <millis>1578828136774</millis>
+  <nanos>192600</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T11:22:16.789813400Z</date>
+  <millis>1578828136789</millis>
+  <nanos>813400</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T11:22:16.805437600Z</date>
+  <millis>1578828136805</millis>
+  <nanos>437600</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('LavadoraLGB5', '4149', '', '500.0', 'LG','src/img/ElectrodomesticoLavadoraLG.jpg', 'Lavadora', '100', '200.0')</message>
+</record>
+<record>
+  <date>2020-01-12T11:22:16.821058700Z</date>
+  <millis>1578828136821</millis>
+  <nanos>58700</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select importe from Electrodomestico where codigo ='4149'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T11:49:17.746166800Z</date>
+  <millis>1578829757746</millis>
+  <nanos>166800</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T11:49:17.780215900Z</date>
+  <millis>1578829757780</millis>
+  <nanos>215900</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T11:49:17.785239100Z</date>
+  <millis>1578829757785</millis>
+  <nanos>239100</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>SEVERE</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Error en BD	insert into Ordenador values('V', '123', 'fdss', '123.0', 'hp','fdsd', '123.0', '12.0', 'S')</message>
+  <exception>
+    <message>org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Ordenador)</message>
+    <frame>
+      <class>org.sqlite.core.DB</class>
+      <method>newSQLException</method>
+      <line>941</line>
+    </frame>
+    <frame>
+      <class>org.sqlite.core.DB</class>
+      <method>newSQLException</method>
+      <line>953</line>
+    </frame>
+    <frame>
+      <class>org.sqlite.core.DB</class>
+      <method>throwex</method>
+      <line>918</line>
+    </frame>
+    <frame>
+      <class>org.sqlite.core.NativeDB</class>
+      <method>_exec_utf8</method>
+    </frame>
+    <frame>
+      <class>org.sqlite.core.NativeDB</class>
+      <method>_exec</method>
+      <line>94</line>
+    </frame>
+    <frame>
+      <class>org.sqlite.jdbc3.JDBC3Statement</class>
+      <method>executeUpdate</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>bd.BD</class>
+      <method>movilInsert</method>
+      <line>249</line>
+    </frame>
+    <frame>
+      <class>ventanas.VentanaAdministrador$2</class>
+      <method>actionPerformed</method>
+      <line>414</line>
+    </frame>
+    <frame>
+      <class>javax.swing.AbstractButton</class>
+      <method>fireActionPerformed</method>
+      <line>1967</line>
+    </frame>
+    <frame>
+      <class>javax.swing.AbstractButton$Handler</class>
+      <method>actionPerformed</method>
+      <line>2308</line>
+    </frame>
+    <frame>
+      <class>javax.swing.DefaultButtonModel</class>
+      <method>fireActionPerformed</method>
+      <line>405</line>
+    </frame>
+    <frame>
+      <class>javax.swing.DefaultButtonModel</class>
+      <method>setPressed</method>
+      <line>262</line>
+    </frame>
+    <frame>
+      <class>javax.swing.plaf.basic.BasicButtonListener</class>
+      <method>mouseReleased</method>
+      <line>279</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>processMouseEvent</method>
+      <line>6636</line>
+    </frame>
+    <frame>
+      <class>javax.swing.JComponent</class>
+      <method>processMouseEvent</method>
+      <line>3342</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>processEvent</method>
+      <line>6401</line>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>processEvent</method>
+      <line>2263</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEventImpl</method>
+      <line>5012</line>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>dispatchEventImpl</method>
+      <line>2321</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEvent</method>
+      <line>4844</line>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>retargetMouseEvent</method>
+      <line>4918</line>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>processMouseEvent</method>
+      <line>4547</line>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>dispatchEvent</method>
+      <line>4488</line>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>dispatchEventImpl</method>
+      <line>2307</line>
+    </frame>
+    <frame>
+      <class>java.awt.Window</class>
+      <method>dispatchEventImpl</method>
+      <line>2762</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEvent</method>
+      <line>4844</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEventImpl</method>
+      <line>772</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+      <line>721</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+      <line>715</line>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+      <line>391</line>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>85</line>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>95</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$5</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$5</class>
+      <method>run</method>
+      <line>743</line>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+      <line>391</line>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>85</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEvent</method>
+      <line>742</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpOneEventForFilters</method>
+      <line>203</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForFilter</method>
+      <line>124</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForHierarchy</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>run</method>
+      <line>90</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T11:49:51.407554100Z</date>
+  <millis>1578829791407</millis>
+  <nanos>554100</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T11:49:51.429317500Z</date>
+  <millis>1578829791429</millis>
+  <nanos>317500</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T11:50:11.939414100Z</date>
+  <millis>1578829811939</millis>
+  <nanos>414100</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T11:50:11.949472500Z</date>
+  <millis>1578829811949</millis>
+  <nanos>472500</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T11:50:11.951518500Z</date>
+  <millis>1578829811951</millis>
+  <nanos>518500</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>SEVERE</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Error en BD	insert into Ordenador values('hgf', '2', 'ghgh', '2.0', 'fdgdf','fgfdg', '2.0', '34.0', 'fggd')</message>
+  <exception>
+    <message>org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Ordenador)</message>
+    <frame>
+      <class>org.sqlite.core.DB</class>
+      <method>newSQLException</method>
+      <line>941</line>
+    </frame>
+    <frame>
+      <class>org.sqlite.core.DB</class>
+      <method>newSQLException</method>
+      <line>953</line>
+    </frame>
+    <frame>
+      <class>org.sqlite.core.DB</class>
+      <method>throwex</method>
+      <line>918</line>
+    </frame>
+    <frame>
+      <class>org.sqlite.core.NativeDB</class>
+      <method>_exec_utf8</method>
+    </frame>
+    <frame>
+      <class>org.sqlite.core.NativeDB</class>
+      <method>_exec</method>
+      <line>94</line>
+    </frame>
+    <frame>
+      <class>org.sqlite.jdbc3.JDBC3Statement</class>
+      <method>executeUpdate</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>bd.BD</class>
+      <method>movilInsert</method>
+      <line>249</line>
+    </frame>
+    <frame>
+      <class>ventanas.VentanaAdministrador$2</class>
+      <method>actionPerformed</method>
+      <line>414</line>
+    </frame>
+    <frame>
+      <class>javax.swing.AbstractButton</class>
+      <method>fireActionPerformed</method>
+      <line>1967</line>
+    </frame>
+    <frame>
+      <class>javax.swing.AbstractButton$Handler</class>
+      <method>actionPerformed</method>
+      <line>2308</line>
+    </frame>
+    <frame>
+      <class>javax.swing.DefaultButtonModel</class>
+      <method>fireActionPerformed</method>
+      <line>405</line>
+    </frame>
+    <frame>
+      <class>javax.swing.DefaultButtonModel</class>
+      <method>setPressed</method>
+      <line>262</line>
+    </frame>
+    <frame>
+      <class>javax.swing.plaf.basic.BasicButtonListener</class>
+      <method>mouseReleased</method>
+      <line>279</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>processMouseEvent</method>
+      <line>6636</line>
+    </frame>
+    <frame>
+      <class>javax.swing.JComponent</class>
+      <method>processMouseEvent</method>
+      <line>3342</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>processEvent</method>
+      <line>6401</line>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>processEvent</method>
+      <line>2263</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEventImpl</method>
+      <line>5012</line>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>dispatchEventImpl</method>
+      <line>2321</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEvent</method>
+      <line>4844</line>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>retargetMouseEvent</method>
+      <line>4918</line>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>processMouseEvent</method>
+      <line>4547</line>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>dispatchEvent</method>
+      <line>4488</line>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>dispatchEventImpl</method>
+      <line>2307</line>
+    </frame>
+    <frame>
+      <class>java.awt.Window</class>
+      <method>dispatchEventImpl</method>
+      <line>2762</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEvent</method>
+      <line>4844</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEventImpl</method>
+      <line>772</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+      <line>721</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+      <line>715</line>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+      <line>391</line>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>85</line>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>95</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$5</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$5</class>
+      <method>run</method>
+      <line>743</line>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+      <line>391</line>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>85</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEvent</method>
+      <line>742</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpOneEventForFilters</method>
+      <line>203</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForFilter</method>
+      <line>124</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForHierarchy</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>run</method>
+      <line>90</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2020-01-12T11:50:13.151174700Z</date>
+  <millis>1578829813151</millis>
+  <nanos>174700</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T11:50:13.152841600Z</date>
+  <millis>1578829813152</millis>
+  <nanos>841600</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T11:50:13.153951900Z</date>
+  <millis>1578829813153</millis>
+  <nanos>951900</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>SEVERE</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Error en BD	insert into Ordenador values('hgf', '2', 'ghgh', '2.0', 'fdgdf','fgfdg', '2.0', '34.0', 'fggd')</message>
+  <exception>
+    <message>org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Ordenador)</message>
+    <frame>
+      <class>org.sqlite.core.DB</class>
+      <method>newSQLException</method>
+      <line>941</line>
+    </frame>
+    <frame>
+      <class>org.sqlite.core.DB</class>
+      <method>newSQLException</method>
+      <line>953</line>
+    </frame>
+    <frame>
+      <class>org.sqlite.core.DB</class>
+      <method>throwex</method>
+      <line>918</line>
+    </frame>
+    <frame>
+      <class>org.sqlite.core.NativeDB</class>
+      <method>_exec_utf8</method>
+    </frame>
+    <frame>
+      <class>org.sqlite.core.NativeDB</class>
+      <method>_exec</method>
+      <line>94</line>
+    </frame>
+    <frame>
+      <class>org.sqlite.jdbc3.JDBC3Statement</class>
+      <method>executeUpdate</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>bd.BD</class>
+      <method>movilInsert</method>
+      <line>249</line>
+    </frame>
+    <frame>
+      <class>ventanas.VentanaAdministrador$2</class>
+      <method>actionPerformed</method>
+      <line>414</line>
+    </frame>
+    <frame>
+      <class>javax.swing.AbstractButton</class>
+      <method>fireActionPerformed</method>
+      <line>1967</line>
+    </frame>
+    <frame>
+      <class>javax.swing.AbstractButton$Handler</class>
+      <method>actionPerformed</method>
+      <line>2308</line>
+    </frame>
+    <frame>
+      <class>javax.swing.DefaultButtonModel</class>
+      <method>fireActionPerformed</method>
+      <line>405</line>
+    </frame>
+    <frame>
+      <class>javax.swing.DefaultButtonModel</class>
+      <method>setPressed</method>
+      <line>262</line>
+    </frame>
+    <frame>
+      <class>javax.swing.plaf.basic.BasicButtonListener</class>
+      <method>mouseReleased</method>
+      <line>279</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>processMouseEvent</method>
+      <line>6636</line>
+    </frame>
+    <frame>
+      <class>javax.swing.JComponent</class>
+      <method>processMouseEvent</method>
+      <line>3342</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>processEvent</method>
+      <line>6401</line>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>processEvent</method>
+      <line>2263</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEventImpl</method>
+      <line>5012</line>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>dispatchEventImpl</method>
+      <line>2321</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEvent</method>
+      <line>4844</line>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>retargetMouseEvent</method>
+      <line>4918</line>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>processMouseEvent</method>
+      <line>4547</line>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>dispatchEvent</method>
+      <line>4488</line>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>dispatchEventImpl</method>
+      <line>2307</line>
+    </frame>
+    <frame>
+      <class>java.awt.Window</class>
+      <method>dispatchEventImpl</method>
+      <line>2762</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEvent</method>
+      <line>4844</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEventImpl</method>
+      <line>772</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+      <line>721</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+      <line>715</line>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+      <line>391</line>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>85</line>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>95</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$5</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$5</class>
+      <method>run</method>
+      <line>743</line>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+      <line>391</line>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>85</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEvent</method>
+      <line>742</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpOneEventForFilters</method>
+      <line>203</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForFilter</method>
+      <line>124</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForHierarchy</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>run</method>
+      <line>90</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2020-01-12T11:50:13.513534300Z</date>
+  <millis>1578829813513</millis>
+  <nanos>534300</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T11:50:13.529149200Z</date>
+  <millis>1578829813529</millis>
+  <nanos>149200</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T11:50:13.529149200Z</date>
+  <millis>1578829813529</millis>
+  <nanos>149200</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>SEVERE</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Error en BD	insert into Ordenador values('hgf', '2', 'ghgh', '2.0', 'fdgdf','fgfdg', '2.0', '34.0', 'fggd')</message>
+  <exception>
+    <message>org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Ordenador)</message>
+    <frame>
+      <class>org.sqlite.core.DB</class>
+      <method>newSQLException</method>
+      <line>941</line>
+    </frame>
+    <frame>
+      <class>org.sqlite.core.DB</class>
+      <method>newSQLException</method>
+      <line>953</line>
+    </frame>
+    <frame>
+      <class>org.sqlite.core.DB</class>
+      <method>throwex</method>
+      <line>918</line>
+    </frame>
+    <frame>
+      <class>org.sqlite.core.NativeDB</class>
+      <method>_exec_utf8</method>
+    </frame>
+    <frame>
+      <class>org.sqlite.core.NativeDB</class>
+      <method>_exec</method>
+      <line>94</line>
+    </frame>
+    <frame>
+      <class>org.sqlite.jdbc3.JDBC3Statement</class>
+      <method>executeUpdate</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>bd.BD</class>
+      <method>movilInsert</method>
+      <line>249</line>
+    </frame>
+    <frame>
+      <class>ventanas.VentanaAdministrador$2</class>
+      <method>actionPerformed</method>
+      <line>414</line>
+    </frame>
+    <frame>
+      <class>javax.swing.AbstractButton</class>
+      <method>fireActionPerformed</method>
+      <line>1967</line>
+    </frame>
+    <frame>
+      <class>javax.swing.AbstractButton$Handler</class>
+      <method>actionPerformed</method>
+      <line>2308</line>
+    </frame>
+    <frame>
+      <class>javax.swing.DefaultButtonModel</class>
+      <method>fireActionPerformed</method>
+      <line>405</line>
+    </frame>
+    <frame>
+      <class>javax.swing.DefaultButtonModel</class>
+      <method>setPressed</method>
+      <line>262</line>
+    </frame>
+    <frame>
+      <class>javax.swing.plaf.basic.BasicButtonListener</class>
+      <method>mouseReleased</method>
+      <line>279</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>processMouseEvent</method>
+      <line>6636</line>
+    </frame>
+    <frame>
+      <class>javax.swing.JComponent</class>
+      <method>processMouseEvent</method>
+      <line>3342</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>processEvent</method>
+      <line>6401</line>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>processEvent</method>
+      <line>2263</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEventImpl</method>
+      <line>5012</line>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>dispatchEventImpl</method>
+      <line>2321</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEvent</method>
+      <line>4844</line>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>retargetMouseEvent</method>
+      <line>4918</line>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>processMouseEvent</method>
+      <line>4547</line>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>dispatchEvent</method>
+      <line>4488</line>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>dispatchEventImpl</method>
+      <line>2307</line>
+    </frame>
+    <frame>
+      <class>java.awt.Window</class>
+      <method>dispatchEventImpl</method>
+      <line>2762</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEvent</method>
+      <line>4844</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEventImpl</method>
+      <line>772</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+      <line>721</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+      <line>715</line>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+      <line>391</line>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>85</line>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>95</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$5</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$5</class>
+      <method>run</method>
+      <line>743</line>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+      <line>391</line>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>85</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEvent</method>
+      <line>742</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpOneEventForFilters</method>
+      <line>203</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForFilter</method>
+      <line>124</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForHierarchy</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>run</method>
+      <line>90</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T11:50:59.228865700Z</date>
+  <millis>1578829859228</millis>
+  <nanos>865700</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T11:50:59.246948300Z</date>
+  <millis>1578829859246</millis>
+  <nanos>948300</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T11:50:59.262713400Z</date>
+  <millis>1578829859262</millis>
+  <nanos>713400</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('efeff', '33', 'dfsf', '24.0', 'fafdf','ffdf', '343.0', '123.0', 'dsfdf')</message>
+</record>
+<record>
+  <date>2020-01-12T11:51:14.997681400Z</date>
+  <millis>1578829874997</millis>
+  <nanos>681400</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T11:51:15.020172400Z</date>
+  <millis>1578829875020</millis>
+  <nanos>172400</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T11:51:15.041040900Z</date>
+  <millis>1578829875041</millis>
+  <nanos>40900</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('hgfhgf', '5646', 'ggfh', '656.0', 'hgfhf','hgf', 'ghfhfg', 'hgfhg', '454.0')</message>
+</record>
+<record>
+  <date>2020-01-12T11:51:31.996065800Z</date>
+  <millis>1578829891996</millis>
+  <nanos>65800</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T11:51:31.998375Z</date>
+  <millis>1578829891998</millis>
+  <nanos>375000</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T11:51:32.021181800Z</date>
+  <millis>1578829892021</millis>
+  <nanos>181800</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('gnfn', '5656546', 'hghgf', '5656.0', 'dghgh','gfh', 'gfh', '656', '134.0')</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T11:55:08.414349300Z</date>
+  <millis>1578830108414</millis>
+  <nanos>349300</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T11:55:08.429942500Z</date>
+  <millis>1578830108429</millis>
+  <nanos>942500</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T11:55:08.461186500Z</date>
+  <millis>1578830108461</millis>
+  <nanos>186500</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Usuario values('b@gmail.com', '4321')</message>
+</record>
+<record>
+  <date>2020-01-12T11:55:08.470961Z</date>
+  <millis>1578830108470</millis>
+  <nanos>961000</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select contraseña from Usuario where nombre ='b@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T11:55:08.471960Z</date>
+  <millis>1578830108471</millis>
+  <nanos>960000</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select * from Usuario where nombre ='b@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T11:55:08.473048300Z</date>
+  <millis>1578830108473</millis>
+  <nanos>48300</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T11:55:08.489952800Z</date>
+  <millis>1578830108489</millis>
+  <nanos>952800</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SamsungS10', '55453', '', '989.0', 'Samsung','src/img/MovilSamsungS10.jpg', '6.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T11:55:08.489952800Z</date>
+  <millis>1578830108489</millis>
+  <nanos>952800</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select nombre from Movil where codigo ='55453'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T11:55:27.002647200Z</date>
+  <millis>1578830127002</millis>
+  <nanos>647200</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T11:55:27.018268600Z</date>
+  <millis>1578830127018</millis>
+  <nanos>268600</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T11:55:27.065109600Z</date>
+  <millis>1578830127065</millis>
+  <nanos>109600</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Usuario values('b@gmail.com', '4321')</message>
+</record>
+<record>
+  <date>2020-01-12T11:55:27.065109600Z</date>
+  <millis>1578830127065</millis>
+  <nanos>109600</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select contraseña from Usuario where nombre ='b@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T11:55:27.065109600Z</date>
+  <millis>1578830127065</millis>
+  <nanos>109600</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select * from Usuario where nombre ='b@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T11:55:27.065109600Z</date>
+  <millis>1578830127065</millis>
+  <nanos>109600</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T11:55:27.096436Z</date>
+  <millis>1578830127096</millis>
+  <nanos>436000</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SamsungS10', '55453', '', '989.0', 'Samsung','src/img/MovilSamsungS10.jpg', '6.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T11:55:27.096436Z</date>
+  <millis>1578830127096</millis>
+  <nanos>436000</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select nombre from Movil where codigo ='55453'</message>
+</record>
+<record>
+  <date>2020-01-12T11:55:27.096436Z</date>
+  <millis>1578830127096</millis>
+  <nanos>436000</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD	select nombre from Movil where codigo ='55453'</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T12:01:06.946207600Z</date>
+  <millis>1578830466946</millis>
+  <nanos>207600</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:06.946207600Z</date>
+  <millis>1578830466946</millis>
+  <nanos>207600</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:06.946207600Z</date>
+  <millis>1578830466946</millis>
+  <nanos>207600</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:06.946207600Z</date>
+  <millis>1578830466946</millis>
+  <nanos>207600</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:09.225292800Z</date>
+  <millis>1578830469225</millis>
+  <nanos>292800</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:15.187884200Z</date>
+  <millis>1578830475187</millis>
+  <nanos>884200</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:15.189938600Z</date>
+  <millis>1578830475189</millis>
+  <nanos>938600</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:15.189938600Z</date>
+  <millis>1578830475189</millis>
+  <nanos>938600</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:15.189938600Z</date>
+  <millis>1578830475189</millis>
+  <nanos>938600</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:16.083788900Z</date>
+  <millis>1578830476083</millis>
+  <nanos>788900</nanos>
+  <sequence>11</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:19.087783100Z</date>
+  <millis>1578830479087</millis>
+  <nanos>783100</nanos>
+  <sequence>13</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:19.089780200Z</date>
+  <millis>1578830479089</millis>
+  <nanos>780200</nanos>
+  <sequence>14</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:19.089839700Z</date>
+  <millis>1578830479089</millis>
+  <nanos>839700</nanos>
+  <sequence>15</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:19.089839700Z</date>
+  <millis>1578830479089</millis>
+  <nanos>839700</nanos>
+  <sequence>16</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:20.406015800Z</date>
+  <millis>1578830480406</millis>
+  <nanos>15800</nanos>
+  <sequence>17</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T12:01:38.837948700Z</date>
+  <millis>1578830498837</millis>
+  <nanos>948700</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:38.837948700Z</date>
+  <millis>1578830498837</millis>
+  <nanos>948700</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:38.853568Z</date>
+  <millis>1578830498853</millis>
+  <nanos>568000</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:38.853568Z</date>
+  <millis>1578830498853</millis>
+  <nanos>568000</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:43.583975800Z</date>
+  <millis>1578830503583</millis>
+  <nanos>975800</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:43.584973700Z</date>
+  <millis>1578830503584</millis>
+  <nanos>973700</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:43.585970800Z</date>
+  <millis>1578830503585</millis>
+  <nanos>970800</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='ab@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:43.586967500Z</date>
+  <millis>1578830503586</millis>
+  <nanos>967500</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:44.719997400Z</date>
+  <millis>1578830504719</millis>
+  <nanos>997400</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:44.720995Z</date>
+  <millis>1578830504720</millis>
+  <nanos>995000</nanos>
+  <sequence>11</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:44.753294200Z</date>
+  <millis>1578830504753</millis>
+  <nanos>294200</nanos>
+  <sequence>12</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SamsungS10', '55453', '', '989.0', 'Samsung','src/img/MovilSamsungS10.jpg', '6.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:44.768926200Z</date>
+  <millis>1578830504768</millis>
+  <nanos>926200</nanos>
+  <sequence>13</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('HuaweiP30', '653454', '', '567.0', 'Huawei','src/img/MovilHuaweiP30.jpg', '9.0', '720.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:44.800160800Z</date>
+  <millis>1578830504800</millis>
+  <nanos>160800</nanos>
+  <sequence>14</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('LGG8', '74545', '', '456.0', 'LG','src/img/MovilLGG8.jpg', '7.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:44.815878300Z</date>
+  <millis>1578830504815</millis>
+  <nanos>878300</nanos>
+  <sequence>15</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('Iphone11', '45458', '', '1600.0', 'Apple','src/img/MovilIPhone11.jpg', '6.5', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:44.847121600Z</date>
+  <millis>1578830504847</millis>
+  <nanos>121600</nanos>
+  <sequence>16</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SonyXperiaZ4', '154450', '', '670.0', 'Sony','src/img/MovilSoniExperiaZ4.jpg', '7.0', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:44.847121600Z</date>
+  <millis>1578830504847</millis>
+  <nanos>121600</nanos>
+  <sequence>17</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:44.847121600Z</date>
+  <millis>1578830504847</millis>
+  <nanos>121600</nanos>
+  <sequence>18</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:44.862621300Z</date>
+  <millis>1578830504862</millis>
+  <nanos>621300</nanos>
+  <sequence>19</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:44.878358900Z</date>
+  <millis>1578830504878</millis>
+  <nanos>358900</nanos>
+  <sequence>20</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('HPPavilion200', '11343', '', '1200.0', 'Hp','src/img/OrdenadorHPPavilion.jpg', 'I7-7300HQ', 'Nvidia1050', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:44.893853900Z</date>
+  <millis>1578830504893</millis>
+  <nanos>853900</nanos>
+  <sequence>21</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AcerAspire5', '12343', '', '1300.0', 'Acer','src/img/OrdenadorAcerAspire5.jpg', 'I7-6700HQ', 'Nvidia1050Ti', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:44.927202300Z</date>
+  <millis>1578830504927</millis>
+  <nanos>202300</nanos>
+  <sequence>22</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AsusP541NA', '64433', '', '900.0', 'Asus','src/img/OrdenadorAsusP541NA.jpg', 'I7-7100HQ', 'NvidiaGeForce1300', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:44.951461700Z</date>
+  <millis>1578830504951</millis>
+  <nanos>461700</nanos>
+  <sequence>23</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AppleMacbook', '565414', '', '2500.0', 'Apple','src/img/OrdenadoAppleMacBook.jpg', 'MacOs', 'Nvidia1080', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:44.973898500Z</date>
+  <millis>1578830504973</millis>
+  <nanos>898500</nanos>
+  <sequence>24</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('LenovoIdeaPad', '77615', '', '1300.0', 'Lenovo','src/img/OrdenadorLenovoIdeapad.jpg', 'I7-6700HQ', 'Nvidia1050T', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:44.978853900Z</date>
+  <millis>1578830504978</millis>
+  <nanos>853900</nanos>
+  <sequence>25</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:44.982956600Z</date>
+  <millis>1578830504982</millis>
+  <nanos>956600</nanos>
+  <sequence>26</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:44.982956600Z</date>
+  <millis>1578830504982</millis>
+  <nanos>956600</nanos>
+  <sequence>27</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:44.998712900Z</date>
+  <millis>1578830504998</millis>
+  <nanos>712900</nanos>
+  <sequence>28</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('LavadoraLGB5', '4149', '', '500.0', 'LG','src/img/ElectrodomesticoLavadoraLG.jpg', 'Lavadora', '100', '200.0')</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:45.029821700Z</date>
+  <millis>1578830505029</millis>
+  <nanos>821700</nanos>
+  <sequence>29</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('CafeteraEspresso', '145548', '', '89.0', 'Cecotec','src/img/ElectrodomesticoCafeteraEspresso.jpg', 'Cafetera', '2', '20.0')</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:45.049904500Z</date>
+  <millis>1578830505049</millis>
+  <nanos>904500</nanos>
+  <sequence>30</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('FrigorficoSiemens', '25455', '', '600.0', 'Siemens','src/img/ElectrodomesticoFrigorificoSiemens.jpg', 'Frigorfico', '250', '400.0')</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:45.065647300Z</date>
+  <millis>1578830505065</millis>
+  <nanos>647300</nanos>
+  <sequence>31</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('BatidoraPhilips', '78853', '', '55.0', 'Philips','src/img/ElectrodomesticoBatidoraPhilips.jpg', 'Batidora', '1', '25.0')</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:45.081281100Z</date>
+  <millis>1578830505081</millis>
+  <nanos>281100</nanos>
+  <sequence>32</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('MicroondasPanasonic', '445454', '', '150.0', 'Panasonic','src/img/ElectrodomesticoMicroondasPanasonic.jpg', 'Microondas', '4', '30.0')</message>
+</record>
+<record>
+  <date>2020-01-12T12:01:45.081281100Z</date>
+  <millis>1578830505081</millis>
+  <nanos>281100</nanos>
+  <sequence>33</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T12:02:01.472697400Z</date>
+  <millis>1578830521472</millis>
+  <nanos>697400</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:01.476719300Z</date>
+  <millis>1578830521476</millis>
+  <nanos>719300</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:01.478682500Z</date>
+  <millis>1578830521478</millis>
+  <nanos>682500</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='ab@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:01.479679800Z</date>
+  <millis>1578830521479</millis>
+  <nanos>679800</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:02.712878300Z</date>
+  <millis>1578830522712</millis>
+  <nanos>878300</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:02.720400200Z</date>
+  <millis>1578830522720</millis>
+  <nanos>400200</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:02.738104500Z</date>
+  <millis>1578830522738</millis>
+  <nanos>104500</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SamsungS10', '55453', '', '989.0', 'Samsung','src/img/MovilSamsungS10.jpg', '6.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:02.753832700Z</date>
+  <millis>1578830522753</millis>
+  <nanos>832700</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('HuaweiP30', '653454', '', '567.0', 'Huawei','src/img/MovilHuaweiP30.jpg', '9.0', '720.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:02.784971200Z</date>
+  <millis>1578830522784</millis>
+  <nanos>971200</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('LGG8', '74545', '', '456.0', 'LG','src/img/MovilLGG8.jpg', '7.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:02.800600500Z</date>
+  <millis>1578830522800</millis>
+  <nanos>600500</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('Iphone11', '45458', '', '1600.0', 'Apple','src/img/MovilIPhone11.jpg', '6.5', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:02.816300300Z</date>
+  <millis>1578830522816</millis>
+  <nanos>300300</nanos>
+  <sequence>11</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SonyXperiaZ4', '154450', '', '670.0', 'Sony','src/img/MovilSoniExperiaZ4.jpg', '7.0', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:02.831802700Z</date>
+  <millis>1578830522831</millis>
+  <nanos>802700</nanos>
+  <sequence>12</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:02.831802700Z</date>
+  <millis>1578830522831</millis>
+  <nanos>802700</nanos>
+  <sequence>13</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:02.831802700Z</date>
+  <millis>1578830522831</millis>
+  <nanos>802700</nanos>
+  <sequence>14</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:02.863071100Z</date>
+  <millis>1578830522863</millis>
+  <nanos>71100</nanos>
+  <sequence>15</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('HPPavilion200', '11343', '', '1200.0', 'Hp','src/img/OrdenadorHPPavilion.jpg', 'I7-7300HQ', 'Nvidia1050', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:02.878700500Z</date>
+  <millis>1578830522878</millis>
+  <nanos>700500</nanos>
+  <sequence>16</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AcerAspire5', '12343', '', '1300.0', 'Acer','src/img/OrdenadorAcerAspire5.jpg', 'I7-6700HQ', 'Nvidia1050Ti', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:02.910046300Z</date>
+  <millis>1578830522910</millis>
+  <nanos>46300</nanos>
+  <sequence>17</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AsusP541NA', '64433', '', '900.0', 'Asus','src/img/OrdenadorAsusP541NA.jpg', 'I7-7100HQ', 'NvidiaGeForce1300', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:02.925529800Z</date>
+  <millis>1578830522925</millis>
+  <nanos>529800</nanos>
+  <sequence>18</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AppleMacbook', '565414', '', '2500.0', 'Apple','src/img/OrdenadoAppleMacBook.jpg', 'MacOs', 'Nvidia1080', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:02.956805400Z</date>
+  <millis>1578830522956</millis>
+  <nanos>805400</nanos>
+  <sequence>19</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('LenovoIdeaPad', '77615', '', '1300.0', 'Lenovo','src/img/OrdenadorLenovoIdeapad.jpg', 'I7-6700HQ', 'Nvidia1050T', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:02.956805400Z</date>
+  <millis>1578830522956</millis>
+  <nanos>805400</nanos>
+  <sequence>20</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:02.956805400Z</date>
+  <millis>1578830522956</millis>
+  <nanos>805400</nanos>
+  <sequence>21</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:02.956805400Z</date>
+  <millis>1578830522956</millis>
+  <nanos>805400</nanos>
+  <sequence>22</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:02.989188300Z</date>
+  <millis>1578830522989</millis>
+  <nanos>188300</nanos>
+  <sequence>23</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('LavadoraLGB5', '4149', '', '500.0', 'LG','src/img/ElectrodomesticoLavadoraLG.jpg', 'Lavadora', '100', '200.0')</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:03.004928500Z</date>
+  <millis>1578830523004</millis>
+  <nanos>928500</nanos>
+  <sequence>24</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('CafeteraEspresso', '145548', '', '89.0', 'Cecotec','src/img/ElectrodomesticoCafeteraEspresso.jpg', 'Cafetera', '2', '20.0')</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:03.036100300Z</date>
+  <millis>1578830523036</millis>
+  <nanos>100300</nanos>
+  <sequence>25</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('FrigorficoSiemens', '25455', '', '600.0', 'Siemens','src/img/ElectrodomesticoFrigorificoSiemens.jpg', 'Frigorfico', '250', '400.0')</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:03.051812600Z</date>
+  <millis>1578830523051</millis>
+  <nanos>812600</nanos>
+  <sequence>26</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('BatidoraPhilips', '78853', '', '55.0', 'Philips','src/img/ElectrodomesticoBatidoraPhilips.jpg', 'Batidora', '1', '25.0')</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:03.083047100Z</date>
+  <millis>1578830523083</millis>
+  <nanos>47100</nanos>
+  <sequence>27</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('MicroondasPanasonic', '445454', '', '150.0', 'Panasonic','src/img/ElectrodomesticoMicroondasPanasonic.jpg', 'Microondas', '4', '30.0')</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:03.083047100Z</date>
+  <millis>1578830523083</millis>
+  <nanos>47100</nanos>
+  <sequence>28</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:03.264625600Z</date>
+  <millis>1578830523264</millis>
+  <nanos>625600</nanos>
+  <sequence>29</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T12:02:21.597013500Z</date>
+  <millis>1578830541597</millis>
+  <nanos>13500</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:21.601003200Z</date>
+  <millis>1578830541601</millis>
+  <nanos>3200</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:21.602000500Z</date>
+  <millis>1578830541602</millis>
+  <nanos>500</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select * from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:26.167830300Z</date>
+  <millis>1578830546167</millis>
+  <nanos>830300</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:26.169826700Z</date>
+  <millis>1578830546169</millis>
+  <nanos>826700</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:26.169888400Z</date>
+  <millis>1578830546169</millis>
+  <nanos>888400</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select * from Usuario where nombre ='abc@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:26.185512200Z</date>
+  <millis>1578830546185</millis>
+  <nanos>512200</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Usuario values('abc@gmail.com', '1234')</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:30.468905100Z</date>
+  <millis>1578830550468</millis>
+  <nanos>905100</nanos>
+  <sequence>11</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:30.468905100Z</date>
+  <millis>1578830550468</millis>
+  <nanos>905100</nanos>
+  <sequence>12</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:30.468905100Z</date>
+  <millis>1578830550468</millis>
+  <nanos>905100</nanos>
+  <sequence>13</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='ab@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:30.468905100Z</date>
+  <millis>1578830550468</millis>
+  <nanos>905100</nanos>
+  <sequence>14</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2020-01-12T12:02:31.582066800Z</date>
+  <millis>1578830551582</millis>
+  <nanos>66800</nanos>
+  <sequence>15</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T12:05:58.899783100Z</date>
+  <millis>1578830758899</millis>
+  <nanos>783100</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:05:58.899783100Z</date>
+  <millis>1578830758899</millis>
+  <nanos>783100</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:05:58.915399700Z</date>
+  <millis>1578830758915</millis>
+  <nanos>399700</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T12:05:58.915399700Z</date>
+  <millis>1578830758915</millis>
+  <nanos>399700</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2020-01-12T12:05:58.915399700Z</date>
+  <millis>1578830758915</millis>
+  <nanos>399700</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T12:05:58.915399700Z</date>
+  <millis>1578830758915</millis>
+  <nanos>399700</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select nombre from Usuario where contraseña ='1234'</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:09.468443700Z</date>
+  <millis>1578830769468</millis>
+  <nanos>443700</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T12:06:55.940465Z</date>
+  <millis>1578830815940</millis>
+  <nanos>465000</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:55.940465Z</date>
+  <millis>1578830815940</millis>
+  <nanos>465000</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:55.940465Z</date>
+  <millis>1578830815940</millis>
+  <nanos>465000</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='a@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.075630800Z</date>
+  <millis>1578830817075</millis>
+  <nanos>630800</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.080739Z</date>
+  <millis>1578830817080</millis>
+  <nanos>739000</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.098392600Z</date>
+  <millis>1578830817098</millis>
+  <nanos>392600</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SamsungS10', '55453', '', '989.0', 'Samsung','src/img/MovilSamsungS10.jpg', '6.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.114013600Z</date>
+  <millis>1578830817114</millis>
+  <nanos>13600</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('HuaweiP30', '653454', '', '567.0', 'Huawei','src/img/MovilHuaweiP30.jpg', '9.0', '720.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.129761Z</date>
+  <millis>1578830817129</millis>
+  <nanos>761000</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('LGG8', '74545', '', '456.0', 'LG','src/img/MovilLGG8.jpg', '7.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.160912100Z</date>
+  <millis>1578830817160</millis>
+  <nanos>912100</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('Iphone11', '45458', '', '1600.0', 'Apple','src/img/MovilIPhone11.jpg', '6.5', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.176498500Z</date>
+  <millis>1578830817176</millis>
+  <nanos>498500</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SonyXperiaZ4', '154450', '', '670.0', 'Sony','src/img/MovilSoniExperiaZ4.jpg', '7.0', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.176498500Z</date>
+  <millis>1578830817176</millis>
+  <nanos>498500</nanos>
+  <sequence>11</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.176498500Z</date>
+  <millis>1578830817176</millis>
+  <nanos>498500</nanos>
+  <sequence>12</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.192152300Z</date>
+  <millis>1578830817192</millis>
+  <nanos>152300</nanos>
+  <sequence>13</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.207877Z</date>
+  <millis>1578830817207</millis>
+  <nanos>877000</nanos>
+  <sequence>14</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('HPPavilion200', '11343', '', '1200.0', 'Hp','src/img/OrdenadorHPPavilion.jpg', 'I7-7300HQ', 'Nvidia1050', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.223498200Z</date>
+  <millis>1578830817223</millis>
+  <nanos>498200</nanos>
+  <sequence>15</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AcerAspire5', '12343', '', '1300.0', 'Acer','src/img/OrdenadorAcerAspire5.jpg', 'I7-6700HQ', 'Nvidia1050Ti', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.239131Z</date>
+  <millis>1578830817239</millis>
+  <nanos>131000</nanos>
+  <sequence>16</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AsusP541NA', '64433', '', '900.0', 'Asus','src/img/OrdenadorAsusP541NA.jpg', 'I7-7100HQ', 'NvidiaGeForce1300', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.270261100Z</date>
+  <millis>1578830817270</millis>
+  <nanos>261100</nanos>
+  <sequence>17</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AppleMacbook', '565414', '', '2500.0', 'Apple','src/img/OrdenadoAppleMacBook.jpg', 'MacOs', 'Nvidia1080', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.285986600Z</date>
+  <millis>1578830817285</millis>
+  <nanos>986600</nanos>
+  <sequence>18</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('LenovoIdeaPad', '77615', '', '1300.0', 'Lenovo','src/img/OrdenadorLenovoIdeapad.jpg', 'I7-6700HQ', 'Nvidia1050T', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.285986600Z</date>
+  <millis>1578830817285</millis>
+  <nanos>986600</nanos>
+  <sequence>19</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.285986600Z</date>
+  <millis>1578830817285</millis>
+  <nanos>986600</nanos>
+  <sequence>20</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.285986600Z</date>
+  <millis>1578830817285</millis>
+  <nanos>986600</nanos>
+  <sequence>21</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.317124800Z</date>
+  <millis>1578830817317</millis>
+  <nanos>124800</nanos>
+  <sequence>22</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('LavadoraLGB5', '4149', '', '500.0', 'LG','src/img/ElectrodomesticoLavadoraLG.jpg', 'Lavadora', '100', '200.0')</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.332846500Z</date>
+  <millis>1578830817332</millis>
+  <nanos>846500</nanos>
+  <sequence>23</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('CafeteraEspresso', '145548', '', '89.0', 'Cecotec','src/img/ElectrodomesticoCafeteraEspresso.jpg', 'Cafetera', '2', '20.0')</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.348346400Z</date>
+  <millis>1578830817348</millis>
+  <nanos>346400</nanos>
+  <sequence>24</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('FrigorficoSiemens', '25455', '', '600.0', 'Siemens','src/img/ElectrodomesticoFrigorificoSiemens.jpg', 'Frigorfico', '250', '400.0')</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.363954600Z</date>
+  <millis>1578830817363</millis>
+  <nanos>954600</nanos>
+  <sequence>25</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('BatidoraPhilips', '78853', '', '55.0', 'Philips','src/img/ElectrodomesticoBatidoraPhilips.jpg', 'Batidora', '1', '25.0')</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.395226900Z</date>
+  <millis>1578830817395</millis>
+  <nanos>226900</nanos>
+  <sequence>26</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('MicroondasPanasonic', '445454', '', '150.0', 'Panasonic','src/img/ElectrodomesticoMicroondasPanasonic.jpg', 'Microondas', '4', '30.0')</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.395226900Z</date>
+  <millis>1578830817395</millis>
+  <nanos>226900</nanos>
+  <sequence>27</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T12:06:57.591963100Z</date>
+  <millis>1578830817591</millis>
+  <nanos>963100</nanos>
+  <sequence>28</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+</log>

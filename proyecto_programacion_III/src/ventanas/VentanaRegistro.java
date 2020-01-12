@@ -48,7 +48,7 @@ public class VentanaRegistro extends JFrame {
 		setResizable(false);
 		this.getContentPane().setBackground(new Color(51-204-255));
 		getContentPane().setLayout(null);
-		
+
 		logger = Logger.getLogger( VentanaVentas.class.getName() ); 
 		try {
 			FileHandler fh = new FileHandler("data/logger.log");
@@ -113,7 +113,7 @@ public class VentanaRegistro extends JFrame {
 						else {
 							JOptionPane.showMessageDialog(null, "Usuario ya existente");
 						}
-						
+
 					}
 					else {
 						JOptionPane.showMessageDialog(null, "Acepte los términos y condiciones");
@@ -152,19 +152,19 @@ public class VentanaRegistro extends JFrame {
 		passwordField.setFont(new Font("Tahoma", Font.BOLD, 14));
 		passwordField.setBounds(221, 343, 375, 22);
 		getContentPane().add(passwordField);
-		
+
 		JLabel lblAcepteLosTrminos = new JLabel("Acepte los términos y condiciones");
 		lblAcepteLosTrminos.setBounds(459, 410, 202, 13);
 		lblAcepteLosTrminos.addMouseListener(new MouseAdapter() {
-			 @Override
-             public void mouseClicked(MouseEvent e) {
-				 logger.log(Level.INFO, "Label Acepte los términos y condiciones ");
-				 VentanaTerminos v = new VentanaTerminos();
-					v.setVisible(true);
-             }
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				logger.log(Level.INFO, "Label Acepte los términos y condiciones ");
+				VentanaTerminos v = new VentanaTerminos();
+				v.setVisible(true);
+			}
 		});
 		getContentPane().add(lblAcepteLosTrminos);
-		
+
 		JLabelGraficoAjustado logo = new JLabelGraficoAjustado("src/img/eShop.png", 120, 100);
 		logo.setLocation(30, 10);
 		getContentPane().add(logo);

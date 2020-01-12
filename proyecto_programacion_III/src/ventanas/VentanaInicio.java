@@ -76,7 +76,6 @@ public class VentanaInicio extends JFrame {
 				String nombre = textField.getText();
 				
 				String contraseña = BD.usuariosSelect2(st, nombre); //contraseña
-				String selectNombre = BD.usuariosSelect(st, valorPass); //usuario		
 				
 				if(valorPass.equals("password") && nombre.equals("admin")) {
 					VentanaAdministrador v = new VentanaAdministrador();
@@ -84,7 +83,7 @@ public class VentanaInicio extends JFrame {
 
 				}
 				else {
-					if(contraseña.equals(valorPass) && nombre.equals(selectNombre)) {
+					if(contraseña.equals(valorPass)) {
 						JOptionPane.showMessageDialog(null, "Usuario correcto");
 						if(chckbxRecuerdame.isSelected()) {
 							properties.setProperty("Usuario", textField.getText());
@@ -102,6 +101,7 @@ public class VentanaInicio extends JFrame {
 					}
 
 				}
+				BD.cerrarBD(con, st);
 			}
 		});
 		btnNewButton.setBounds(112, 301, 152, 26);

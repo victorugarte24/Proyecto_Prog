@@ -9,6 +9,9 @@ import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import electrodomesticos.Electrodomesticos;
+import moviles.Moviles;
+import ordenadores.Ordenadores;
 import usuario.Usuario;
 import ventanas.VentanaInicio;
 
@@ -18,6 +21,15 @@ public class BD {
 	
 	private static final String NOMBRETABLA = "Usuario";
 	private static final String COLUMNAS_TABLA = "(nombre string, contraseña string)";
+	
+	private static final String TABLAORDENADOR = "Ordenador";
+	private static final String COLUMNAS_ORDENADOR = "(nombre string, codigo string, descripcion string, importe string, marca string, imagen string, procesador string, grafica string, pantalla string)";
+															
+	private static final String TABLAELECTRODOMESTICO = "Electrodomestico";
+	private static final String COLUMNAS_ELECTRODOMESTICO = "(nombre string, codigo string, descripcion string, importe string, marca string, imagen string, tipo string, peso string, tamaño string)";
+	
+	private static final String TABLAMOVIL = "Movil";
+	private static final String COLUMNAS_MOVIL = "(nombre string, codigo string, descripcion string, importe string, marca string, imagen string, pantalla string, resolucion string, sisOperativo string)";
 	
 	/** Inicializa una BD SQLITE y devuelve una conexion con ella
 	 * @param nombreBD	Nombre de fichero de la base de datos
@@ -68,6 +80,57 @@ public class BD {
 			statement.setQueryTimeout(30);  // poner timeout 30 msg
 			try {
 				statement.executeUpdate("create table "+NOMBRETABLA+COLUMNAS_TABLA);
+			} catch (SQLException e) {} // Tabla ya existe. Nada que hacer
+			log( Level.INFO, "Creada base de datos", null );
+			return statement;
+		} catch (SQLException e) {
+			lastError = e;
+			log( Level.SEVERE, "Error en creacion de base de datos", e );
+			e.printStackTrace();
+			return null;
+		}
+	}
+
+	public static Statement usarCrearTablaOrdenador( Connection con ) {
+		try {
+			Statement statement = con.createStatement();
+			statement.setQueryTimeout(30);  // poner timeout 30 msg
+			try {
+				statement.executeUpdate("create table "+ TABLAORDENADOR + COLUMNAS_ORDENADOR);
+			} catch (SQLException e) {} // Tabla ya existe. Nada que hacer
+			log( Level.INFO, "Creada base de datos", null );
+			return statement;
+		} catch (SQLException e) {
+			lastError = e;
+			log( Level.SEVERE, "Error en creacion de base de datos", e );
+			e.printStackTrace();
+			return null;
+		}
+	}
+	
+	public static Statement usarCrearTablaElectrodomestico( Connection con ) {
+		try {
+			Statement statement = con.createStatement();
+			statement.setQueryTimeout(30);  // poner timeout 30 msg
+			try {
+				statement.executeUpdate("create table "+ TABLAELECTRODOMESTICO + COLUMNAS_ELECTRODOMESTICO);
+			} catch (SQLException e) {} // Tabla ya existe. Nada que hacer
+			log( Level.INFO, "Creada base de datos", null );
+			return statement;
+		} catch (SQLException e) {
+			lastError = e;
+			log( Level.SEVERE, "Error en creacion de base de datos", e );
+			e.printStackTrace();
+			return null;
+		}
+	}
+	
+	public static Statement usarCrearTablaMovil( Connection con ) {
+		try {
+			Statement statement = con.createStatement();
+			statement.setQueryTimeout(30);  // poner timeout 30 msg
+			try {
+				statement.executeUpdate("create table "+ TABLAMOVIL + COLUMNAS_MOVIL);
 			} catch (SQLException e) {} // Tabla ya existe. Nada que hacer
 			log( Level.INFO, "Creada base de datos", null );
 			return statement;
@@ -134,6 +197,70 @@ public class BD {
 	 * @param contador	contador a aï¿½adir a esa nueva fila de la BD
 	 * @return	true si la inserciï¿½n es correcta, false en caso contrario
 	 */
+	
+	public static boolean electrodomesticoInsert( Statement st, Electrodomesticos e ) {
+		String sentSQL = "";
+		try {
+			sentSQL = "insert into Electrodomestico values('" + secu(e.getNombre()) + "', '"+ secu(String.valueOf(e.getCodArt())) + "', '"+ secu(e.getDescripcion()) 
+			+ "', '"+ secu(Double. toString(e.getImporte())) + "', '"+ secu(e.getMarca() + "', '"+ secu(e.getImagen()))+ "', '"+ secu(e.getTipo()) + "', '"
+			+ secu(String.valueOf(e.getPeso())) + "', '"+ secu(Double. toString(e.getTamaño())) + "')";
+			int val = st.executeUpdate( sentSQL );
+			log( Level.INFO, "BD fila añadida " + val + " fila\t" + sentSQL, null );
+			if (val!=1) {  // Se tiene que añadir 1 - error si no
+				log( Level.SEVERE, "Error en insert de BD\t" + sentSQL, null );
+				return false;  
+			}
+			return true;
+		} catch (SQLException z) {
+			log( Level.SEVERE, "Error en BD\t" + sentSQL, z );
+			lastError = z;
+			z.printStackTrace();
+			return false;
+		}
+	}
+
+	public static boolean ordenadorInsert( Statement st, Ordenadores o ) {
+		String sentSQL = "";
+		try {
+			sentSQL = "insert into Ordenador values('" + secu(o.getNombre()) + "', '"+ secu(String.valueOf(o.getCodArt())) + "', '"+ secu(o.getDescripcion()) 
+			+ "', '"+ secu(Double. toString(o.getImporte())) + "', '"+ secu(o.getMarca() + "', '"+ secu(o.getImagen()))+ "', '"+ secu(o.getProcesador()) + "', '"
+			+ secu(o.getGrafica()) + "', '"+ secu(Double. toString(o.getPantalla())) + "')";
+			int val = st.executeUpdate( sentSQL );
+			log( Level.INFO, "BD fila añadida " + val + " fila\t" + sentSQL, null );
+			if (val!=1) {  // Se tiene que añadir 1 - error si no
+				log( Level.SEVERE, "Error en insert de BD\t" + sentSQL, null );
+				return false;  
+			}
+			return true;
+		} catch (SQLException z) {
+			log( Level.SEVERE, "Error en BD\t" + sentSQL, z );
+			lastError = z;
+			z.printStackTrace();
+			return false;
+		}
+	}
+
+	public static boolean movilInsert( Statement st, Moviles m) {
+		String sentSQL = "";
+		try {
+			sentSQL = "insert into Movil values('" + secu(m.getNombre()) + "', '"+ secu(String.valueOf(m.getCodArt())) + "', '"+ secu(m.getDescripcion()) 
+			+ "', '"+ secu(Double. toString(m.getImporte())) + "', '"+ secu(m.getMarca() + "', '"+ secu(m.getImagen()))+ "', '"+ secu(Double. toString(m.getPantalla())) + "', '"
+			+ secu(String.valueOf(m.getResolucion())) + "', '"+ secu(m.getSisOperativo()) + "')";
+			int val = st.executeUpdate( sentSQL );
+			log( Level.INFO, "BD fila añadida " + val + " fila\t" + sentSQL, null );
+			if (val!=1) {  // Se tiene que añadir 1 - error si no
+				log( Level.SEVERE, "Error en insert de BD\t" + sentSQL, null );
+				return false;  
+			}
+			return true;
+		} catch (SQLException z) {
+			log( Level.SEVERE, "Error en BD\t" + sentSQL, z );
+			lastError = z;
+			z.printStackTrace();
+			return false;
+		}
+	}
+	
 	public static boolean usuariosInsert( Statement st, Usuario u ) {
 		String sentSQL = "";
 		try {
@@ -150,6 +277,46 @@ public class BD {
 			lastError = e;
 			e.printStackTrace();
 			return false;
+		}
+	}
+	
+	public static String electrodomesticoSelect( Statement st, String codArt) {
+		String sentSQL = "";
+		String nombre = "";
+		try {
+			
+			sentSQL = "select nombre from Electrodomestico where codigo ='" + codArt + "'";
+			ResultSet rs = st.executeQuery( sentSQL );
+			while(rs.next()) {
+				nombre = rs.getString("nombre");
+			}
+			rs.close();
+			log( Level.INFO, "BD\t" + sentSQL, null );
+			return nombre;
+		} catch (Exception e) {
+			log( Level.SEVERE, "Error en BD\t" + sentSQL, e );
+			e.printStackTrace();
+			return null;
+		}
+	}
+	
+	public static String movilSelect( Statement st, String codArt) {
+		String sentSQL = "";
+		String nombre = "";
+		try {
+			
+			sentSQL = "select nombre from Movil where codigo ='" + codArt + "'";
+			ResultSet rs = st.executeQuery( sentSQL );
+			while(rs.next()) {
+				nombre = rs.getString("nombre");
+			}
+			rs.close();
+			log( Level.INFO, "BD\t" + sentSQL, null );
+			return nombre;
+		} catch (Exception e) {
+			log( Level.SEVERE, "Error en BD\t" + sentSQL, e );
+			e.printStackTrace();
+			return null;
 		}
 	}
 	
@@ -172,6 +339,7 @@ public class BD {
 			return null;
 		}
 	}
+	
 	public static String usuariosSelect2( Statement st, String nombre) {
 		String sentSQL = "";
 		String contraseña = "";
@@ -283,6 +451,7 @@ public class BD {
 		else
 			logger.log( level, msg, excepcion );
 	}
+	
 }
 	
 

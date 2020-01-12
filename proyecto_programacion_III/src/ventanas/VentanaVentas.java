@@ -142,6 +142,7 @@ public class VentanaVentas extends JFrame {
 		pOrdenadores.setBackground(Color.WHITE);
 
 		pElectrodomesticos = new JPanel();
+		pElectrodomesticos.setBackground(new Color(51-204-255));
 		pElectrodomesticos.setLayout(new GridLayout(3,3));
 		scrollPaneElectrodomesticos = new JScrollPane(pElectrodomesticos, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,  ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 		pElectrodomesticos.setBackground(Color.WHITE);

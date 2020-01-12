@@ -30,7 +30,7 @@ public class VentanaTerminos extends JFrame {
 		setBounds(100, 100, 656, 471);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		contentPane.setBackground(Color.ORANGE);
+		contentPane.setBackground(new Color(51-204-255));
 		contentPane.setForeground(Color.BLACK);
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
