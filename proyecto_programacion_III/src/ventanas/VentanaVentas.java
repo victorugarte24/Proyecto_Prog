@@ -22,6 +22,7 @@ import java.util.logging.Logger;
 import javax.swing.DefaultListModel;
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -212,7 +213,15 @@ public class VentanaVentas extends JFrame {
 		});
 		/////////////////////////////////////////////////////////////////////
 
-		//Cesta
+		JLabel lblNewLabel_1 = new JLabel("Total carrito: ");
+		lblNewLabel_1.setFont(new Font("Tahoma", Font.BOLD, 15));
+		lblNewLabel_1.setBounds(112, 218, 96, 31);
+		pEast.add(lblNewLabel_1);
+		
+		JLabel lblNewLabel_2 = new JLabel(Double.toString(total) + " $");
+		lblNewLabel_2.setFont(new Font("Tahoma", Font.BOLD, 15));
+		lblNewLabel_2.setBounds(112, 218, 96, 31);
+		pEast.add(lblNewLabel_2);
 
 		modelo = new DefaultListModel<Articulo>();
 
@@ -232,7 +241,7 @@ public class VentanaVentas extends JFrame {
 		GridBagConstraints gbc_lista = new GridBagConstraints();
 		gbc_lista.gridwidth = 2;
 		gbc_lista.fill = GridBagConstraints.BOTH;
-		gbc_lista.insets = new Insets(37, 10, 5, 20);
+		gbc_lista.insets = new Insets(18, 10, 5, 20);
 		gbc_lista.gridx = 0;
 		gbc_lista.gridy = 1;
 		pEast.add(scrollPaneLista, gbc_lista);
@@ -251,6 +260,7 @@ public class VentanaVentas extends JFrame {
 					else {
 						modelo.add(0, arrayMoviles.get(pos));
 						total += arrayMoviles.get(pos).getImporte();
+						lblNewLabel_2.setText(Double.toString(total)+ " $");
 					}
 
 				}
@@ -280,6 +290,7 @@ public class VentanaVentas extends JFrame {
 					else {
 						modelo.add(0, arrayElectrodomesticos.get(pos));
 						total += arrayElectrodomesticos.get(pos).getImporte();
+						lblNewLabel_2.setText(Double.toString(total)+ " $");
 					}
 
 				}
@@ -302,13 +313,13 @@ public class VentanaVentas extends JFrame {
 				@Override
 				public void mouseClicked(MouseEvent e) {
 					if (SwingUtilities.isRightMouseButton(e)){
-						System.out.println("ventana");
 						JOptionPane.showMessageDialog(null, "Marca: " + arrayOrdenadores.get(pos).getMarca() + " Procesador: " + arrayOrdenadores.get(pos).getProcesador() + 
 								" Gráfica: " + arrayOrdenadores.get(pos).getGrafica() + " Pantalla: " + arrayOrdenadores.get(pos).getPantalla()+ " Precio: " + arrayOrdenadores.get(pos).getImporte() + " $");
 					}
 					else {
 						modelo.add(0, arrayOrdenadores.get(pos));
 						total += arrayOrdenadores.get(pos).getImporte();
+						lblNewLabel_2.setText(Double.toString(total)+ " $");
 					}
 
 

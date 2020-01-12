@@ -25,6 +25,7 @@ import javax.swing.JScrollPane;
 
 import articulo.Articulo;
 import bd.BD;
+import javax.swing.JTextField;
 
 public class VentanaCompra extends JFrame {
 
@@ -32,6 +33,8 @@ public class VentanaCompra extends JFrame {
 	double valor;
 	public static DefaultListModel<Articulo> modelo;
 	public static JLabel lblNewLabel_1;
+	private JTextField textField;
+	double descuentoAplicado;
 
 	public VentanaCompra(double total) {
 
@@ -44,7 +47,8 @@ public class VentanaCompra extends JFrame {
 		this.setResizable(false);
 
 		JButton btnPagarYFinalizar = new JButton("Pagar y finalizar");
-		btnPagarYFinalizar.setBounds(356, 462, 167, 53);
+		btnPagarYFinalizar.setFont(new Font("Tahoma", Font.BOLD, 14));
+		btnPagarYFinalizar.setBounds(343, 477, 160, 38);
 		btnPagarYFinalizar.setFocusable(false);
 		getContentPane().add(btnPagarYFinalizar);
 		btnPagarYFinalizar.addActionListener(new ActionListener() {
@@ -64,7 +68,8 @@ public class VentanaCompra extends JFrame {
 		});
 
 		JButton btnCancelar = new JButton("Cancelar compra");
-		btnCancelar.setBounds(70, 462, 167, 53);
+		btnCancelar.setFont(new Font("Tahoma", Font.BOLD, 14));
+		btnCancelar.setBounds(70, 477, 160, 38);
 		getContentPane().add(btnCancelar);
 		btnCancelar.setFocusable(false);
 		btnCancelar.addActionListener(new ActionListener() {
@@ -93,16 +98,45 @@ public class VentanaCompra extends JFrame {
 		scrollPane.setMaximumSize(listSize);
 		panel.add(scrollPane);
 		
-		JLabel lblPrecioTotal = new JLabel("Precio Total:" + " " + total + " $");
+		descuentoAplicado = total;
+		
+		JLabel lblPrecioTotal = new JLabel("Precio Total:" + " " + descuentoAplicado + " $");
 		lblPrecioTotal.setFont(new Font("Tahoma", Font.BOLD, 14));
-		lblPrecioTotal.setBounds(70, 338, 453, 27);
+		lblPrecioTotal.setBounds(70, 317, 236, 27);
 		getContentPane().add(lblPrecioTotal);
+		
+		JLabel label = new JLabel("Código de descuento:");
+		label.setFont(new Font("Tahoma", Font.BOLD, 14));
+		label.setBounds(70, 371, 160, 27);
+		getContentPane().add(label);
+		
+		textField = new JTextField();
+		textField.setFont(new Font("Tahoma", Font.BOLD, 14));
+		textField.setBounds(253, 372, 147, 25);
+		getContentPane().add(textField);
+		textField.setColumns(10);
+		
+		JButton btnAplicar = new JButton("Aplicar");
+		btnAplicar.setBounds(439, 376, 85, 21);
+		btnAplicar.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e){
+				if(textField.getText().equals("descuento30")) {
+					double descuento = descuentoAplicado * 0.3;
+					descuentoAplicado = descuentoAplicado - descuento;
+					lblPrecioTotal.setText("Precio Total:" + " " + descuentoAplicado + " $");
+					btnAplicar.setEnabled(false);
+				}
+			}
+		});
+		getContentPane().add(btnAplicar);
 
+		
 
 	}
 
 	public void factura() throws IOException {
-		FileOutputStream fos = new FileOutputStream("data/factura.txt");
+		File file = new File("factura");
+		FileOutputStream fos = new FileOutputStream("data/" + file + ".txt");
 		ObjectOutputStream oos = new ObjectOutputStream(fos);
 		for (int i = 0; i < modelo.getSize(); i++) {
 			oos.writeObject(modelo.get(i).toString2());
@@ -112,5 +146,6 @@ public class VentanaCompra extends JFrame {
 		oos.close();
 
 	}
+	
 }
 
