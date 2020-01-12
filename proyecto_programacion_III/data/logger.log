@@ -1,4 +1,124 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
+<record>
+  <date>2020-01-12T16:30:16.092344900Z</date>
+  <millis>1578846616092</millis>
+  <nanos>344900</nanos>
+  <sequence>0</sequence>
+  <logger>ventanas.VentanaVentas</logger>
+  <level>INFO</level>
+  <class>ventanas.VentanaInicio$2</class>
+  <method>actionPerformed</method>
+  <thread>17</thread>
+  <message>Botón Registrarse </message>
+</record>
+<record>
+  <date>2020-01-12T16:30:19.636734500Z</date>
+  <millis>1578846619636</millis>
+  <nanos>734500</nanos>
+  <sequence>1</sequence>
+  <logger>ventanas.VentanaVentas</logger>
+  <level>INFO</level>
+  <class>ventanas.VentanaRegistro$1</class>
+  <method>actionPerformed</method>
+  <thread>17</thread>
+  <message>Botón Registrarse </message>
+</record>
+<record>
+  <date>2020-01-12T16:30:21.656779700Z</date>
+  <millis>1578846621656</millis>
+  <nanos>779700</nanos>
+  <sequence>2</sequence>
+  <logger>ventanas.VentanaVentas</logger>
+  <level>INFO</level>
+  <class>ventanas.VentanaRegistro$2</class>
+  <method>mouseClicked</method>
+  <thread>17</thread>
+  <message>Label Acepte los términos y condiciones </message>
+</record>
+<record>
+  <date>2020-01-12T16:30:23.244851Z</date>
+  <millis>1578846623244</millis>
+  <nanos>851000</nanos>
+  <sequence>3</sequence>
+  <logger>ventanas.VentanaVentas</logger>
+  <level>INFO</level>
+  <class>ventanas.VentanaTerminos$1</class>
+  <method>actionPerformed</method>
+  <thread>17</thread>
+  <message>Botón Aceptar </message>
+</record>
+<record>
+  <date>2020-01-12T16:30:30.552100300Z</date>
+  <millis>1578846630552</millis>
+  <nanos>100300</nanos>
+  <sequence>4</sequence>
+  <logger>ventanas.VentanaVentas</logger>
+  <level>INFO</level>
+  <class>ventanas.VentanaInicio$1</class>
+  <method>actionPerformed</method>
+  <thread>17</thread>
+  <message>Botón Iniciar Sesión </message>
+</record>
+<record>
+  <date>2020-01-12T16:30:36.632819700Z</date>
+  <millis>1578846636632</millis>
+  <nanos>819700</nanos>
+  <sequence>33</sequence>
+  <logger>ventanas.VentanaVentas</logger>
+  <level>INFO</level>
+  <class>ventanas.VentanaVentas$1</class>
+  <method>stateChanged</method>
+  <thread>17</thread>
+  <message>Tab: Ordenadores</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:37.370210100Z</date>
+  <millis>1578846637370</millis>
+  <nanos>210100</nanos>
+  <sequence>34</sequence>
+  <logger>ventanas.VentanaVentas</logger>
+  <level>INFO</level>
+  <class>ventanas.VentanaVentas$1</class>
+  <method>stateChanged</method>
+  <thread>17</thread>
+  <message>Tab: Electrodomesticos</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:39.170107500Z</date>
+  <millis>1578846639170</millis>
+  <nanos>107500</nanos>
+  <sequence>35</sequence>
+  <logger>ventanas.VentanaVentas</logger>
+  <level>INFO</level>
+  <class>ventanas.VentanaVentas$1</class>
+  <method>stateChanged</method>
+  <thread>17</thread>
+  <message>Tab: Moviles</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:41.823458900Z</date>
+  <millis>1578846641823</millis>
+  <nanos>458900</nanos>
+  <sequence>36</sequence>
+  <logger>ventanas.VentanaVentas</logger>
+  <level>INFO</level>
+  <class>ventanas.VentanaVentas$1</class>
+  <method>stateChanged</method>
+  <thread>17</thread>
+  <message>Tab: Ordenadores</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:42.913430800Z</date>
+  <millis>1578846642913</millis>
+  <nanos>430800</nanos>
+  <sequence>37</sequence>
+  <logger>ventanas.VentanaVentas</logger>
+  <level>INFO</level>
+  <class>ventanas.VentanaVentas$1</class>
+  <method>stateChanged</method>
+  <thread>17</thread>
+  <message>Tab: Electrodomesticos</message>
+</record>
 </log>

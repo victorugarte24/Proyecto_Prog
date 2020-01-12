@@ -64,7 +64,7 @@ public class VentanaPago extends JFrame{
 		
 		textField = new JTextField();
 		textField.setFont(new Font("Tahoma", Font.BOLD, 14));
-		textField.setBounds(248, 114, 57, 21);
+		textField.setBounds(248, 114, 45, 21);
 		getContentPane().add(textField);
 		textField.setColumns(10);
 		
@@ -126,20 +126,35 @@ public class VentanaPago extends JFrame{
 		textField_2 = new JTextField();
 		textField_2.setFont(new Font("Tahoma", Font.BOLD, 14));
 		textField_2.setColumns(10);
-		textField_2.setBounds(326, 114, 57, 21);
+		textField_2.setBounds(326, 114, 45, 21);
 		getContentPane().add(textField_2);
 
 		textField_4 = new JTextField();
 		textField_4.setFont(new Font("Tahoma", Font.BOLD, 14));
 		textField_4.setColumns(10);
-		textField_4.setBounds(405, 114, 57, 21);
+		textField_4.setBounds(405, 114, 45, 21);
 		getContentPane().add(textField_4);
 
 		textField_5 = new JTextField();
 		textField_5.setFont(new Font("Tahoma", Font.BOLD, 14));
 		textField_5.setColumns(10);
-		textField_5.setBounds(484, 114, 57, 21);
+		textField_5.setBounds(484, 114, 45, 21);
 		getContentPane().add(textField_5);
+		
+		JLabel label_1 = new JLabel("-");
+		label_1.setFont(new Font("Tahoma", Font.BOLD, 20));
+		label_1.setBounds(304, 118, 45, 13);
+		getContentPane().add(label_1);
+		
+		JLabel label_2 = new JLabel("-");
+		label_2.setFont(new Font("Tahoma", Font.BOLD, 20));
+		label_2.setBounds(380, 118, 45, 13);
+		getContentPane().add(label_2);
+		
+		JLabel label_3 = new JLabel("-");
+		label_3.setFont(new Font("Tahoma", Font.BOLD, 20));
+		label_3.setBounds(460, 118, 45, 13);
+		getContentPane().add(label_3);
 
 
 	}

@@ -37,6 +37,7 @@ public class VentanaInicio extends JFrame {
 	private Statement st;
 	public static Properties properties;
 	public static Usuario u = new Usuario("");
+	public VentanaVentas vv;
 
 
 	public VentanaInicio (){
@@ -90,7 +91,7 @@ public class VentanaInicio extends JFrame {
 							guardarProperties();
 							u.setEmail(textField.getText());
 						} 
-						VentanaVentas vv = new VentanaVentas();
+						vv = new VentanaVentas();
 						vv.setVisible(true);
 						dispose();
 
@@ -144,7 +145,7 @@ public class VentanaInicio extends JFrame {
 		textField.setColumns(10);
 		
 		JLabelGraficoAjustado logo = new JLabelGraficoAjustado("src/img/eShop.png", 120, 100);
-		logo.setLocation(230, 10);
+		logo.setLocation(90, 10);
 		getContentPane().add(logo);
 
 		cargarProperties();

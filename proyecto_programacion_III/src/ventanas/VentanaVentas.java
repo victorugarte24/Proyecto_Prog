@@ -63,7 +63,7 @@ public class VentanaVentas extends JFrame {
 	JLabelGraficoAjustado jlabelOrdenadores;
 	JLabelGraficoAjustado jlabelMoviles;
 	int respuesta;
-	DefaultListModel<Articulo> modelo;
+	public DefaultListModel<Articulo> modelo;
 	ArrayList<Moviles> arrayMoviles = new ArrayList<Moviles>();
 	ArrayList<Electrodomesticos> arrayElectrodomesticos = new ArrayList<Electrodomesticos>();
 	ArrayList<Ordenadores> arrayOrdenadores = new ArrayList<Ordenadores>();
@@ -232,15 +232,10 @@ public class VentanaVentas extends JFrame {
 		GridBagConstraints gbc_lista = new GridBagConstraints();
 		gbc_lista.gridwidth = 2;
 		gbc_lista.fill = GridBagConstraints.BOTH;
-		gbc_lista.insets = new Insets(37, 5, 5, 5);
+		gbc_lista.insets = new Insets(37, 10, 5, 20);
 		gbc_lista.gridx = 0;
 		gbc_lista.gridy = 1;
 		pEast.add(scrollPaneLista, gbc_lista);
-
-		//Articulo articulo = new Articulo("Pavilion 2500", 22012, "Ordenador", 200, "Hp", "");
-		//Electrodomesticos e = new Electrodomesticos("e", 1, "fdf", 123, "qd", "null", "ff", 12, 123);
-		//modelo.add(0, articulo);
-		//modelo.add(0, e);
 
 		/////////////////////////////////////////////////////////////////////		
 		for(int a = 0; a < arrayMoviles.size(); a++){
@@ -337,7 +332,7 @@ public class VentanaVentas extends JFrame {
 
 		GridBagConstraints gbc_btnEliminar = new GridBagConstraints();
 		gbc_btnEliminar.fill = GridBagConstraints.BOTH;
-		gbc_btnEliminar.insets = new Insets(0, 5, 0, 5);
+		gbc_btnEliminar.insets = new Insets(0, 5, 0, 20);
 		gbc_btnEliminar.gridx = 1;
 		gbc_btnEliminar.gridy = 2;
 		pEast.add(btnEliminar, gbc_btnEliminar);
@@ -364,7 +359,7 @@ public class VentanaVentas extends JFrame {
 		JButton btnValidar = new JButton("Comprar");
 		GridBagConstraints gbc_btnValidar = new GridBagConstraints();
 		gbc_btnValidar.fill = GridBagConstraints.BOTH;
-		gbc_btnValidar.insets = new Insets(0, 5, 0, 5);
+		gbc_btnValidar.insets = new Insets(0, 10, 0, 5);
 		gbc_btnValidar.gridx = 0;
 		gbc_btnValidar.gridy = 2;
 		pEast.add(btnValidar, gbc_btnValidar);

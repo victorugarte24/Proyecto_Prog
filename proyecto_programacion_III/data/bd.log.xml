@@ -11452,3 +11452,3019 @@
   <message>Cierre de base de datos</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T16:14:11.395962800Z</date>
+  <millis>1578845651395</millis>
+  <nanos>962800</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:11.399952Z</date>
+  <millis>1578845651399</millis>
+  <nanos>952000</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:11.400948200Z</date>
+  <millis>1578845651400</millis>
+  <nanos>948200</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='ab@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.468409500Z</date>
+  <millis>1578845652468</millis>
+  <nanos>409500</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.471400500Z</date>
+  <millis>1578845652471</millis>
+  <nanos>400500</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.500885200Z</date>
+  <millis>1578845652500</millis>
+  <nanos>885200</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SamsungS10', '55453', '', '989.0', 'Samsung','src/img/MovilSamsungS10.jpg', '6.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.521020500Z</date>
+  <millis>1578845652521</millis>
+  <nanos>20500</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('HuaweiP30', '653454', '', '567.0', 'Huawei','src/img/MovilHuaweiP30.jpg', '9.0', '720.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.541949900Z</date>
+  <millis>1578845652541</millis>
+  <nanos>949900</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('LGG8', '74545', '', '456.0', 'LG','src/img/MovilLGG8.jpg', '7.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.563143700Z</date>
+  <millis>1578845652563</millis>
+  <nanos>143700</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('Iphone11', '45458', '', '1600.0', 'Apple','src/img/MovilIPhone11.jpg', '6.5', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.584585100Z</date>
+  <millis>1578845652584</millis>
+  <nanos>585100</nanos>
+  <sequence>11</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SonyXperiaZ4', '154450', '', '670.0', 'Sony','src/img/MovilSoniExperiaZ4.jpg', '7.0', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.590598Z</date>
+  <millis>1578845652590</millis>
+  <nanos>598000</nanos>
+  <sequence>12</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.593593700Z</date>
+  <millis>1578845652593</millis>
+  <nanos>593700</nanos>
+  <sequence>13</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.594560100Z</date>
+  <millis>1578845652594</millis>
+  <nanos>560100</nanos>
+  <sequence>14</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.620379400Z</date>
+  <millis>1578845652620</millis>
+  <nanos>379400</nanos>
+  <sequence>15</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('HPPavilion200', '11343', '', '1200.0', 'Hp','src/img/OrdenadorHPPavilion.jpg', 'I7-7300HQ', 'Nvidia1050', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.642538200Z</date>
+  <millis>1578845652642</millis>
+  <nanos>538200</nanos>
+  <sequence>16</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AcerAspire5', '12343', '', '1300.0', 'Acer','src/img/OrdenadorAcerAspire5.jpg', 'I7-6700HQ', 'Nvidia1050Ti', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.665971500Z</date>
+  <millis>1578845652665</millis>
+  <nanos>971500</nanos>
+  <sequence>17</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AsusP541NA', '64433', '', '900.0', 'Asus','src/img/OrdenadorAsusP541NA.jpg', 'I7-7100HQ', 'NvidiaGeForce1300', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.688287800Z</date>
+  <millis>1578845652688</millis>
+  <nanos>287800</nanos>
+  <sequence>18</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AppleMacbook', '565414', '', '2500.0', 'Apple','src/img/OrdenadoAppleMacBook.jpg', 'MacOs', 'Nvidia1080', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.708633500Z</date>
+  <millis>1578845652708</millis>
+  <nanos>633500</nanos>
+  <sequence>19</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('LenovoIdeaPad', '77615', '', '1300.0', 'Lenovo','src/img/OrdenadorLenovoIdeapad.jpg', 'I7-6700HQ', 'Nvidia1050T', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.713655400Z</date>
+  <millis>1578845652713</millis>
+  <nanos>655400</nanos>
+  <sequence>20</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.716647200Z</date>
+  <millis>1578845652716</millis>
+  <nanos>647200</nanos>
+  <sequence>21</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.717610700Z</date>
+  <millis>1578845652717</millis>
+  <nanos>610700</nanos>
+  <sequence>22</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.745409600Z</date>
+  <millis>1578845652745</millis>
+  <nanos>409600</nanos>
+  <sequence>23</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('LavadoraLGB5', '4149', '', '500.0', 'LG','src/img/ElectrodomesticoLavadoraLG.jpg', 'Lavadora', '100', '200.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.773027800Z</date>
+  <millis>1578845652773</millis>
+  <nanos>27800</nanos>
+  <sequence>24</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('CafeteraEspresso', '145548', '', '89.0', 'Cecotec','src/img/ElectrodomesticoCafeteraEspresso.jpg', 'Cafetera', '2', '20.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.797331300Z</date>
+  <millis>1578845652797</millis>
+  <nanos>331300</nanos>
+  <sequence>25</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('FrigorficoSiemens', '25455', '', '600.0', 'Siemens','src/img/ElectrodomesticoFrigorificoSiemens.jpg', 'Frigorfico', '250', '400.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.821178400Z</date>
+  <millis>1578845652821</millis>
+  <nanos>178400</nanos>
+  <sequence>26</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('BatidoraPhilips', '78853', '', '55.0', 'Philips','src/img/ElectrodomesticoBatidoraPhilips.jpg', 'Batidora', '1', '25.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.841952900Z</date>
+  <millis>1578845652841</millis>
+  <nanos>952900</nanos>
+  <sequence>27</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('MicroondasPanasonic', '445454', '', '150.0', 'Panasonic','src/img/ElectrodomesticoMicroondasPanasonic.jpg', 'Microondas', '4', '30.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:12.846967600Z</date>
+  <millis>1578845652846</millis>
+  <nanos>967600</nanos>
+  <sequence>28</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:13.024130100Z</date>
+  <millis>1578845653024</millis>
+  <nanos>130100</nanos>
+  <sequence>29</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T16:14:56.151561600Z</date>
+  <millis>1578845696151</millis>
+  <nanos>561600</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.170538100Z</date>
+  <millis>1578845696170</millis>
+  <nanos>538100</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.194294600Z</date>
+  <millis>1578845696194</millis>
+  <nanos>294600</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SamsungS10', '55453', '', '989.0', 'Samsung','src/img/MovilSamsungS10.jpg', '6.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.215632700Z</date>
+  <millis>1578845696215</millis>
+  <nanos>632700</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('HuaweiP30', '653454', '', '567.0', 'Huawei','src/img/MovilHuaweiP30.jpg', '9.0', '720.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.237034Z</date>
+  <millis>1578845696237</millis>
+  <nanos>34000</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('LGG8', '74545', '', '456.0', 'LG','src/img/MovilLGG8.jpg', '7.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.260599100Z</date>
+  <millis>1578845696260</millis>
+  <nanos>599100</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('Iphone11', '45458', '', '1600.0', 'Apple','src/img/MovilIPhone11.jpg', '6.5', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.283020Z</date>
+  <millis>1578845696283</millis>
+  <nanos>20000</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SonyXperiaZ4', '154450', '', '670.0', 'Sony','src/img/MovilSoniExperiaZ4.jpg', '7.0', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.289002200Z</date>
+  <millis>1578845696289</millis>
+  <nanos>2200</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.290996700Z</date>
+  <millis>1578845696290</millis>
+  <nanos>996700</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.291993800Z</date>
+  <millis>1578845696291</millis>
+  <nanos>993800</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.319649600Z</date>
+  <millis>1578845696319</millis>
+  <nanos>649600</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('HPPavilion200', '11343', '', '1200.0', 'Hp','src/img/OrdenadorHPPavilion.jpg', 'I7-7300HQ', 'Nvidia1050', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.345958400Z</date>
+  <millis>1578845696345</millis>
+  <nanos>958400</nanos>
+  <sequence>11</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AcerAspire5', '12343', '', '1300.0', 'Acer','src/img/OrdenadorAcerAspire5.jpg', 'I7-6700HQ', 'Nvidia1050Ti', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.368039800Z</date>
+  <millis>1578845696368</millis>
+  <nanos>39800</nanos>
+  <sequence>12</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AsusP541NA', '64433', '', '900.0', 'Asus','src/img/OrdenadorAsusP541NA.jpg', 'I7-7100HQ', 'NvidiaGeForce1300', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.391110400Z</date>
+  <millis>1578845696391</millis>
+  <nanos>110400</nanos>
+  <sequence>13</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AppleMacbook', '565414', '', '2500.0', 'Apple','src/img/OrdenadoAppleMacBook.jpg', 'MacOs', 'Nvidia1080', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.413714Z</date>
+  <millis>1578845696413</millis>
+  <nanos>714000</nanos>
+  <sequence>14</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('LenovoIdeaPad', '77615', '', '1300.0', 'Lenovo','src/img/OrdenadorLenovoIdeapad.jpg', 'I7-6700HQ', 'Nvidia1050T', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.419726300Z</date>
+  <millis>1578845696419</millis>
+  <nanos>726300</nanos>
+  <sequence>15</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.421721Z</date>
+  <millis>1578845696421</millis>
+  <nanos>721000</nanos>
+  <sequence>16</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.422719200Z</date>
+  <millis>1578845696422</millis>
+  <nanos>719200</nanos>
+  <sequence>17</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.449115700Z</date>
+  <millis>1578845696449</millis>
+  <nanos>115700</nanos>
+  <sequence>18</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('LavadoraLGB5', '4149', '', '500.0', 'LG','src/img/ElectrodomesticoLavadoraLG.jpg', 'Lavadora', '100', '200.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.474622100Z</date>
+  <millis>1578845696474</millis>
+  <nanos>622100</nanos>
+  <sequence>19</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('CafeteraEspresso', '145548', '', '89.0', 'Cecotec','src/img/ElectrodomesticoCafeteraEspresso.jpg', 'Cafetera', '2', '20.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.502355600Z</date>
+  <millis>1578845696502</millis>
+  <nanos>355600</nanos>
+  <sequence>20</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('FrigorficoSiemens', '25455', '', '600.0', 'Siemens','src/img/ElectrodomesticoFrigorificoSiemens.jpg', 'Frigorfico', '250', '400.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.527725400Z</date>
+  <millis>1578845696527</millis>
+  <nanos>725400</nanos>
+  <sequence>21</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('BatidoraPhilips', '78853', '', '55.0', 'Philips','src/img/ElectrodomesticoBatidoraPhilips.jpg', 'Batidora', '1', '25.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.553905900Z</date>
+  <millis>1578845696553</millis>
+  <nanos>905900</nanos>
+  <sequence>22</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('MicroondasPanasonic', '445454', '', '150.0', 'Panasonic','src/img/ElectrodomesticoMicroondasPanasonic.jpg', 'Microondas', '4', '30.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:14:56.558879400Z</date>
+  <millis>1578845696558</millis>
+  <nanos>879400</nanos>
+  <sequence>23</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T16:15:07.401651700Z</date>
+  <millis>1578845707401</millis>
+  <nanos>651700</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.417612300Z</date>
+  <millis>1578845707417</millis>
+  <nanos>612300</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.438554600Z</date>
+  <millis>1578845707438</millis>
+  <nanos>554600</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SamsungS10', '55453', '', '989.0', 'Samsung','src/img/MovilSamsungS10.jpg', '6.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.458499100Z</date>
+  <millis>1578845707458</millis>
+  <nanos>499100</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('HuaweiP30', '653454', '', '567.0', 'Huawei','src/img/MovilHuaweiP30.jpg', '9.0', '720.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.477449200Z</date>
+  <millis>1578845707477</millis>
+  <nanos>449200</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('LGG8', '74545', '', '456.0', 'LG','src/img/MovilLGG8.jpg', '7.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.500389200Z</date>
+  <millis>1578845707500</millis>
+  <nanos>389200</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('Iphone11', '45458', '', '1600.0', 'Apple','src/img/MovilIPhone11.jpg', '6.5', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.520333300Z</date>
+  <millis>1578845707520</millis>
+  <nanos>333300</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SonyXperiaZ4', '154450', '', '670.0', 'Sony','src/img/MovilSoniExperiaZ4.jpg', '7.0', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.527318500Z</date>
+  <millis>1578845707527</millis>
+  <nanos>318500</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.530311100Z</date>
+  <millis>1578845707530</millis>
+  <nanos>311100</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.532305500Z</date>
+  <millis>1578845707532</millis>
+  <nanos>305500</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.559231700Z</date>
+  <millis>1578845707559</millis>
+  <nanos>231700</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('HPPavilion200', '11343', '', '1200.0', 'Hp','src/img/OrdenadorHPPavilion.jpg', 'I7-7300HQ', 'Nvidia1050', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.582114600Z</date>
+  <millis>1578845707582</millis>
+  <nanos>114600</nanos>
+  <sequence>11</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AcerAspire5', '12343', '', '1300.0', 'Acer','src/img/OrdenadorAcerAspire5.jpg', 'I7-6700HQ', 'Nvidia1050Ti', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.602410600Z</date>
+  <millis>1578845707602</millis>
+  <nanos>410600</nanos>
+  <sequence>12</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AsusP541NA', '64433', '', '900.0', 'Asus','src/img/OrdenadorAsusP541NA.jpg', 'I7-7100HQ', 'NvidiaGeForce1300', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.630562100Z</date>
+  <millis>1578845707630</millis>
+  <nanos>562100</nanos>
+  <sequence>13</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AppleMacbook', '565414', '', '2500.0', 'Apple','src/img/OrdenadoAppleMacBook.jpg', 'MacOs', 'Nvidia1080', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.659537700Z</date>
+  <millis>1578845707659</millis>
+  <nanos>537700</nanos>
+  <sequence>14</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('LenovoIdeaPad', '77615', '', '1300.0', 'Lenovo','src/img/OrdenadorLenovoIdeapad.jpg', 'I7-6700HQ', 'Nvidia1050T', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.665549800Z</date>
+  <millis>1578845707665</millis>
+  <nanos>549800</nanos>
+  <sequence>15</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.668514400Z</date>
+  <millis>1578845707668</millis>
+  <nanos>514400</nanos>
+  <sequence>16</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.669512200Z</date>
+  <millis>1578845707669</millis>
+  <nanos>512200</nanos>
+  <sequence>17</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.690500400Z</date>
+  <millis>1578845707690</millis>
+  <nanos>500400</nanos>
+  <sequence>18</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('LavadoraLGB5', '4149', '', '500.0', 'LG','src/img/ElectrodomesticoLavadoraLG.jpg', 'Lavadora', '100', '200.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.718040100Z</date>
+  <millis>1578845707718</millis>
+  <nanos>40100</nanos>
+  <sequence>19</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('CafeteraEspresso', '145548', '', '89.0', 'Cecotec','src/img/ElectrodomesticoCafeteraEspresso.jpg', 'Cafetera', '2', '20.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.741234800Z</date>
+  <millis>1578845707741</millis>
+  <nanos>234800</nanos>
+  <sequence>20</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('FrigorficoSiemens', '25455', '', '600.0', 'Siemens','src/img/ElectrodomesticoFrigorificoSiemens.jpg', 'Frigorfico', '250', '400.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.771347800Z</date>
+  <millis>1578845707771</millis>
+  <nanos>347800</nanos>
+  <sequence>21</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('BatidoraPhilips', '78853', '', '55.0', 'Philips','src/img/ElectrodomesticoBatidoraPhilips.jpg', 'Batidora', '1', '25.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.797712900Z</date>
+  <millis>1578845707797</millis>
+  <nanos>712900</nanos>
+  <sequence>22</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('MicroondasPanasonic', '445454', '', '150.0', 'Panasonic','src/img/ElectrodomesticoMicroondasPanasonic.jpg', 'Microondas', '4', '30.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:07.805688500Z</date>
+  <millis>1578845707805</millis>
+  <nanos>688500</nanos>
+  <sequence>23</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T16:15:30.594090500Z</date>
+  <millis>1578845730594</millis>
+  <nanos>90500</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.610020400Z</date>
+  <millis>1578845730610</millis>
+  <nanos>20400</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.632452700Z</date>
+  <millis>1578845730632</millis>
+  <nanos>452700</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SamsungS10', '55453', '', '989.0', 'Samsung','src/img/MovilSamsungS10.jpg', '6.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.660108500Z</date>
+  <millis>1578845730660</millis>
+  <nanos>108500</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('HuaweiP30', '653454', '', '567.0', 'Huawei','src/img/MovilHuaweiP30.jpg', '9.0', '720.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.689595100Z</date>
+  <millis>1578845730689</millis>
+  <nanos>595100</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('LGG8', '74545', '', '456.0', 'LG','src/img/MovilLGG8.jpg', '7.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.713200Z</date>
+  <millis>1578845730713</millis>
+  <nanos>200000</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('Iphone11', '45458', '', '1600.0', 'Apple','src/img/MovilIPhone11.jpg', '6.5', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.732778200Z</date>
+  <millis>1578845730732</millis>
+  <nanos>778200</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SonyXperiaZ4', '154450', '', '670.0', 'Sony','src/img/MovilSoniExperiaZ4.jpg', '7.0', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.738756300Z</date>
+  <millis>1578845730738</millis>
+  <nanos>756300</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.741776300Z</date>
+  <millis>1578845730741</millis>
+  <nanos>776300</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.742746800Z</date>
+  <millis>1578845730742</millis>
+  <nanos>746800</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.761903200Z</date>
+  <millis>1578845730761</millis>
+  <nanos>903200</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('HPPavilion200', '11343', '', '1200.0', 'Hp','src/img/OrdenadorHPPavilion.jpg', 'I7-7300HQ', 'Nvidia1050', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.782092200Z</date>
+  <millis>1578845730782</millis>
+  <nanos>92200</nanos>
+  <sequence>11</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AcerAspire5', '12343', '', '1300.0', 'Acer','src/img/OrdenadorAcerAspire5.jpg', 'I7-6700HQ', 'Nvidia1050Ti', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.800933100Z</date>
+  <millis>1578845730800</millis>
+  <nanos>933100</nanos>
+  <sequence>12</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AsusP541NA', '64433', '', '900.0', 'Asus','src/img/OrdenadorAsusP541NA.jpg', 'I7-7100HQ', 'NvidiaGeForce1300', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.821060800Z</date>
+  <millis>1578845730821</millis>
+  <nanos>60800</nanos>
+  <sequence>13</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AppleMacbook', '565414', '', '2500.0', 'Apple','src/img/OrdenadoAppleMacBook.jpg', 'MacOs', 'Nvidia1080', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.841070Z</date>
+  <millis>1578845730841</millis>
+  <nanos>70000</nanos>
+  <sequence>14</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('LenovoIdeaPad', '77615', '', '1300.0', 'Lenovo','src/img/OrdenadorLenovoIdeapad.jpg', 'I7-6700HQ', 'Nvidia1050T', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.846085300Z</date>
+  <millis>1578845730846</millis>
+  <nanos>85300</nanos>
+  <sequence>15</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.848052100Z</date>
+  <millis>1578845730848</millis>
+  <nanos>52100</nanos>
+  <sequence>16</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.849049800Z</date>
+  <millis>1578845730849</millis>
+  <nanos>49800</nanos>
+  <sequence>17</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.868714600Z</date>
+  <millis>1578845730868</millis>
+  <nanos>714600</nanos>
+  <sequence>18</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('LavadoraLGB5', '4149', '', '500.0', 'LG','src/img/ElectrodomesticoLavadoraLG.jpg', 'Lavadora', '100', '200.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.889170Z</date>
+  <millis>1578845730889</millis>
+  <nanos>170000</nanos>
+  <sequence>19</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('CafeteraEspresso', '145548', '', '89.0', 'Cecotec','src/img/ElectrodomesticoCafeteraEspresso.jpg', 'Cafetera', '2', '20.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.908056200Z</date>
+  <millis>1578845730908</millis>
+  <nanos>56200</nanos>
+  <sequence>20</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('FrigorficoSiemens', '25455', '', '600.0', 'Siemens','src/img/ElectrodomesticoFrigorificoSiemens.jpg', 'Frigorfico', '250', '400.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.928312Z</date>
+  <millis>1578845730928</millis>
+  <nanos>312000</nanos>
+  <sequence>21</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('BatidoraPhilips', '78853', '', '55.0', 'Philips','src/img/ElectrodomesticoBatidoraPhilips.jpg', 'Batidora', '1', '25.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.947302700Z</date>
+  <millis>1578845730947</millis>
+  <nanos>302700</nanos>
+  <sequence>22</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('MicroondasPanasonic', '445454', '', '150.0', 'Panasonic','src/img/ElectrodomesticoMicroondasPanasonic.jpg', 'Microondas', '4', '30.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:30.952253100Z</date>
+  <millis>1578845730952</millis>
+  <nanos>253100</nanos>
+  <sequence>23</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T16:15:41.902941500Z</date>
+  <millis>1578845741902</millis>
+  <nanos>941500</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:41.918900400Z</date>
+  <millis>1578845741918</millis>
+  <nanos>900400</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:41.956163200Z</date>
+  <millis>1578845741956</millis>
+  <nanos>163200</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SamsungS10', '55453', '', '989.0', 'Samsung','src/img/MovilSamsungS10.jpg', '6.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:41.978268600Z</date>
+  <millis>1578845741978</millis>
+  <nanos>268600</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('HuaweiP30', '653454', '', '567.0', 'Huawei','src/img/MovilHuaweiP30.jpg', '9.0', '720.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.001207300Z</date>
+  <millis>1578845742001</millis>
+  <nanos>207300</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('LGG8', '74545', '', '456.0', 'LG','src/img/MovilLGG8.jpg', '7.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.023038600Z</date>
+  <millis>1578845742023</millis>
+  <nanos>38600</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('Iphone11', '45458', '', '1600.0', 'Apple','src/img/MovilIPhone11.jpg', '6.5', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.044123500Z</date>
+  <millis>1578845742044</millis>
+  <nanos>123500</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SonyXperiaZ4', '154450', '', '670.0', 'Sony','src/img/MovilSoniExperiaZ4.jpg', '7.0', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.050142Z</date>
+  <millis>1578845742050</millis>
+  <nanos>142000</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.053118700Z</date>
+  <millis>1578845742053</millis>
+  <nanos>118700</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.054100900Z</date>
+  <millis>1578845742054</millis>
+  <nanos>100900</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.076078200Z</date>
+  <millis>1578845742076</millis>
+  <nanos>78200</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('HPPavilion200', '11343', '', '1200.0', 'Hp','src/img/OrdenadorHPPavilion.jpg', 'I7-7300HQ', 'Nvidia1050', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.108621300Z</date>
+  <millis>1578845742108</millis>
+  <nanos>621300</nanos>
+  <sequence>11</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AcerAspire5', '12343', '', '1300.0', 'Acer','src/img/OrdenadorAcerAspire5.jpg', 'I7-6700HQ', 'Nvidia1050Ti', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.133688100Z</date>
+  <millis>1578845742133</millis>
+  <nanos>688100</nanos>
+  <sequence>12</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AsusP541NA', '64433', '', '900.0', 'Asus','src/img/OrdenadorAsusP541NA.jpg', 'I7-7100HQ', 'NvidiaGeForce1300', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.160162300Z</date>
+  <millis>1578845742160</millis>
+  <nanos>162300</nanos>
+  <sequence>13</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AppleMacbook', '565414', '', '2500.0', 'Apple','src/img/OrdenadoAppleMacBook.jpg', 'MacOs', 'Nvidia1080', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.182172Z</date>
+  <millis>1578845742182</millis>
+  <nanos>172000</nanos>
+  <sequence>14</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('LenovoIdeaPad', '77615', '', '1300.0', 'Lenovo','src/img/OrdenadorLenovoIdeapad.jpg', 'I7-6700HQ', 'Nvidia1050T', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.188154800Z</date>
+  <millis>1578845742188</millis>
+  <nanos>154800</nanos>
+  <sequence>15</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.190150700Z</date>
+  <millis>1578845742190</millis>
+  <nanos>150700</nanos>
+  <sequence>16</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.191176400Z</date>
+  <millis>1578845742191</millis>
+  <nanos>176400</nanos>
+  <sequence>17</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.213828300Z</date>
+  <millis>1578845742213</millis>
+  <nanos>828300</nanos>
+  <sequence>18</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('LavadoraLGB5', '4149', '', '500.0', 'LG','src/img/ElectrodomesticoLavadoraLG.jpg', 'Lavadora', '100', '200.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.234386200Z</date>
+  <millis>1578845742234</millis>
+  <nanos>386200</nanos>
+  <sequence>19</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('CafeteraEspresso', '145548', '', '89.0', 'Cecotec','src/img/ElectrodomesticoCafeteraEspresso.jpg', 'Cafetera', '2', '20.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.264289800Z</date>
+  <millis>1578845742264</millis>
+  <nanos>289800</nanos>
+  <sequence>20</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('FrigorficoSiemens', '25455', '', '600.0', 'Siemens','src/img/ElectrodomesticoFrigorificoSiemens.jpg', 'Frigorfico', '250', '400.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.294055Z</date>
+  <millis>1578845742294</millis>
+  <nanos>55000</nanos>
+  <sequence>21</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('BatidoraPhilips', '78853', '', '55.0', 'Philips','src/img/ElectrodomesticoBatidoraPhilips.jpg', 'Batidora', '1', '25.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.319052100Z</date>
+  <millis>1578845742319</millis>
+  <nanos>52100</nanos>
+  <sequence>22</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('MicroondasPanasonic', '445454', '', '150.0', 'Panasonic','src/img/ElectrodomesticoMicroondasPanasonic.jpg', 'Microondas', '4', '30.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:42.324038900Z</date>
+  <millis>1578845742324</millis>
+  <nanos>38900</nanos>
+  <sequence>23</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T16:15:50.489645800Z</date>
+  <millis>1578845750489</millis>
+  <nanos>645800</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.505602300Z</date>
+  <millis>1578845750505</millis>
+  <nanos>602300</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.531815300Z</date>
+  <millis>1578845750531</millis>
+  <nanos>815300</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SamsungS10', '55453', '', '989.0', 'Samsung','src/img/MovilSamsungS10.jpg', '6.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.551732900Z</date>
+  <millis>1578845750551</millis>
+  <nanos>732900</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('HuaweiP30', '653454', '', '567.0', 'Huawei','src/img/MovilHuaweiP30.jpg', '9.0', '720.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.571725800Z</date>
+  <millis>1578845750571</millis>
+  <nanos>725800</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('LGG8', '74545', '', '456.0', 'LG','src/img/MovilLGG8.jpg', '7.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.591138300Z</date>
+  <millis>1578845750591</millis>
+  <nanos>138300</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('Iphone11', '45458', '', '1600.0', 'Apple','src/img/MovilIPhone11.jpg', '6.5', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.615125900Z</date>
+  <millis>1578845750615</millis>
+  <nanos>125900</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SonyXperiaZ4', '154450', '', '670.0', 'Sony','src/img/MovilSoniExperiaZ4.jpg', '7.0', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.621110100Z</date>
+  <millis>1578845750621</millis>
+  <nanos>110100</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.624107300Z</date>
+  <millis>1578845750624</millis>
+  <nanos>107300</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.625098300Z</date>
+  <millis>1578845750625</millis>
+  <nanos>98300</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.646078400Z</date>
+  <millis>1578845750646</millis>
+  <nanos>78400</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('HPPavilion200', '11343', '', '1200.0', 'Hp','src/img/OrdenadorHPPavilion.jpg', 'I7-7300HQ', 'Nvidia1050', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.671654900Z</date>
+  <millis>1578845750671</millis>
+  <nanos>654900</nanos>
+  <sequence>11</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AcerAspire5', '12343', '', '1300.0', 'Acer','src/img/OrdenadorAcerAspire5.jpg', 'I7-6700HQ', 'Nvidia1050Ti', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.693299900Z</date>
+  <millis>1578845750693</millis>
+  <nanos>299900</nanos>
+  <sequence>12</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AsusP541NA', '64433', '', '900.0', 'Asus','src/img/OrdenadorAsusP541NA.jpg', 'I7-7100HQ', 'NvidiaGeForce1300', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.715600100Z</date>
+  <millis>1578845750715</millis>
+  <nanos>600100</nanos>
+  <sequence>13</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AppleMacbook', '565414', '', '2500.0', 'Apple','src/img/OrdenadoAppleMacBook.jpg', 'MacOs', 'Nvidia1080', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.736839600Z</date>
+  <millis>1578845750736</millis>
+  <nanos>839600</nanos>
+  <sequence>14</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('LenovoIdeaPad', '77615', '', '1300.0', 'Lenovo','src/img/OrdenadorLenovoIdeapad.jpg', 'I7-6700HQ', 'Nvidia1050T', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.741850300Z</date>
+  <millis>1578845750741</millis>
+  <nanos>850300</nanos>
+  <sequence>15</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.743844200Z</date>
+  <millis>1578845750743</millis>
+  <nanos>844200</nanos>
+  <sequence>16</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.744838200Z</date>
+  <millis>1578845750744</millis>
+  <nanos>838200</nanos>
+  <sequence>17</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.777690100Z</date>
+  <millis>1578845750777</millis>
+  <nanos>690100</nanos>
+  <sequence>18</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('LavadoraLGB5', '4149', '', '500.0', 'LG','src/img/ElectrodomesticoLavadoraLG.jpg', 'Lavadora', '100', '200.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.799842800Z</date>
+  <millis>1578845750799</millis>
+  <nanos>842800</nanos>
+  <sequence>19</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('CafeteraEspresso', '145548', '', '89.0', 'Cecotec','src/img/ElectrodomesticoCafeteraEspresso.jpg', 'Cafetera', '2', '20.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.822923700Z</date>
+  <millis>1578845750822</millis>
+  <nanos>923700</nanos>
+  <sequence>20</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('FrigorficoSiemens', '25455', '', '600.0', 'Siemens','src/img/ElectrodomesticoFrigorificoSiemens.jpg', 'Frigorfico', '250', '400.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.844013500Z</date>
+  <millis>1578845750844</millis>
+  <nanos>13500</nanos>
+  <sequence>21</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('BatidoraPhilips', '78853', '', '55.0', 'Philips','src/img/ElectrodomesticoBatidoraPhilips.jpg', 'Batidora', '1', '25.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.867694Z</date>
+  <millis>1578845750867</millis>
+  <nanos>694000</nanos>
+  <sequence>22</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('MicroondasPanasonic', '445454', '', '150.0', 'Panasonic','src/img/ElectrodomesticoMicroondasPanasonic.jpg', 'Microondas', '4', '30.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:50.875673100Z</date>
+  <millis>1578845750875</millis>
+  <nanos>673100</nanos>
+  <sequence>23</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T16:15:58.069556200Z</date>
+  <millis>1578845758069</millis>
+  <nanos>556200</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.087505100Z</date>
+  <millis>1578845758087</millis>
+  <nanos>505100</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.109478100Z</date>
+  <millis>1578845758109</millis>
+  <nanos>478100</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SamsungS10', '55453', '', '989.0', 'Samsung','src/img/MovilSamsungS10.jpg', '6.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.129853500Z</date>
+  <millis>1578845758129</millis>
+  <nanos>853500</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('HuaweiP30', '653454', '', '567.0', 'Huawei','src/img/MovilHuaweiP30.jpg', '9.0', '720.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.151023700Z</date>
+  <millis>1578845758151</millis>
+  <nanos>23700</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('LGG8', '74545', '', '456.0', 'LG','src/img/MovilLGG8.jpg', '7.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.170753100Z</date>
+  <millis>1578845758170</millis>
+  <nanos>753100</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('Iphone11', '45458', '', '1600.0', 'Apple','src/img/MovilIPhone11.jpg', '6.5', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.190618400Z</date>
+  <millis>1578845758190</millis>
+  <nanos>618400</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SonyXperiaZ4', '154450', '', '670.0', 'Sony','src/img/MovilSoniExperiaZ4.jpg', '7.0', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.195608600Z</date>
+  <millis>1578845758195</millis>
+  <nanos>608600</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.198632300Z</date>
+  <millis>1578845758198</millis>
+  <nanos>632300</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.199626700Z</date>
+  <millis>1578845758199</millis>
+  <nanos>626700</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.221371800Z</date>
+  <millis>1578845758221</millis>
+  <nanos>371800</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('HPPavilion200', '11343', '', '1200.0', 'Hp','src/img/OrdenadorHPPavilion.jpg', 'I7-7300HQ', 'Nvidia1050', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.241144300Z</date>
+  <millis>1578845758241</millis>
+  <nanos>144300</nanos>
+  <sequence>11</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AcerAspire5', '12343', '', '1300.0', 'Acer','src/img/OrdenadorAcerAspire5.jpg', 'I7-6700HQ', 'Nvidia1050Ti', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.264668600Z</date>
+  <millis>1578845758264</millis>
+  <nanos>668600</nanos>
+  <sequence>12</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AsusP541NA', '64433', '', '900.0', 'Asus','src/img/OrdenadorAsusP541NA.jpg', 'I7-7100HQ', 'NvidiaGeForce1300', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.284616900Z</date>
+  <millis>1578845758284</millis>
+  <nanos>616900</nanos>
+  <sequence>13</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AppleMacbook', '565414', '', '2500.0', 'Apple','src/img/OrdenadoAppleMacBook.jpg', 'MacOs', 'Nvidia1080', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.305094Z</date>
+  <millis>1578845758305</millis>
+  <nanos>94000</nanos>
+  <sequence>14</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('LenovoIdeaPad', '77615', '', '1300.0', 'Lenovo','src/img/OrdenadorLenovoIdeapad.jpg', 'I7-6700HQ', 'Nvidia1050T', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.310075Z</date>
+  <millis>1578845758310</millis>
+  <nanos>75000</nanos>
+  <sequence>15</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.312042700Z</date>
+  <millis>1578845758312</millis>
+  <nanos>42700</nanos>
+  <sequence>16</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.313042500Z</date>
+  <millis>1578845758313</millis>
+  <nanos>42500</nanos>
+  <sequence>17</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.332674300Z</date>
+  <millis>1578845758332</millis>
+  <nanos>674300</nanos>
+  <sequence>18</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('LavadoraLGB5', '4149', '', '500.0', 'LG','src/img/ElectrodomesticoLavadoraLG.jpg', 'Lavadora', '100', '200.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.353878800Z</date>
+  <millis>1578845758353</millis>
+  <nanos>878800</nanos>
+  <sequence>19</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('CafeteraEspresso', '145548', '', '89.0', 'Cecotec','src/img/ElectrodomesticoCafeteraEspresso.jpg', 'Cafetera', '2', '20.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.374039900Z</date>
+  <millis>1578845758374</millis>
+  <nanos>39900</nanos>
+  <sequence>20</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('FrigorficoSiemens', '25455', '', '600.0', 'Siemens','src/img/ElectrodomesticoFrigorificoSiemens.jpg', 'Frigorfico', '250', '400.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.393656500Z</date>
+  <millis>1578845758393</millis>
+  <nanos>656500</nanos>
+  <sequence>21</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('BatidoraPhilips', '78853', '', '55.0', 'Philips','src/img/ElectrodomesticoBatidoraPhilips.jpg', 'Batidora', '1', '25.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.412916500Z</date>
+  <millis>1578845758412</millis>
+  <nanos>916500</nanos>
+  <sequence>22</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('MicroondasPanasonic', '445454', '', '150.0', 'Panasonic','src/img/ElectrodomesticoMicroondasPanasonic.jpg', 'Microondas', '4', '30.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:15:58.417934900Z</date>
+  <millis>1578845758417</millis>
+  <nanos>934900</nanos>
+  <sequence>23</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T16:16:10.213338400Z</date>
+  <millis>1578845770213</millis>
+  <nanos>338400</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.231325100Z</date>
+  <millis>1578845770231</millis>
+  <nanos>325100</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.337427500Z</date>
+  <millis>1578845770337</millis>
+  <nanos>427500</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SamsungS10', '55453', '', '989.0', 'Samsung','src/img/MovilSamsungS10.jpg', '6.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.370517700Z</date>
+  <millis>1578845770370</millis>
+  <nanos>517700</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('HuaweiP30', '653454', '', '567.0', 'Huawei','src/img/MovilHuaweiP30.jpg', '9.0', '720.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.397935500Z</date>
+  <millis>1578845770397</millis>
+  <nanos>935500</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('LGG8', '74545', '', '456.0', 'LG','src/img/MovilLGG8.jpg', '7.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.424212300Z</date>
+  <millis>1578845770424</millis>
+  <nanos>212300</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('Iphone11', '45458', '', '1600.0', 'Apple','src/img/MovilIPhone11.jpg', '6.5', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.446153400Z</date>
+  <millis>1578845770446</millis>
+  <nanos>153400</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SonyXperiaZ4', '154450', '', '670.0', 'Sony','src/img/MovilSoniExperiaZ4.jpg', '7.0', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.453136300Z</date>
+  <millis>1578845770453</millis>
+  <nanos>136300</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.455131100Z</date>
+  <millis>1578845770455</millis>
+  <nanos>131100</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.457125900Z</date>
+  <millis>1578845770457</millis>
+  <nanos>125900</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.482057300Z</date>
+  <millis>1578845770482</millis>
+  <nanos>57300</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('HPPavilion200', '11343', '', '1200.0', 'Hp','src/img/OrdenadorHPPavilion.jpg', 'I7-7300HQ', 'Nvidia1050', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.515415Z</date>
+  <millis>1578845770515</millis>
+  <nanos>415000</nanos>
+  <sequence>11</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AcerAspire5', '12343', '', '1300.0', 'Acer','src/img/OrdenadorAcerAspire5.jpg', 'I7-6700HQ', 'Nvidia1050Ti', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.541121Z</date>
+  <millis>1578845770541</millis>
+  <nanos>121000</nanos>
+  <sequence>12</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AsusP541NA', '64433', '', '900.0', 'Asus','src/img/OrdenadorAsusP541NA.jpg', 'I7-7100HQ', 'NvidiaGeForce1300', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.567988300Z</date>
+  <millis>1578845770567</millis>
+  <nanos>988300</nanos>
+  <sequence>13</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AppleMacbook', '565414', '', '2500.0', 'Apple','src/img/OrdenadoAppleMacBook.jpg', 'MacOs', 'Nvidia1080', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.590927Z</date>
+  <millis>1578845770590</millis>
+  <nanos>927000</nanos>
+  <sequence>14</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('LenovoIdeaPad', '77615', '', '1300.0', 'Lenovo','src/img/OrdenadorLenovoIdeapad.jpg', 'I7-6700HQ', 'Nvidia1050T', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.595915600Z</date>
+  <millis>1578845770595</millis>
+  <nanos>915600</nanos>
+  <sequence>15</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.598907300Z</date>
+  <millis>1578845770598</millis>
+  <nanos>907300</nanos>
+  <sequence>16</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.599931400Z</date>
+  <millis>1578845770599</millis>
+  <nanos>931400</nanos>
+  <sequence>17</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.622843800Z</date>
+  <millis>1578845770622</millis>
+  <nanos>843800</nanos>
+  <sequence>18</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('LavadoraLGB5', '4149', '', '500.0', 'LG','src/img/ElectrodomesticoLavadoraLG.jpg', 'Lavadora', '100', '200.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.644965800Z</date>
+  <millis>1578845770644</millis>
+  <nanos>965800</nanos>
+  <sequence>19</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('CafeteraEspresso', '145548', '', '89.0', 'Cecotec','src/img/ElectrodomesticoCafeteraEspresso.jpg', 'Cafetera', '2', '20.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.668447600Z</date>
+  <millis>1578845770668</millis>
+  <nanos>447600</nanos>
+  <sequence>20</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('FrigorficoSiemens', '25455', '', '600.0', 'Siemens','src/img/ElectrodomesticoFrigorificoSiemens.jpg', 'Frigorfico', '250', '400.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.695080800Z</date>
+  <millis>1578845770695</millis>
+  <nanos>80800</nanos>
+  <sequence>21</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('BatidoraPhilips', '78853', '', '55.0', 'Philips','src/img/ElectrodomesticoBatidoraPhilips.jpg', 'Batidora', '1', '25.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.722169400Z</date>
+  <millis>1578845770722</millis>
+  <nanos>169400</nanos>
+  <sequence>22</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('MicroondasPanasonic', '445454', '', '150.0', 'Panasonic','src/img/ElectrodomesticoMicroondasPanasonic.jpg', 'Microondas', '4', '30.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:16:10.730149Z</date>
+  <millis>1578845770730</millis>
+  <nanos>149000</nanos>
+  <sequence>23</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T16:21:57.024474600Z</date>
+  <millis>1578846117024</millis>
+  <nanos>474600</nanos>
+  <sequence>0</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.040463500Z</date>
+  <millis>1578846117040</millis>
+  <nanos>463500</nanos>
+  <sequence>1</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.063211500Z</date>
+  <millis>1578846117063</millis>
+  <nanos>211500</nanos>
+  <sequence>2</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SamsungS10', '55453', '', '989.0', 'Samsung','src/img/MovilSamsungS10.jpg', '6.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.091243700Z</date>
+  <millis>1578846117091</millis>
+  <nanos>243700</nanos>
+  <sequence>3</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('HuaweiP30', '653454', '', '567.0', 'Huawei','src/img/MovilHuaweiP30.jpg', '9.0', '720.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.123332200Z</date>
+  <millis>1578846117123</millis>
+  <nanos>332200</nanos>
+  <sequence>4</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('LGG8', '74545', '', '456.0', 'LG','src/img/MovilLGG8.jpg', '7.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.145465200Z</date>
+  <millis>1578846117145</millis>
+  <nanos>465200</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('Iphone11', '45458', '', '1600.0', 'Apple','src/img/MovilIPhone11.jpg', '6.5', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.165446100Z</date>
+  <millis>1578846117165</millis>
+  <nanos>446100</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SonyXperiaZ4', '154450', '', '670.0', 'Sony','src/img/MovilSoniExperiaZ4.jpg', '7.0', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.171707500Z</date>
+  <millis>1578846117171</millis>
+  <nanos>707500</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.174713Z</date>
+  <millis>1578846117174</millis>
+  <nanos>713000</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.175733900Z</date>
+  <millis>1578846117175</millis>
+  <nanos>733900</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.195566300Z</date>
+  <millis>1578846117195</millis>
+  <nanos>566300</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('HPPavilion200', '11343', '', '1200.0', 'Hp','src/img/OrdenadorHPPavilion.jpg', 'I7-7300HQ', 'Nvidia1050', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.215255400Z</date>
+  <millis>1578846117215</millis>
+  <nanos>255400</nanos>
+  <sequence>11</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AcerAspire5', '12343', '', '1300.0', 'Acer','src/img/OrdenadorAcerAspire5.jpg', 'I7-6700HQ', 'Nvidia1050Ti', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.234896900Z</date>
+  <millis>1578846117234</millis>
+  <nanos>896900</nanos>
+  <sequence>12</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AsusP541NA', '64433', '', '900.0', 'Asus','src/img/OrdenadorAsusP541NA.jpg', 'I7-7100HQ', 'NvidiaGeForce1300', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.254731100Z</date>
+  <millis>1578846117254</millis>
+  <nanos>731100</nanos>
+  <sequence>13</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AppleMacbook', '565414', '', '2500.0', 'Apple','src/img/OrdenadoAppleMacBook.jpg', 'MacOs', 'Nvidia1080', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.275234600Z</date>
+  <millis>1578846117275</millis>
+  <nanos>234600</nanos>
+  <sequence>14</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('LenovoIdeaPad', '77615', '', '1300.0', 'Lenovo','src/img/OrdenadorLenovoIdeapad.jpg', 'I7-6700HQ', 'Nvidia1050T', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.280250Z</date>
+  <millis>1578846117280</millis>
+  <nanos>250000</nanos>
+  <sequence>15</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.283241900Z</date>
+  <millis>1578846117283</millis>
+  <nanos>241900</nanos>
+  <sequence>16</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.284211900Z</date>
+  <millis>1578846117284</millis>
+  <nanos>211900</nanos>
+  <sequence>17</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.303466200Z</date>
+  <millis>1578846117303</millis>
+  <nanos>466200</nanos>
+  <sequence>18</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('LavadoraLGB5', '4149', '', '500.0', 'LG','src/img/ElectrodomesticoLavadoraLG.jpg', 'Lavadora', '100', '200.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.322797Z</date>
+  <millis>1578846117322</millis>
+  <nanos>797000</nanos>
+  <sequence>19</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('CafeteraEspresso', '145548', '', '89.0', 'Cecotec','src/img/ElectrodomesticoCafeteraEspresso.jpg', 'Cafetera', '2', '20.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.342438200Z</date>
+  <millis>1578846117342</millis>
+  <nanos>438200</nanos>
+  <sequence>20</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('FrigorficoSiemens', '25455', '', '600.0', 'Siemens','src/img/ElectrodomesticoFrigorificoSiemens.jpg', 'Frigorfico', '250', '400.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.362699400Z</date>
+  <millis>1578846117362</millis>
+  <nanos>699400</nanos>
+  <sequence>21</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('BatidoraPhilips', '78853', '', '55.0', 'Philips','src/img/ElectrodomesticoBatidoraPhilips.jpg', 'Batidora', '1', '25.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.382948800Z</date>
+  <millis>1578846117382</millis>
+  <nanos>948800</nanos>
+  <sequence>22</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('MicroondasPanasonic', '445454', '', '150.0', 'Panasonic','src/img/ElectrodomesticoMicroondasPanasonic.jpg', 'Microondas', '4', '30.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:21:57.388967200Z</date>
+  <millis>1578846117388</millis>
+  <nanos>967200</nanos>
+  <sequence>23</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Cierre de base de datos</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-12T16:30:30.648387200Z</date>
+  <millis>1578846630648</millis>
+  <nanos>387200</nanos>
+  <sequence>5</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:30.664004Z</date>
+  <millis>1578846630664</millis>
+  <nanos>4000</nanos>
+  <sequence>6</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:30.664004Z</date>
+  <millis>1578846630664</millis>
+  <nanos>4000</nanos>
+  <sequence>7</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD	select contraseña from Usuario where nombre ='ab@gmail.com'</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:31.840426700Z</date>
+  <millis>1578846631840</millis>
+  <nanos>426700</nanos>
+  <sequence>8</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:31.842422600Z</date>
+  <millis>1578846631842</millis>
+  <nanos>422600</nanos>
+  <sequence>9</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:31.868123Z</date>
+  <millis>1578846631868</millis>
+  <nanos>123000</nanos>
+  <sequence>10</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SamsungS10', '55453', '', '989.0', 'Samsung','src/img/MovilSamsungS10.jpg', '6.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:31.887554600Z</date>
+  <millis>1578846631887</millis>
+  <nanos>554600</nanos>
+  <sequence>11</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('HuaweiP30', '653454', '', '567.0', 'Huawei','src/img/MovilHuaweiP30.jpg', '9.0', '720.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:31.907792300Z</date>
+  <millis>1578846631907</millis>
+  <nanos>792300</nanos>
+  <sequence>12</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('LGG8', '74545', '', '456.0', 'LG','src/img/MovilLGG8.jpg', '7.2', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:31.923447200Z</date>
+  <millis>1578846631923</millis>
+  <nanos>447200</nanos>
+  <sequence>13</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('Iphone11', '45458', '', '1600.0', 'Apple','src/img/MovilIPhone11.jpg', '6.5', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:31.939177700Z</date>
+  <millis>1578846631939</millis>
+  <nanos>177700</nanos>
+  <sequence>14</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Movil values('SonyXperiaZ4', '154450', '', '670.0', 'Sony','src/img/MovilSoniExperiaZ4.jpg', '7.0', '1080.0', 'Android')</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:31.939177700Z</date>
+  <millis>1578846631939</millis>
+  <nanos>177700</nanos>
+  <sequence>15</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:31.954684500Z</date>
+  <millis>1578846631954</millis>
+  <nanos>684500</nanos>
+  <sequence>16</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:31.954684500Z</date>
+  <millis>1578846631954</millis>
+  <nanos>684500</nanos>
+  <sequence>17</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:31.970424900Z</date>
+  <millis>1578846631970</millis>
+  <nanos>424900</nanos>
+  <sequence>18</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('HPPavilion200', '11343', '', '1200.0', 'Hp','src/img/OrdenadorHPPavilion.jpg', 'I7-7300HQ', 'Nvidia1050', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:31.987466700Z</date>
+  <millis>1578846631987</millis>
+  <nanos>466700</nanos>
+  <sequence>19</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AcerAspire5', '12343', '', '1300.0', 'Acer','src/img/OrdenadorAcerAspire5.jpg', 'I7-6700HQ', 'Nvidia1050Ti', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:32.018749900Z</date>
+  <millis>1578846632018</millis>
+  <nanos>749900</nanos>
+  <sequence>20</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AsusP541NA', '64433', '', '900.0', 'Asus','src/img/OrdenadorAsusP541NA.jpg', 'I7-7100HQ', 'NvidiaGeForce1300', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:32.034463400Z</date>
+  <millis>1578846632034</millis>
+  <nanos>463400</nanos>
+  <sequence>21</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('AppleMacbook', '565414', '', '2500.0', 'Apple','src/img/OrdenadoAppleMacBook.jpg', 'MacOs', 'Nvidia1080', '12.5')</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:32.050081700Z</date>
+  <millis>1578846632050</millis>
+  <nanos>81700</nanos>
+  <sequence>22</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Ordenador values('LenovoIdeaPad', '77615', '', '1300.0', 'Lenovo','src/img/OrdenadorLenovoIdeapad.jpg', 'I7-6700HQ', 'Nvidia1050T', '15.9')</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:32.050081700Z</date>
+  <millis>1578846632050</millis>
+  <nanos>81700</nanos>
+  <sequence>23</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:32.065576300Z</date>
+  <millis>1578846632065</millis>
+  <nanos>576300</nanos>
+  <sequence>24</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Conectada base de datos data/Database</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:32.065576300Z</date>
+  <millis>1578846632065</millis>
+  <nanos>576300</nanos>
+  <sequence>25</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Creada base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:32.081196700Z</date>
+  <millis>1578846632081</millis>
+  <nanos>196700</nanos>
+  <sequence>26</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('LavadoraLGB5', '4149', '', '500.0', 'LG','src/img/ElectrodomesticoLavadoraLG.jpg', 'Lavadora', '100', '200.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:32.112474700Z</date>
+  <millis>1578846632112</millis>
+  <nanos>474700</nanos>
+  <sequence>27</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('CafeteraEspresso', '145548', '', '89.0', 'Cecotec','src/img/ElectrodomesticoCafeteraEspresso.jpg', 'Cafetera', '2', '20.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:32.128077100Z</date>
+  <millis>1578846632128</millis>
+  <nanos>77100</nanos>
+  <sequence>28</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('FrigorficoSiemens', '25455', '', '600.0', 'Siemens','src/img/ElectrodomesticoFrigorificoSiemens.jpg', 'Frigorfico', '250', '400.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:32.143815100Z</date>
+  <millis>1578846632143</millis>
+  <nanos>815100</nanos>
+  <sequence>29</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('BatidoraPhilips', '78853', '', '55.0', 'Philips','src/img/ElectrodomesticoBatidoraPhilips.jpg', 'Batidora', '1', '25.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:32.174924800Z</date>
+  <millis>1578846632174</millis>
+  <nanos>924800</nanos>
+  <sequence>30</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>BD fila añadida 1 fila	insert into Electrodomestico values('MicroondasPanasonic', '445454', '', '150.0', 'Panasonic','src/img/ElectrodomesticoMicroondasPanasonic.jpg', 'Microondas', '4', '30.0')</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:32.174924800Z</date>
+  <millis>1578846632174</millis>
+  <nanos>924800</nanos>
+  <sequence>31</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+<record>
+  <date>2020-01-12T16:30:32.351303500Z</date>
+  <millis>1578846632351</millis>
+  <nanos>303500</nanos>
+  <sequence>32</sequence>
+  <logger>bd.BD</logger>
+  <level>INFO</level>
+  <class>bd.BD</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Cierre de base de datos</message>
+</record>
+</log>

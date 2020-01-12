@@ -166,7 +166,7 @@ public class VentanaRegistro extends JFrame {
 		getContentPane().add(lblAcepteLosTrminos);
 
 		JLabelGraficoAjustado logo = new JLabelGraficoAjustado("src/img/eShop.png", 120, 100);
-		logo.setLocation(30, 10);
+		logo.setLocation(90, 10);
 		getContentPane().add(logo);
 
 	}
