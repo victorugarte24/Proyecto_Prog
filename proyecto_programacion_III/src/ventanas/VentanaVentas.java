@@ -14,6 +14,8 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
@@ -30,6 +32,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
 import javax.swing.ScrollPaneConstants;
 import javax.swing.SwingUtilities;
+import javax.swing.border.EmptyBorder;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
@@ -70,6 +73,7 @@ public class VentanaVentas extends JFrame {
 	ArrayList<Ordenadores> arrayOrdenadores = new ArrayList<Ordenadores>();
 	DefaultListModel<Articulo> modeloCompra;
 	double total;
+	boolean hilo = true;
 
 
 	VentanaVentas() {
@@ -222,7 +226,13 @@ public class VentanaVentas extends JFrame {
 		lblNewLabel_2.setFont(new Font("Tahoma", Font.BOLD, 15));
 		lblNewLabel_2.setBounds(112, 218, 96, 31);
 		pEast.add(lblNewLabel_2);
-
+		
+		JLabel lblNewLabel_3 = new JLabel("La mejor web de venta de electrónica online");
+		lblNewLabel_3.setFont(new Font("Tahoma", Font.BOLD, 38));
+		lblNewLabel_3.setSize(96, 31);
+		lblNewLabel_3.setBorder(new EmptyBorder(10, 240, 10, 10));
+		pNorth.add(lblNewLabel_3, new BorderLayout().CENTER);
+		
 		modelo = new DefaultListModel<Articulo>();
 
 		JList<Articulo> lista = new JList<Articulo>();
@@ -397,6 +407,29 @@ public class VentanaVentas extends JFrame {
 				}
 			}
 		});
+		
+		LocalDateTime now = LocalDateTime.now();  
+		JLabel lblNewLabel_4 = new JLabel("Hora: " + now.getHour()+":"+now.getMinute()+":"+now.getSecond());
+		lblNewLabel_4.setFont(new Font("Tahoma", Font.BOLD, 14));
+		lblNewLabel_4.setSize(96, 31);
+		lblNewLabel_4.setBorder(new EmptyBorder(0, 50, 10, 100));
+		pNorth.add(lblNewLabel_4, new BorderLayout().EAST);
+		
+		
+		Thread hiloH = new Thread(){
+			public void run() {
+				try {
+					while(hilo) {
+						LocalDateTime now = LocalDateTime.now();  
+						lblNewLabel_4.setText("Hora: " + now.getHour()+":"+ now.getMinute() + ":" + now.getSecond());
+						Thread.sleep(100);
+					}
+				}catch (Exception e) {}
+			}
+		};
+
+		hiloH.start();
+
 
 	}
 
