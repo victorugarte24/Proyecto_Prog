@@ -125,6 +125,10 @@ public class VentanaCompra extends JFrame {
 					descuentoAplicado = descuentoAplicado - descuento;
 					lblPrecioTotal.setText("Precio Total:" + " " + descuentoAplicado + " $");
 					btnAplicar.setEnabled(false);
+					JOptionPane.showMessageDialog(null, "Descuento Aplicado, ahorro total: " + descuento + " $");
+				}
+				else {
+					JOptionPane.showMessageDialog(null, "Código de descuento no existente");
 				}
 			}
 		});
