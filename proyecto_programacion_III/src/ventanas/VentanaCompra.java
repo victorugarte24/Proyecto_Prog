@@ -5,6 +5,12 @@ import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.sql.Connection;
 import java.sql.Statement;
 
@@ -26,8 +32,6 @@ public class VentanaCompra extends JFrame {
 	double valor;
 	public static DefaultListModel<Articulo> modelo;
 	public static JLabel lblNewLabel_1;
-	private Connection con;
-	private Statement st;
 
 	public VentanaCompra(double total) {
 
@@ -46,10 +50,14 @@ public class VentanaCompra extends JFrame {
 		btnPagarYFinalizar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e){
 
-				//con = BD.initBD("Database");
-				//st = BD.usarCrearTablas3BD(con);
 				VentanaPago vp = new VentanaPago();
 				vp.setVisible(true);
+				
+				try {
+					factura();
+				} catch (IOException e1) {
+					e1.printStackTrace();
+				}
 
 				dispose();
 			}
@@ -90,6 +98,18 @@ public class VentanaCompra extends JFrame {
 		lblPrecioTotal.setBounds(70, 338, 453, 27);
 		getContentPane().add(lblPrecioTotal);
 
+
+	}
+
+	public void factura() throws IOException {
+		FileOutputStream fos = new FileOutputStream("data/factura.txt");
+		ObjectOutputStream oos = new ObjectOutputStream(fos);
+		for (int i = 0; i < modelo.getSize(); i++) {
+			oos.writeObject(modelo.get(i).toString2());
+			oos.write('\n');
+		}
+		
+		oos.close();
 
 	}
 }

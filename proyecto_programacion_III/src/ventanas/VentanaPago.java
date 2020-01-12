@@ -8,6 +8,9 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -111,35 +114,36 @@ public class VentanaPago extends JFrame{
 		JLabelGraficoAjustado logo = new JLabelGraficoAjustado("src/img/eShop.png", 130, 90);
 		logo.setLocation(10, 10);
 		getContentPane().add(logo);
-		
+
 		JLabelGraficoAjustado logo2 = new JLabelGraficoAjustado("src/img/Safetypay.png", 320, 135);
 		logo2.setLocation(255, -15);
 		getContentPane().add(logo2);
-		
+
 		JLabelGraficoAjustado logo3 = new JLabelGraficoAjustado("src/img/pay.png", 160, 145);
 		logo3.setLocation(380, 165);
 		getContentPane().add(logo3);
-		
+
 		textField_2 = new JTextField();
 		textField_2.setFont(new Font("Tahoma", Font.BOLD, 14));
 		textField_2.setColumns(10);
 		textField_2.setBounds(326, 114, 57, 21);
 		getContentPane().add(textField_2);
-		
+
 		textField_4 = new JTextField();
 		textField_4.setFont(new Font("Tahoma", Font.BOLD, 14));
 		textField_4.setColumns(10);
 		textField_4.setBounds(405, 114, 57, 21);
 		getContentPane().add(textField_4);
-		
+
 		textField_5 = new JTextField();
 		textField_5.setFont(new Font("Tahoma", Font.BOLD, 14));
 		textField_5.setColumns(10);
 		textField_5.setBounds(484, 114, 57, 21);
 		getContentPane().add(textField_5);
-		
-		
+
+
 	}
+	
 
 	public static void main(String[] args) {
 		VentanaPago v = new VentanaPago();

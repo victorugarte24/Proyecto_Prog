@@ -1,12 +1,14 @@
 package moviles;
 
+import java.io.Serializable;
+
 import articulo.Articulo;
 
-public class Moviles extends Articulo{
+public class Moviles extends Articulo implements Serializable{
 	
-	private double pantalla;
-	private double resolucion;
-	private String sisOperativo;
+	protected double pantalla;
+	protected double resolucion;
+	protected String sisOperativo;
 	
 	public Moviles(String nombre, int codArt, String descripcion, double importe, String marca, double pantalla, String imagen, int resolucion, String sisOperativo) {
 		super(nombre, codArt, descripcion, importe, marca, imagen);
@@ -37,6 +39,11 @@ public class Moviles extends Articulo{
 
 	public void setSisOperativo(String sisOperativo) {
 		this.sisOperativo = sisOperativo;
+	}
+	
+	@Override
+	public String toString2() {
+		return  "Nombre: " + nombre + " Código: " + codArt + " Descripción: " + descripcion+ " Importe: " + importe + " Marca: " + marca + " Pantalla: " + pantalla + " Resolución: " + resolucion + " Sistema Operativo: " + sisOperativo;
 	}
 
 }

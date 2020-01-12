@@ -350,13 +350,11 @@ public class VentanaVentas extends JFrame {
 				modelo = ((DefaultListModel<Articulo>)lista.getModel());
 				if(!modelo.isEmpty()) {
 					respuesta = JOptionPane.showConfirmDialog(null,	"¿Estas seguro de que deseas eliminar este artículo?");
-
-				}
-				if(respuesta == 0) {
-					int pos = lista.getSelectedIndex();
-					total -= modelo.get(pos).getImporte();
-					modelo.removeElementAt(pos);
-
+					if(respuesta == 0) {
+						int pos = lista.getSelectedIndex();
+						total -= modelo.get(pos).getImporte();
+						modelo.removeElementAt(pos);
+					}
 				}
 			}
 		});

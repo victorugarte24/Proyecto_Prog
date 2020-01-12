@@ -38,5 +38,10 @@ public class Electrodomesticos extends Articulo{
 	public void setTamaño(double tamaño) {
 		this.tamaño = tamaño;
 	}
+	
+	@Override
+	public String toString2() {
+		return  "Nombre: " + nombre + " Código: " + codArt + " Descripción: " + descripcion+ " Importe: " + importe + " Marca: " + marca + " Tipo: " + tipo + " Peso: " + peso + " Tamaño: " + tamaño;
+	}
 
 }

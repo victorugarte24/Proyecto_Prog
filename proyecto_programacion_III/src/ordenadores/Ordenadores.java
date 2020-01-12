@@ -39,6 +39,11 @@ public class Ordenadores extends Articulo{
 		this.pantalla = pantalla;
 	}
 	
+	@Override
+	public String toString2() {
+		return  "Nombre: " + nombre + " Código: " + codArt + " Descripción: " + descripcion+ " Importe: " + importe + " Marca: " + marca + " Procesador: " + procesador + " Gráfica: " + grafica + " Pantalla: " + pantalla;
+	}
+	
 	
 
 }
