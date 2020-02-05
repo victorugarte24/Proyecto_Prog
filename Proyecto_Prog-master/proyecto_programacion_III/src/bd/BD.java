@@ -282,6 +282,298 @@ public class BD {
 		else
 			logger.log( level, msg, excepcion );
 	}
+	
+/*Creanción de tablas*/
+	
+	/**public void crearTablaArticulo(Connection con) {
+		String sql = "";
+		try {
+			Statement st = con.createStatement();
+			sql = "create table Articulo(nombre string, codArt int, descripcion string, importe double, marca string, imagen string,unidades int);";
+			st.executeUpdate(sql);
+			st.close();
+			log( Level.INFO, "BD\t" + sql, null );
+		} catch (SQLException e) {
+			log( Level.SEVERE, "Error en BD\t" + sql, e );
+			e.printStackTrace();
+			
+		}
+	}
+	
+	public void crearTablaElectrodomestico(Connection con) {
+		String sql = "";
+		try {
+			Statement st = con.createStatement();
+			sql = "create table Electrodomestico(tipo string, peso int, tamaño double, unidades int);";
+			st.executeUpdate(sql);
+			st.close();
+			log( Level.INFO, "BD\t" + sql, null );
+		} catch (SQLException e) {
+			log( Level.SEVERE, "Error en BD\t" + sql, e );
+			e.printStackTrace();
+			
+		}
+	}
+	
+	public void crearTablaMovil(Connection con) {
+		String sql = "";
+		try {
+			Statement st = con.createStatement();
+			sql = "create table Movil(pantalla double, resolucion double, sisOperativo string, unidades int);";
+			st.executeUpdate(sql);
+			st.close();
+			log( Level.INFO, "BD\t" + sql, null );
+		} catch (SQLException e) {
+			log( Level.SEVERE, "Error en BD\t" + sql, e );
+			e.printStackTrace();
+			
+		}
+	}
+	
+	public void crearTablaOrdenador(Connection con) {
+		String sql = "";
+		try {
+			Statement st = con.createStatement();
+			sql = "create table Ordenador(procesador string, grafica string, pantalla double, unidades int);";
+			st.executeUpdate(sql);
+			st.close();
+			log( Level.INFO, "BD\t" + sql, null );
+		} catch (SQLException e) {
+			log( Level.SEVERE, "Error en BD\t" + sql, e );
+			e.printStackTrace();
+			
+		}
+	}**/
+	
+	/* Insertar en Tablas*/
+	
+	/**public static void insertarNuevoArticulo(Statement st, int codArt, String descripcion, double importe, String marca, String imagen){
+		String query = "SELECT * FROM Articulo WHERE nombre='"+nombre+"' AND "
+				+ "codArt='"+codArt+"' AND descripcion='"+descripcion+"' "
+						+ "AND importe="+importe+" AND marca='"+marca+" AND imagen='"+imagen+"'";
+		
+		try {
+			ResultSet rs = st.executeQuery(query);
+			if(rs.next()){
+				//El producto SÍ está repetido
+				query = "UPDATE Articulo SET Unidades = Unidades + 1 WHERE nombre='"+nombre+"' AND "
+				+ "codArt='"+codArt+"' AND descripcion='"+descripcion+"' "
+						+ "AND importe="+importe+" AND marca='"+marca+" AND imagen='"+imagen+"'";
+				
+				int val = st.executeUpdate(query);
+				log( Level.INFO, "BD fila actualizada " + val + " fila\t" , null );
+			}else{
+				//El producto NO está repetido
+				query = "INSERT INTO Articulo VALUES('"+nombre+"','"+codArt+"','"
+						+ descripcion + "'," + importe + ",'" + marca + ",'" + imagen +"',1)";
+				int val = st.executeUpdate(query);
+				log( Level.INFO, "BD fila añadida " + val + " fila\t" , null );
+			}
+			rs.close();
+		} catch (SQLException e) {
+			log( Level.SEVERE, "Error en BD\t" + query, e );
+			lastError = e;
+			e.printStackTrace();
+			
+		}
+	
+				
+	}
+		
+	public static void insertarNuevoMovil(Statement st, double pantalla, double resolucion, String sisOperativo){
+		String query = "SELECT * FROM Movil WHERE pantalla='"+pantalla+"' AND "
+				+ "resolucion='"+resolucion+"' AND sisOperativo='"+sisOperativo+"'";
+		
+		try {
+			ResultSet rs = st.executeQuery(query);
+			if(rs.next()){
+				//El producto SÍ está repetido
+				query = "UPDATE Movil SET Unidades = Unidades + 1 WHERE pantalla='"+pantalla+"' AND "
+				+ "resolucion='"+resolucion+"' AND sisOperativo='"+sisOperativo+"'";
+				
+				int val = st.executeUpdate(query);
+				log( Level.INFO, "BD fila actualizada " + val + " fila\t" , null );
+			}else{
+				//El producto NO está repetido
+				query = "INSERT INTO Movil VALUES('"+pantalla+"','"+resolucion+"','"
+						+ sisOperativo +"',1)";
+				int val = st.executeUpdate(query);
+				log( Level.INFO, "BD fila añadida " + val + " fila\t" , null );
+			}
+			rs.close();
+		} catch (SQLException e) {
+			log( Level.SEVERE, "Error en BD\t" + query, e );
+			lastError = e;
+			e.printStackTrace();
+			
+		}
+	
+				
+	}
+	
+	public static void insertarNuevoElectrodomestico(Statement st, String tipo, int peso, double tamaño){
+		String query = "SELECT * FROM Electrodomestico WHERE tipo='"+tipo+"' AND "
+				+ "peso='"+peso+"' AND tamaño='"+tamaño+"'";
+		
+		try {
+			ResultSet rs = st.executeQuery(query);
+			if(rs.next()){
+				//El producto SÍ está repetido
+				query = "UPDATE Electrodomestico SET Unidades = Unidades + 1 WHERE tipo='"+tipo+"' AND "
+				+ "peso='"+peso+"' AND tamaño='"+tamaño+"'";
+				
+				int val = st.executeUpdate(query);
+				log( Level.INFO, "BD fila actualizada " + val + " fila\t" , null );
+			}else{
+				//El producto NO está repetido
+				query = "INSERT INTO Electrodomestico VALUES('"+tipo+"','"+peso+"','"
+						+ tamaño +"',1)";
+				int val = st.executeUpdate(query);
+				log( Level.INFO, "BD fila añadida " + val + " fila\t" , null );
+			}
+			rs.close();
+		} catch (SQLException e) {
+			log( Level.SEVERE, "Error en BD\t" + query, e );
+			lastError = e;
+			e.printStackTrace();
+			
+		}
+	
+				
+	}
+	
+	public static void insertarNuevoOrdenador(Statement st, String procesador, String grafica, double pantalla){
+		String query = "SELECT * FROM Ordenador WHERE procesador='"+procesador+"' AND "
+				+ "grafica='"+grafica+"' AND pantalla='"+pantalla+"'";
+		
+		try {
+			ResultSet rs = st.executeQuery(query);
+			if(rs.next()){
+				//El producto SÍ está repetido
+				query = "UPDATE Ordenador SET Unidades = Unidades + 1 WHERE procesador='"+procesador+"' AND "
+				+ "grafica='"+grafica+"' AND pantalla='"+pantalla+"'";
+				
+				int val = st.executeUpdate(query);
+				log( Level.INFO, "BD fila actualizada " + val + " fila\t" , null );
+			}else{
+				//El producto NO está repetido
+				query = "INSERT INTO Ordenador VALUES('"+procesador+"','"+grafica+"','"
+						+ pantalla +"',1)";
+				int val = st.executeUpdate(query);
+				log( Level.INFO, "BD fila añadida " + val + " fila\t" , null );
+			}
+			rs.close();
+		} catch (SQLException e) {
+			log( Level.SEVERE, "Error en BD\t" + query, e );
+			lastError = e;
+			e.printStackTrace();
+			
+		}
+	
+				
+	}**/
+	
+	/*Select De Articulo*/
+	
+	/**public static int codArtSelect( Statement st, String nombre, String descripcion, double importe, String marca, String imagen) {
+		String sentSQL = "";
+		int codArt = 0;
+		try {
+			sentSQL = "select codArt from Articulo where nombre='"+nombre+"' AND descripcion='"+ descripcion + "AND importe="+importe+" AND marca='"+marca+" AND imagen='"+imagen+"'";
+			ResultSet rs = st.executeQuery( sentSQL );
+			while(rs.next()) {
+				codArt= rs.getInt("codArt");
+			}
+			rs.close();
+			log( Level.INFO, "BD\t" + sentSQL, null );
+			return codArt;
+		} catch (Exception e) {
+			log( Level.SEVERE, "Error en BD\t" + sentSQL, e );
+			e.printStackTrace();
+			return 0;
+		}
+	}
+	
+	public static double importeSelect( Statement st, String nombre, String descripcion, int codArt, String marca, String imagen) {
+		String sentSQL = "";
+		double importe = 0;
+		try {
+			sentSQL = "select importe from Articulo where nombre='"+nombre+"' AND descripcion='"+ descripcion + "AND codArt="+codArt+" AND marca='"+marca+" AND imagen='"+imagen+"'";
+			ResultSet rs = st.executeQuery( sentSQL );
+			while(rs.next()) {
+				importe= rs.getDouble("importe");
+			}
+			rs.close();
+			log( Level.INFO, "BD\t" + sentSQL, null );
+			return importe;
+		} catch (Exception e) {
+			log( Level.SEVERE, "Error en BD\t" + sentSQL, e );
+			e.printStackTrace();
+			return 0;
+		}
+	}**/
+	
+	/*Select de Movil*/
+	/**public static String sisOperativoSelect(Statement st, double pantalla, double resolucion) {
+		String sentSQL = "";
+		String sisOperativo = "";
+		try {
+			sentSQL = "select sisOperativo from Movil where pantalla='"+pantalla+"' AND resolucion='"+ resolucion +"'";
+			ResultSet rs = st.executeQuery( sentSQL );
+			while(rs.next()) {
+				sisOperativo= rs.getString("sisOperativo");
+			}
+			rs.close();
+			log( Level.INFO, "BD\t" + sentSQL, null );
+			return sisOperativo;
+		} catch (Exception e) {
+			log( Level.SEVERE, "Error en BD\t" + sentSQL, e );
+			e.printStackTrace();
+			return null;
+		}
+	}**/
+	
+	/*Select de Electrodomestico*/
+	
+	/**public static String tipoSelect(Statement st, int peso, double tamaño) {
+		String sentSQL = "";
+		String tipo= "";
+		try {
+			sentSQL = "select tipo from Movil where peso='"+peso+"' AND tamaño='"+ tamaño +"'";
+			ResultSet rs = st.executeQuery( sentSQL );
+			while(rs.next()) {
+				tipo= rs.getString("tipo");
+			}
+			rs.close();
+			log( Level.INFO, "BD\t" + sentSQL, null );
+			return tipo;
+		} catch (Exception e) {
+			log( Level.SEVERE, "Error en BD\t" + sentSQL, e );
+			e.printStackTrace();
+			return null;
+		}		
+	}**/
+	
+	/*Select de Ordenador*/
+	
+	/**public static String procesadorSelect(Statement st, String grafica, double pantalla) {
+		String sentSQL = "";
+		String procesador = "";
+		try {
+			sentSQL = "select procesador from Movil where grafica='"+grafica+"' AND pantalla='"+ pantalla +"'";
+			ResultSet rs = st.executeQuery( sentSQL );
+			while(rs.next()) {
+				procesador= rs.getString("procesador");
+			}
+			rs.close();
+			log( Level.INFO, "BD\t" + sentSQL, null );
+			return procesador;
+		} catch (Exception e) {
+			log( Level.SEVERE, "Error en BD\t" + sentSQL, e );
+			e.printStackTrace();
+			return null;
+		}
+	}**/	
 }
 	
 

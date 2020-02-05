@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Properties de inicio de sesion</comment>
+<entry key="Usuario">ab@gmail.com</entry>
+</properties>

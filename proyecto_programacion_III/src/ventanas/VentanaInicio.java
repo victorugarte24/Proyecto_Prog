@@ -12,6 +12,7 @@ import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
 import bd.BD;
+import usuario.Usuario;
 import utils.JLabelGraficoAjustado;
 
 import java.awt.Font;
@@ -30,11 +31,13 @@ import java.awt.event.ActionEvent;
 
 public class VentanaInicio extends JFrame {
 	private JPasswordField passwordField;
-	private JTextField textField;
+	public static JTextField textField;
 	private Logger logger;
 	private Connection con;
 	private Statement st;
 	public static Properties properties;
+	public static Usuario u = new Usuario("");
+	public VentanaVentas vv;
 
 
 	public VentanaInicio (){
@@ -45,7 +48,7 @@ public class VentanaInicio extends JFrame {
 		setSize(650, 450);
 		this.setLocationRelativeTo(null);
 		setResizable(false);
-		this.getContentPane().setBackground(Color.orange);
+		this.getContentPane().setBackground(new Color(51-204-255));
 		getContentPane().setLayout(null);
 		
 		logger = Logger.getLogger( VentanaVentas.class.getName() ); 
@@ -60,7 +63,7 @@ public class VentanaInicio extends JFrame {
 
 		JCheckBox chckbxRecuerdame = new JCheckBox("Recúerdame");
 		chckbxRecuerdame.setBounds(504, 363, 101, 25);
-		chckbxRecuerdame.setBackground(Color.ORANGE);
+		chckbxRecuerdame.setBackground(new Color(51-204-255));
 		getContentPane().add(chckbxRecuerdame);
 		
 		JButton btnNewButton = new JButton("Iniciar Sesion");
@@ -74,21 +77,21 @@ public class VentanaInicio extends JFrame {
 				String nombre = textField.getText();
 				
 				String contraseña = BD.usuariosSelect2(st, nombre); //contraseña
-				String selectNombre = BD.usuariosSelect(st, valorPass); //usuario		
 				
 				if(valorPass.equals("password") && nombre.equals("admin")) {
-					//Ventana_Administrador v = new Ventana_Administrador();
-					//v.setVisible(true);
+					VentanaAdministrador v = new VentanaAdministrador();
+					v.setVisible(true);
 
 				}
 				else {
-					if(contraseña.equals(valorPass) && nombre.equals(selectNombre)) {
+					if(contraseña.equals(valorPass)) {
 						JOptionPane.showMessageDialog(null, "Usuario correcto");
 						if(chckbxRecuerdame.isSelected()) {
 							properties.setProperty("Usuario", textField.getText());
-							guardarProperties();			
+							guardarProperties();
+							u.setEmail(textField.getText());
 						} 
-						VentanaVentas vv = new VentanaVentas();
+						vv = new VentanaVentas();
 						vv.setVisible(true);
 						dispose();
 
@@ -99,6 +102,7 @@ public class VentanaInicio extends JFrame {
 					}
 
 				}
+				BD.cerrarBD(con, st);
 			}
 		});
 		btnNewButton.setBounds(112, 301, 152, 26);
@@ -141,7 +145,7 @@ public class VentanaInicio extends JFrame {
 		textField.setColumns(10);
 		
 		JLabelGraficoAjustado logo = new JLabelGraficoAjustado("src/img/eShop.png", 120, 100);
-		logo.setLocation(230, 10);
+		logo.setLocation(90, 10);
 		getContentPane().add(logo);
 
 		cargarProperties();

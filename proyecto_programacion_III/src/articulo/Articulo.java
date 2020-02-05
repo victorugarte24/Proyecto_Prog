@@ -2,12 +2,12 @@ package articulo;
 
 public class Articulo {
 	
-	private String nombre;
-	private int codArt;
-	private String descripcion;
-	private double importe;
-	private String marca;
-	private String imagen;
+	protected String nombre;
+	protected int codArt;
+	protected String descripcion;
+	protected double importe;
+	protected String marca;
+	protected String imagen;
 
 	public Articulo(String nombre, int codArt, String descripcion, double importe, String marca, String imagen) {
 		super();
@@ -74,6 +74,10 @@ public class Articulo {
 	
 	@Override
 	public String toString() {
+		return  codArt + " "   + marca +  " " + nombre +   " " + descripcion + " " +  importe + " $";
+	}
+	
+	public String toString2() {
 		return  codArt + " "   + marca +  " " + nombre +   " " + descripcion + " " +  importe + " $";
 	}
 	

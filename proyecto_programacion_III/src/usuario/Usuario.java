@@ -16,6 +16,10 @@ public class Usuario   {
 	private String email;
 	
 	//Constructores de la clase
+	public Usuario(String email) {
+		this.email = email;
+	}
+	
 	public Usuario(String email, String contraseña) {
 		this.email = email;
 		this.contraseña = contraseña;
