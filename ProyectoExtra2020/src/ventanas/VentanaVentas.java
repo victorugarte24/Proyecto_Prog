@@ -494,7 +494,7 @@ public class VentanaVentas extends JFrame {
 			});
 			pOrdenadores.add(jlabelOrdenadores);
 			i--;
-			add_moviles(i);
+			add_ordenadores(i);
 		}
 	}
 	/**
@@ -543,7 +543,7 @@ public class VentanaVentas extends JFrame {
 			});
 			pElectrodomesticos.add(jlabelElectrodomesticos);
 			i--;
-			add_moviles(i);
+			add_electrodomesticos(i);
 		}
 	}
 

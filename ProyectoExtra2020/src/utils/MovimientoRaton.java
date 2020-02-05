@@ -14,7 +14,7 @@ import javax.swing.SwingUtilities;
 import javax.swing.Timer;
 
 public class MovimientoRaton {
-	//revisa cada 10 millisegundos
+	//revisa cada 10 milisegundos
 	private int counter = 0;
     private static final int DELAY = 20;
 
@@ -29,12 +29,12 @@ public class MovimientoRaton {
 
         this.component = component;
 
-        // coje las cordenadas del raton al ratio indicado. 
+        // coje las cordenadas del ratón al ratio indicado. 
         
         timer = new Timer(DELAY, new ActionListener() {
                 private Point lastPoint = MouseInfo.getPointerInfo().getLocation();
 
-                // llama a cada milisegundo para encontrar la ultima coordenada del raton
+                // llama a cada milisegundo para encontrar la última coordenada del ratón
                 
                 public synchronized void actionPerformed(ActionEvent e) {
                     Point point = MouseInfo.getPointerInfo().getLocation();

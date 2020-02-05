@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
-</log>
+<record>
+  <date>2020-02-05T16:48:13</date>
+  <millis>1580917693923</millis>
+  <sequence>0</sequence>
+  <logger>ventanas.VentanaVentas</logger>
+  <level>INFO</level>
+  <class>ventanas.VentanaInicio</class>
+  <method>verificar_usuario</method>
+  <thread>17</thread>
+  <message>Botón Iniciar Sesión </message>
+</record>
